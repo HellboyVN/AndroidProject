@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">0.0dip</dimen>
+    <dimen name="activity_vertical_margin">0.0dip</dimen>
+    <dimen name="appbar_padding_top">8.0dip</dimen>
+    <dimen name="fab_margin">16.0dip</dimen>
+    <dimen name="fastscroll_default_thickness">8.0dip</dimen>
+    <dimen name="fastscroll_margin">0.0dip</dimen>
+    <dimen name="fastscroll_minimum_range">50.0dip</dimen>
+    <dimen name="icon_height">80.0dip</dimen>
+    <dimen name="icon_with">65.0dip</dimen>
+    <dimen name="navigation_drawer_width">240.0dip</dimen>
+    <dimen name="player_height">120.0dip</dimen>
+    <dimen name="text_size">10.0sp</dimen>
+    <dimen name="touch_default">35.0dip</dimen>
+    <dimen name="touch_play">65.0dip</dimen>
+    <dimen name="touch_progress">25.0dip</dimen>
+</resources>

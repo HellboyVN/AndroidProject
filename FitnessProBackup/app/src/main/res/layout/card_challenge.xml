@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:n1="http://schemas.android.com/apk/res/android"
+    xmlns:n2="http://schemas.android.com/apk/res-auto"
+    n1:id="@+id/card"
+    n1:layout_width="match_parent"
+    n1:layout_height="wrap_content"
+    n1:layout_margin="@dimen/card_margin"
+    n1:padding="5.0dip"
+    n2:cardCornerRadius="0.0dip">
+
+    <LinearLayout
+        n1:id="@+id/challengeLayout"
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content"
+        n1:descendantFocusability="blocksDescendants"
+        n1:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:id="@+id/titleChallengeDay"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_margin="10.0dip"
+            n1:gravity="center"
+            n1:padding="5.0dip"
+            n1:textColor="#ff2e2b2b"
+            n1:textSize="20.0dip" />
+
+        <android.support.v7.widget.RecyclerView
+            n1:id="@+id/recyclerView"
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            n1:layout_marginBottom="10.0dip" />
+
+        <android.support.v7.widget.AppCompatButton
+            n1:id="@+id/startChallenge"
+            n1:layout_width="wrap_content"
+            n1:layout_height="50.0dip"
+            n1:layout_alignParentBottom="true"
+            n1:layout_gravity="center|bottom"
+            n1:background="@drawable/ripple_color_primary"
+            n1:text="@string/start_challenge"
+            n1:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        n1:id="@+id/congratsLayout"
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:gravity="center_vertical"
+        n1:orientation="vertical"
+        n1:visibility="gone">
+
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_marginBottom="20.0dip"
+            n1:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                n1:id="@+id/congTitle"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="center_horizontal"
+                n1:layout_margin="5.0dip"
+                n1:gravity="center_horizontal"
+                n1:padding="5.0dip"
+                n1:text="@string/did_it"
+                n1:textColor="#ff434343"
+                n1:textSize="20.0sp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                n1:id="@+id/congImg"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content" />
+
+            <android.support.v7.widget.AppCompatTextView
+                n1:id="@+id/congPlanName"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="center_horizontal"
+                n1:layout_margin="3.0dip"
+                n1:gravity="center_horizontal"
+                n1:padding="2.0dip"
+                n1:text="5 min"
+                n1:textAllCaps="true"
+                n1:textColor="#fff58e28"
+                n1:textSize="25.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="right"
+            n1:gravity="right"
+            n1:orientation="horizontal"
+            n1:padding="5.0dip">
+
+            <android.support.v7.widget.AppCompatTextView
+                n1:id="@+id/congAgain"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:layout_margin="5.0dip"
+                n1:padding="5.0dip"
+                n1:text="do it again"
+                n1:textColor="#ff11478c"
+                n1:textSize="16.0sp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                n1:id="@+id/congShare"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:layout_margin="5.0dip"
+                n1:padding="5.0dip"
+                n1:text="share"
+                n1:textColor="#fff68a1f"
+                n1:textSize="18.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

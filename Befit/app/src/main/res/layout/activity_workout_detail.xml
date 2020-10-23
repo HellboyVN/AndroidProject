@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/videoCarView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/workout_video_height"
+        android:layout_below="@+id/toolbar"
+        android:layout_gravity="center"
+        card_view:cardCornerRadius="8.0dip"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/linearLayoutOptions">
+
+                <VideoView
+                    android:id="@+id/videoView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center" />
+
+                <include layout="@layout/progress_bar" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutOptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="2.0dip"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewLike"
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_gravity="center"
+                        android:contentDescription="@null"
+                        android:paddingBottom="3.0dip"
+                        android:src="@drawable/like_unselected" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0.0dip"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.7"
+                        android:gravity="center"
+                        android:paddingBottom="3.0dip"
+                        android:text="Like"
+                        android:textSize="@dimen/text_size_default" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewAddToPlan"
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_gravity="center"
+                        android:contentDescription="@null"
+                        android:paddingBottom="3.0dip"
+                        android:src="@drawable/add_plan_icon" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0.0dip"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.7"
+                        android:gravity="center"
+                        android:paddingBottom="3.0dip"
+                        android:text="Add to Plan"
+                        android:textSize="@dimen/text_size_default" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adSmartBanner"
+        android:layout_below="@+id/videoCarView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/descriptionCarView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="8.0dip"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewBodyPartTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="1.0dip"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:text="Bodypart :"
+                        android:textSize="@dimen/text_size_title"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewBodyPart"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:textSize="@dimen/text_size_default" />
+
+                    <TextView
+                        android:id="@+id/textViewWorkoutTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="1.0dip"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:text="Workout :"
+                        android:textSize="@dimen/text_size_title"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewWorkout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:textSize="@dimen/text_size_default" />
+
+                    <TextView
+                        android:id="@+id/textViewDescriptionTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="1.0dip"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:text="Description :"
+                        android:textSize="@dimen/text_size_title"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="10.0dip"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:text="Firstly, hold a dumbbell with one hand along the side of your body.'\n Secondly, tilt your upper body to the side that holds the dumbbell and bring it back after a short pause. Complete your set and change sides.\\n Thirdly, be careful not to tilt your upper body too far sideways where it may be difficult to bring it back."
+                        android:textSize="@dimen/text_size_default" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+
+    <include layout="@layout/admob_banner_ad_layout" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff3e80b4" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.MyTextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@+id/txt_dia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="Do you Want to rate us 5 star ? " />
+    <ImageView android:id="@+id/image" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="#ff3e80b4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:textStyle="bold" android:textColor="#ff5dbcd2" android:id="@+id/btn_yes" android:background="@android:color/white" android:clickable="true" android:layout_width="100.0dip" android:layout_height="30.0dip" android:text="Yes" />
+        <Button android:textStyle="bold" android:textColor="#ff5dbcd2" android:id="@+id/btn_no" android:background="@android:color/white" android:clickable="true" android:layout_width="100.0dip" android:layout_height="30.0dip" android:layout_marginLeft="5.0dip" android:text="No" />
+    </LinearLayout>
+</LinearLayout>

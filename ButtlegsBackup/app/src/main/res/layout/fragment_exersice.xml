@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent">
+
+    <LinearLayout
+        n1:id="@+id/exerciseContentLayout"
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:layout_gravity="center"
+        n1:gravity="center"
+        n1:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            n1:id="@+id/exerciseImage"
+            n1:layout_width="match_parent"
+            n1:layout_height="0.0dip"
+            n1:layout_weight="1.0" />
+
+        <FrameLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="0.0dip"
+            n1:layout_gravity="center"
+            n1:layout_weight="1.0"
+            n1:gravity="center">
+
+            <hb.legsandbuttocksworkout.homeworkout.gym.buttlegs.buttlegspro.buttlegschallenge.exersices.ExerciseView
+                n1:id="@+id/exerciseView"
+                n1:layout_width="match_parent"
+                n1:layout_height="match_parent"
+                n1:layout_gravity="center"
+                n1:layout_weight="1.5"
+                n1:gravity="center"
+                n1:textAllCaps="true"
+                n1:textColor="@color/colorPrimary"
+                />
+
+            <hb.legsandbuttocksworkout.homeworkout.gym.buttlegs.buttlegspro.buttlegschallenge.exersices.ExerciseRestView
+                n1:id="@+id/restCountDown"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:layout_centerInParent="true"
+                n1:layout_gravity="center"
+                n1:gravity="center"
+                n1:textColor="@color/colorPrimary"
+                n1:textSize="@dimen/rest_view_text_size"
+                n1:visibility="invisible" />
+
+            <LinearLayout
+                n1:id="@+id/ll_go_prev"
+                n1:layout_width="56.0dip"
+                n1:layout_height="56.0dip"
+                n1:layout_gravity="center_vertical"
+                n1:gravity="center"
+                n1:visibility="visible">
+
+                <android.support.v7.widget.AppCompatImageView xmlns:n3="http://schemas.android.com/apk/res-auto"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n3:srcCompat="@drawable/ic_arrow_left" />
+            </LinearLayout>
+
+            <LinearLayout
+                n1:id="@+id/ll_go_next"
+                n1:layout_width="56.0dip"
+                n1:layout_height="56.0dip"
+                n1:layout_gravity="center|right"
+                n1:gravity="center"
+                n1:visibility="visible">
+
+                <android.support.v7.widget.AppCompatImageView xmlns:n4="http://schemas.android.com/apk/res-auto"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n4:srcCompat="@drawable/ic_arrow_right" />
+            </LinearLayout>
+            <ProgressBar xmlns:n4="http://schemas.android.com/apk/res-auto"
+                n1:id="@+id/pauseFabPlay"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_margin="@dimen/fab_margin"
+                n1:layout_gravity="bottom"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                n1:max="100"
+                />
+            <View
+                n1:id="@+id/dummyView"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="center_horizontal"
+                n1:clickable="true"
+                n1:gravity="center_horizontal"
+                n1:visibility="visible" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton xmlns:n5="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/addTime"
+        n1:layout_width="wrap_content"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="bottom|center|right"
+        n1:layout_margin="15.0dip"
+        n1:visibility="gone"
+        n5:backgroundTint="#ffff8a00"
+        n5:fabSize="normal"
+        n5:srcCompat="@drawable/ic_add_time" />
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView android:id="@+id/relativeLayoutImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" app:cardCornerRadius="8.0dip">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <ImageView android:id="@+id/imageViewWorkout" android:layout_width="@dimen/favourite_list_image_size" android:layout_height="@dimen/favourite_list_image_size" android:src="@drawable/header_shadow" />
+                <include layout="@layout/progress_bar" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/utility_row_text_size" android:textColor="@color/colorPrimary" android:gravity="center_vertical" android:id="@+id/textViewWorkoutName" android:padding="10.0dip" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/imageViewDelete" />
+            <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/colorPrimary" android:id="@+id/textViewBodyPartName" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/imageViewDelete" android:layout_below="@+id/textViewWorkoutName" />
+            <ImageView android:id="@+id/imageViewDelete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/delete_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

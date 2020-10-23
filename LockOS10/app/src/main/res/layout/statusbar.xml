@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/statusbar" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/imgSignal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/phone_signal_4" />
+            <lp.me.lockos10.view.TextViewRobotoLight android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@+id/tvOperatorName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="VIETTEL..." />
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/imgWifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/wifi" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <lp.me.lockos10.view.TextViewRobotoLight android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@+id/tvBattery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="50%" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/imgBattery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/battery_10_green" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/imgCharging" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/charging" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

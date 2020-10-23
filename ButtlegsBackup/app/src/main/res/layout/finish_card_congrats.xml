@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/congCard"
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:layout_gravity="center"
+        n1:layout_margin="@dimen/card_margin"
+        n2:cardBackgroundColor="#ffffffff"
+        n2:cardCornerRadius="@dimen/card_album_radius">
+
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            n1:orientation="vertical">
+
+            <LinearLayout
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_marginBottom="20.0dip"
+                n1:orientation="vertical">
+
+                <android.support.v7.widget.AppCompatTextView
+                    n1:id="@+id/congTitle"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:layout_gravity="center_horizontal"
+                    n1:layout_margin="5.0dip"
+                    n1:gravity="center_horizontal"
+                    n1:padding="5.0dip"
+                    n1:text="@string/did_it"
+                    n1:textColor="#ff434343"
+                    n1:textSize="20.0sp" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    n1:id="@+id/congImg"
+                    n1:layout_width="match_parent"
+                    n1:layout_height="wrap_content"
+                    n2:srcCompat="@drawable/congrats" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    n1:id="@+id/congPlanName"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:layout_gravity="center_horizontal"
+                    n1:layout_marginTop="10.0dip"
+                    n1:gravity="center_horizontal"
+                    n1:text="Basic Plank"
+                    n1:textColor="#ff8c8c8c"
+                    n1:textSize="14.0sp" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    n1:id="@+id/congPlanTime"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:layout_gravity="center_horizontal"
+                    n1:layout_margin="3.0dip"
+                    n1:gravity="center_horizontal"
+                    n1:padding="2.0dip"
+                    n1:text="5 min"
+                    n1:textAllCaps="true"
+                    n1:textColor="@color/cong_card_text_color"
+                    n1:textSize="40.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="right"
+                n1:gravity="right"
+                n1:orientation="horizontal"
+                n1:padding="5.0dip"
+                n1:visibility="gone">
+
+                <android.support.v7.widget.AppCompatTextView
+                    n1:id="@+id/congAgain"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:layout_margin="5.0dip"
+                    n1:padding="5.0dip"
+                    n1:text="do it again"
+                    n1:textColor="#ff11478c"
+                    n1:textSize="16.0sp" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    n1:id="@+id/congShare"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:layout_margin="5.0dip"
+                    n1:padding="5.0dip"
+                    n1:text="share"
+                    n1:textColor="#fff68a1f"
+                    n1:textSize="18.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

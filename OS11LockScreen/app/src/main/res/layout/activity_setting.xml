@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip" />
+
+    <!--android:layout_above="@+id/adView"-->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/background_menu"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin">
+
+            <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/actionbar"
+                android:padding="@dimen/padding_menu_item"
+                android:text="@string/title_menu_main"
+                android:textColor="@color/black"
+                android:textSize="20.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/menuActivate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_menu"
+                android:padding="@dimen/padding_menu_item">
+                <ImageView
+                    android:id="@+id/img_enable_lock"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/img_enable_lock"/>
+                <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/img_enable_lock"
+                    android:layout_centerVertical="true"
+                    android:text="@string/menu_activate_lock"
+                    android:textColor="@color/text_menu"
+                    android:textSize="16.0sp" />
+
+                <CheckBox
+                    android:id="@+id/cbActivate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/button_check"
+                    android:clickable="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/menuDisableLock"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_menu"
+                android:padding="@dimen/padding_menu_item">
+                <ImageView
+                    android:id="@+id/img_disable_lock_screen"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/img_disable_lock_screen"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img_disable_lock_screen"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu_disable_lock_system_title"
+                        android:textColor="@color/text_menu"
+                        android:textSize="16.0sp" />
+
+                    <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5.0dip"
+                        android:text="@string/menu_disable_lock_system_descripton"
+                        android:textColor="@color/text_menu_descriiption"
+                        android:textSize="14.0sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/menuWallpaper"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_menu"
+                android:padding="@dimen/padding_menu_item">
+                <ImageView
+                    android:id="@+id/img_change_wallpaper"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/img_change_wallpaper"/>
+                <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img_change_wallpaper"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/menu_wallpaper"
+                    android:textColor="@color/text_menu"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/menuReview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_menu"
+                android:padding="@dimen/padding_menu_item">
+                <ImageView
+                    android:id="@+id/img_preview"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/img_preview"/>
+                <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img_preview"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/menu_review"
+                    android:textColor="@color/text_menu"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/menuTimeout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_menu"
+                android:padding="@dimen/padding_menu_item">
+                <ImageView
+                    android:id="@+id/img_timeout"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/img_timeout"/>
+                <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img_timeout"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/menu_timeout"
+                    android:textColor="@color/text_menu"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/actionbar"
+                android:padding="@dimen/padding_menu_item"
+                android:text="@string/title_menu_secuirity"
+                android:textColor="@color/black"
+                android:textSize="20.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/menuPass"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_menu"
+                android:padding="@dimen/padding_menu_item">
+                <ImageView
+                    android:id="@+id/img_passcode"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/img_passcode"/>
+                <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img_passcode"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/menu_pass"
+                    android:textColor="@color/text_menu"
+                    android:textSize="16.0sp" />
+
+                <CheckBox
+                    android:id="@+id/cbPassCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/button_check"
+                    android:clickable="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/menuChangePass"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_menu"
+                android:padding="@dimen/padding_menu_item"
+                android:visibility="gone">
+
+                <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/menu_change_pass"
+                    android:textColor="@color/text_menu"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/actionbar"
+                android:padding="@dimen/padding_menu_item"
+                android:text="@string/title_menu_visual_options"
+                android:textColor="@color/black"
+                android:textSize="20.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/menuTimeFormat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_menu"
+                android:padding="@dimen/padding_menu_item">
+                <ImageView
+                    android:id="@+id/img_time_format"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/img_time_format"/>
+                <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img_time_format"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/menu_time_format"
+                    android:textColor="@color/text_menu"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/menuUnlockText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_menu"
+                android:padding="@dimen/padding_menu_item">
+                <ImageView
+                    android:id="@+id/img_change_unlock_text"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/img_change_unlock_text"/>
+                <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img_change_unlock_text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/menu_unlock_text"
+                    android:textColor="@color/text_menu"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/menuSound"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_menu"
+                android:padding="@dimen/padding_menu_item">
+                <ImageView
+                    android:id="@+id/img_enable_sound"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/img_enable_sound"/>
+                <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img_enable_sound"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/menu_sound"
+                    android:textColor="@color/text_menu"
+                    android:textSize="16.0sp" />
+
+                <CheckBox
+                    android:id="@+id/cbSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/button_check"
+                    android:clickable="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/menuVibrate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_menu"
+                android:padding="@dimen/padding_menu_item">
+                <ImageView
+                    android:id="@+id/img_enable_vibrate"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/img_enable_vibrate"/>
+                <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img_enable_vibrate"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/menu_vibrate"
+                    android:textColor="@color/text_menu"
+                    android:textSize="16.0sp" />
+
+                <CheckBox
+                    android:id="@+id/cbVibrate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/button_check"
+                    android:clickable="false" />
+            </RelativeLayout>
+
+            <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/actionbar"
+                android:padding="@dimen/padding_menu_item"
+                android:text="@string/title_menu_other"
+                android:textColor="@color/black"
+                android:textSize="20.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/menuShare"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_menu"
+                android:padding="@dimen/padding_menu_item">
+                <ImageView
+                    android:id="@+id/img_share_app"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/img_share_app"/>
+                <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img_share_app"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/menu_Share"
+                    android:textColor="@color/text_menu"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/menuRate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_menu"
+                android:padding="@dimen/padding_menu_item">
+                <ImageView
+                    android:id="@+id/img_rate_app"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/img_rate_app"/>
+                <hellboy.bka.tlvan.os11lockscreen.view.TextViewRobotoLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img_rate_app"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/menu_rate"
+                    android:textColor="@color/text_menu"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--android:id="@+id/adView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--ads:adSize="SMART_BANNER"-->
+        <!--ads:adUnitId="@string/ad_unit_banner" />-->
+</RelativeLayout>

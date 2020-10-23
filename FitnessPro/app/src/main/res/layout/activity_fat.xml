@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:background="@color/material_deep_teal_200"
+    android:focusableInTouchMode="true">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/leftlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/adSmartBanner">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="5.0dip">
+
+                    <TextView
+                        android:id="@+id/textViewGender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1.0dip"
+                        android:text="Gender"
+                        android:textSize="20.0sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb1"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:checked="true"
+                            android:text="Male" />
+
+                        <RadioButton
+                            android:id="@+id/rb2"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:text="Female" />
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout1Left"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="7.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewAgeLeft"
+                            android:layout_width="100.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center_vertical"
+                            android:text="Age"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+                        <android.support.v7.widget.AppCompatImageView
+                            android:visibility="invisible"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/abds" />
+                        <EditText
+                            android:id="@+id/et1"
+                            android:layout_width="100.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="90.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/rounded_layout"
+                            android:cursorVisible="true"
+                            android:digits="\ 0123456789"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="years"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberSigned"
+                            android:maxLength="3"
+                            android:padding="5.0dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2Left"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="7.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewWeight"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/textViewWeight"
+                            android:layout_weight="1.0"
+                            android:gravity="center_vertical"
+                            android:text="Weight"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+                        <android.support.v7.widget.AppCompatImageView
+                            android:visibility="invisible"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/abds" />
+                        <EditText
+                            android:id="@+id/et2"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="90.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/rounded_layout"
+                            android:cursorVisible="true"
+                            android:digits="\ 0123456789"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="kg"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberSigned"
+                            android:maxLength="3"
+                            android:padding="5.0dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3Left"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="7.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewHeight"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center_vertical"
+                            android:text="Height"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+                        <android.support.v7.widget.AppCompatImageView
+                            android:visibility="invisible"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/abds" />
+                        <EditText
+                            android:id="@+id/et3"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="90.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/rounded_layout"
+                            android:cursorVisible="true"
+                            android:digits="\ 0123456789"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="cm"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberSigned"
+                            android:maxLength="3"
+                            android:padding="5.0dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewWaist"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:text="Waist"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/waistid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/abds" />
+                        <EditText
+                            android:id="@+id/et4"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="90.0dip"
+                            android:layout_weight="1"
+                            android:background="@drawable/rounded_layout"
+                            android:cursorVisible="true"
+                            android:digits="\ 0123456789"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="cm"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberSigned"
+                            android:maxLength="3"
+                            android:padding="5.0dip" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearLayout6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="7.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewNeck"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center_vertical"
+                            android:text="Neck"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+                        <android.support.v7.widget.AppCompatImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/nck" />
+                        <EditText
+                            android:id="@+id/et6"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="90.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/rounded_layout"
+                            android:cursorVisible="true"
+                            android:digits="\ 0123456789"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="cm"
+                            android:imeOptions="actionDone"
+                            android:inputType="numberSigned"
+                            android:maxLength="3"
+                            android:padding="5.0dip" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearLayout5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="7.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewHip"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center_vertical"
+                            android:text="Hip"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+                        <android.support.v7.widget.AppCompatImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/hips" />
+                        <EditText
+                            android:id="@+id/et5"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="90.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/rounded_layout"
+                            android:cursorVisible="true"
+                            android:digits="\ 0123456789"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="cm"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberSigned"
+                            android:maxLength="3"
+                            android:padding="5.0dip" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonCalculateFat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10.0dip"
+                    android:background="@drawable/rounded_button"
+                    android:padding="10.0dip"
+                    android:text="Calculate"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rightlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:visibility="gone">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/adSmartBanner">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutresult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="10.0dip">
+
+                    <TextView
+                        android:id="@+id/result"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Results:"
+                        android:textSize="25.0sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewAge"
+                            android:layout_width="100.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center_vertical"
+                            android:text="Body fat percentage:"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv1"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center_vertical"
+                            android:text="20%"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewlean0"
+                            android:layout_width="100.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center_vertical"
+                            android:text="Fat mass:"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv2"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center_vertical"
+                            android:text="43 lbs"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10.0dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewbodyfat0"
+                            android:layout_width="100.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center_vertical"
+                            android:text="Lean mass:"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv3"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center_vertical"
+                            android:text="21 lbs"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayoutBMITable"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15.0dip"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/buttonCategory"
+                                android:layout_width="0.0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:background="@color/colorPrimary"
+                                android:clickable="false"
+                                android:text="CATEGORY"
+                                android:textColor="@color/colorAccent"
+                                android:textSize="17.0sp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/buttonWomen"
+                                android:layout_width="0.0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:background="@color/colorPrimary"
+                                android:clickable="false"
+                                android:text="Women"
+                                android:textColor="@color/colorAccent"
+                                android:textSize="17.0sp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/buttonMen"
+                                android:layout_width="0.0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:background="@color/colorPrimary"
+                                android:clickable="false"
+                                android:text="Men"
+                                android:textColor="@color/colorAccent"
+                                android:textSize="17.0sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/a11"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="Essential fat" />
+
+                            <Button
+                                android:id="@+id/a12"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="10% - 14%" />
+
+                            <Button
+                                android:id="@+id/a13"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="2% - 6%" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/b11"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="atheletes" />
+
+                            <Button
+                                android:id="@+id/b12"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="14% - 21%" />
+
+                            <Button
+                                android:id="@+id/b13"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="6% - 14%" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/c11"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="Fitness" />
+
+                            <Button
+                                android:id="@+id/c12"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="21% - 25%" />
+
+                            <Button
+                                android:id="@+id/c13"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="14% - 18%" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/d11"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="Average" />
+
+                            <Button
+                                android:id="@+id/d12"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="25% - 32%" />
+
+                            <Button
+                                android:id="@+id/d13"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="18% - 25%" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/e11"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="Obese" />
+
+                            <Button
+                                android:id="@+id/e12"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="above 32" />
+
+                            <Button
+                                android:id="@+id/e13"
+                                android:layout_width="0.0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/bmi_button_background"
+                                android:clickable="false"
+                                android:text="above 25 " />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <include layout="@layout/admob_banner_ad_layout" />
+</RelativeLayout>

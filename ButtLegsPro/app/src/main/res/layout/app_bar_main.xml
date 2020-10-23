@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:background="#ffdedede"
+    n1:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        n1:id="@+id/appbar"
+        n1:layout_width="match_parent"
+        n1:layout_height="150.0dip"
+        n1:fitsSystemWindows="true"
+        n1:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout xmlns:n2="http://schemas.android.com/apk/res-auto"
+            n1:id="@+id/collapsing_toolbar"
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            n1:fitsSystemWindows="true"
+            n2:contentScrim="?colorPrimary"
+            n2:expandedTitleMarginEnd="64.0dip"
+            n2:expandedTitleMarginStart="48.0dip"
+            n2:expandedTitleTextAppearance="@android:color/transparent"
+            n2:layout_scrollFlags="exitUntilCollapsed|scroll">
+
+            <RelativeLayout
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content">
+
+                <ImageView
+                    n1:id="@+id/backdrop"
+                    n1:layout_width="match_parent"
+                    n1:layout_height="match_parent"
+                    n1:fitsSystemWindows="true"
+                    n1:scaleType="centerCrop"
+                    n2:layout_collapseMode="parallax" />
+
+                <LinearLayout
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:layout_centerInParent="true"
+                    n1:gravity="center_horizontal"
+                    n1:orientation="vertical">
+
+                    <TextView
+                        n1:id="@+id/mTopTitle"
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:text="@string/main_top_title"
+                        n1:textColor="@android:color/white"
+                        n1:textSize="20.0sp" />
+
+                    <TextView
+                        n1:id="@+id/mTopDesc"
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:text="@string/main_top_desc"
+                        n1:textColor="@android:color/white"
+                        n1:textSize="18.0sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <android.support.v7.widget.Toolbar
+                n1:id="@+id/toolbar"
+                n1:layout_width="match_parent"
+                n1:layout_height="?actionBarSize"
+                n2:layout_collapseMode="pin"
+                n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+</android.support.design.widget.CoordinatorLayout>

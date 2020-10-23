@@ -1,0 +1,473 @@
+{
+  "type": "male",
+  "data": [
+    {
+      "name_key": "level",
+      "level": 1,
+      "has_lock": false,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_1",
+      "exercises": [
+        {
+          "name_key": "low_walks",
+          "duration": 120000,
+          "img_key": "tm_low_walks",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "speed_walks_with_incline",
+          "duration": 120000,
+          "img_key": "tm_speed_walks_with_incline",
+		  "tm_speed": 4
+        },
+        {
+          "name_key": "slow_walks_with_incline",
+          "duration": 120000,
+          "img_key": "tm_slow_walks_with_incline",
+		  "tm_speed": 5
+        },
+        {
+          "name_key": "low_walks_with_incline",
+          "duration": 120000,
+          "img_key": "tm_low_walks_with_incline",
+		  "tm_speed": 6
+        },
+        {
+          "name_key": "running",
+          "duration": 120000,
+          "img_key": "tm_running",
+		  "tm_speed": -1
+        }
+      ]
+    },
+	{
+      "name_key": "level",
+      "level": 2,
+      "has_lock": false,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_2",
+      "exercises": [
+        {
+          "name_key": "low_walks",
+          "duration": 120000,
+          "img_key": "tm_low_walks",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "low_walks_with_leg_raise",
+          "duration": 120000,
+          "img_key": "tm_low_walks_with_leg_raise",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "side_walks_with_incline",
+          "duration": 180000,
+          "img_key": "tm_side_walks_with_incline",
+		  "tm_speed": 6
+        },
+        {
+          "name_key": "crossover_with_squad",
+          "duration": 120000,
+          "img_key": "tm_crossover_with_squad",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "running",
+          "duration": 180000,
+          "img_key": "tm_running",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "slow_walks_with_incline",
+          "duration": 180000,
+          "img_key": "tm_slow_walks_with_incline",
+		  "tm_speed": 4
+        }
+      ]
+    },
+	{
+      "name_key": "level",
+      "level": 3,
+      "has_lock": false,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_3",
+      "exercises": [
+        {
+          "name_key": "running",
+          "duration": 120000,
+          "img_key": "tm_running",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "low_walks_with_incline",
+          "duration": 180000,
+          "img_key": "tm_low_walks_with_incline",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "crossover_with_squad",
+          "duration": 180000,
+          "img_key": "tm_crossover_with_squad",
+		  "tm_speed": 5
+        },
+        {
+          "name_key": "crossover_with_leg_raise",
+          "duration": 180000,
+          "img_key": "tm_crossover_with_leg_raise",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "back_walks_with_incline",
+          "duration": 120000,
+          "img_key": "tm_back_walks_with_incline",
+		  "tm_speed": 5
+        },
+        {
+          "name_key": "back_walks_with_leg_raise_with_incline",
+          "duration": 120000,
+          "img_key": "tm_back_walks_with_leg_raise_with_incline",
+		  "tm_speed": 4
+        }
+      ]
+    },
+	{
+      "name_key": "level",
+      "level": 4,
+      "has_lock": false,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_4",
+      "exercises": [
+        {
+          "name_key": "kickbacks_left_leg",
+          "duration": 120000,
+          "img_key": "tm_kickbacks_left_leg",
+		  "tm_speed": -1
+        },
+		{
+          "name_key": "kickbacks_right_leg",
+          "duration": 120000,
+          "img_key": "tm_kickbacks_right_leg",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "crossover_with_squad",
+          "duration": 180000,
+          "img_key": "tm_crossover_with_squad",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "back_walks_with_incline",
+          "duration": 180000,
+          "img_key": "tm_back_walks_with_incline",
+		  "tm_speed": 5
+        },
+        {
+          "name_key": "jump_squats_in_a_low_speed",
+          "duration": 120000,
+          "img_key": "tm_jump_squats_in_a_low_speed",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "legs_up",
+          "duration": 120000,
+          "img_key": "tm_legs_up",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "running_with_incline",
+          "duration": 180000,
+          "img_key": "tm_running_with_incline",
+		  "tm_speed": 5
+        }
+      ]
+    },
+	{
+      "name_key": "level",
+      "level": 5,
+      "has_lock": false,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_5",
+      "exercises": [
+        {
+          "name_key": "running",
+          "duration": 120000,
+          "img_key": "tm_running",
+		  "tm_speed": -1
+        },
+		{
+          "name_key": "jumps",
+          "duration": 120000,
+          "img_key": "tm_jumps",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "crossover_with_leg_raise",
+          "duration": 180000,
+          "img_key": "tm_crossover_with_leg_raise",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "tiptoe_jogging",
+          "duration": 180000,
+          "img_key": "tm_tiptoe_jogging",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "low_walks_with_leg_raise",
+          "duration": 180000,
+          "img_key": "tm_low_walks_with_leg_raise",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "treadmill_running",
+          "duration": 120000,
+          "img_key": "tm_treadmill_running",
+		  "tm_speed": -1
+        }
+      ]
+    },
+	{
+      "name_key": "level",
+      "level": 6,
+      "has_lock": false,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_6",
+      "exercises": [
+        {
+          "name_key": "low_walks",
+          "duration": 180000,
+          "img_key": "tm_low_walks",
+		  "tm_speed": -1
+        },
+		{
+          "name_key": "tiptoe_jogging",
+          "duration": 180000,
+          "img_key": "tm_tiptoe_jogging",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "waves",
+          "duration": 240000,
+          "img_key": "tm_waves",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "kickbacks_left_leg",
+          "duration": 180000,
+          "img_key": "tm_kickbacks_left_leg",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "kickbacks_right_leg",
+          "duration": 180000,
+          "img_key": "tm_kickbacks_right_leg",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "pushes",
+          "duration": 180000,
+          "img_key": "tm_pushes",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "running_in_a_high_speed",
+          "duration": 180000,
+          "img_key": "tm_running_in_a_high_speed",
+		  "tm_speed": -1
+        }
+      ]
+    },
+	{
+      "name_key": "level",
+      "level": 7,
+      "has_lock": false,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_7",
+      "exercises": [
+        {
+          "name_key": "running",
+          "duration": 180000,
+          "img_key": "tm_running",
+		  "tm_speed": -1
+        },
+		{
+          "name_key": "running_backwards",
+          "duration": 180000,
+          "img_key": "tm_running_backwards",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "low_walks_with_incline",
+          "duration": 120000,
+          "img_key": "tm_low_walks_with_incline",
+		  "tm_speed": 5
+        },
+        {
+          "name_key": "waves",
+          "duration": 240000,
+          "img_key": "tm_waves",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "low_walks_with_leg_raise",
+          "duration": 180000,
+          "img_key": "tm_low_walks_with_leg_raise",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "crossover_with_squad",
+          "duration": 240000,
+          "img_key": "tm_crossover_with_squad",
+		  "tm_speed": 5
+        }
+      ]
+    },
+	{
+      "name_key": "level",
+      "level": 8,
+      "has_lock": false,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_8",
+      "exercises": [
+        {
+          "name_key": "high_knees",
+          "duration": 180000,
+          "img_key": "tm_high_knees",
+		  "tm_speed": -1
+        },
+		{
+          "name_key": "crossover_with_squad",
+          "duration": 180000,
+          "img_key": "tm_crossover_with_squad",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "jumps",
+          "duration": 180000,
+          "img_key": "tm_jumps",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "kickbacks_left_leg",
+          "duration": 120000,
+          "img_key": "tm_kickbacks_left_leg",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "kickbacks_right_leg",
+          "duration": 120000,
+          "img_key": "tm_kickbacks_right_leg",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "back_walks_with_incline",
+          "duration": 180000,
+          "img_key": "tm_back_walks_with_incline",
+		  "tm_speed": 5
+        },
+        {
+          "name_key": "running",
+          "duration": 240000,
+          "img_key": "tm_running",
+		  "tm_speed": -1
+        }
+      ]
+    },
+	{
+      "name_key": "level",
+      "level": 9,
+      "has_lock": false,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_9",
+      "exercises": [
+        {
+          "name_key": "running_in_an_increasing_speed",
+          "duration": 240000,
+          "img_key": "tm_running_in_an_increasing_speed",
+		  "tm_speed": -1
+        },
+		{
+          "name_key": "slow_walks_with_incline",
+          "duration": 240000,
+          "img_key": "tm_slow_walks_with_incline",
+		  "tm_speed": 5
+        },
+        {
+          "name_key": "low_walks_with_incline",
+          "duration": 180000,
+          "img_key": "tm_low_walks_with_incline",
+		  "tm_speed": 6
+        },
+        {
+          "name_key": "waves",
+          "duration": 240000,
+          "img_key": "tm_waves",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "crossover_with_squad",
+          "duration": 180000,
+          "img_key": "tm_crossover_with_squad",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "running_in_a_high_speed",
+          "duration": 120000,
+          "img_key": "tm_running_in_a_high_speed",
+		  "tm_speed": -1
+        }
+      ]
+    },
+	{
+      "name_key": "level",
+      "level": 10,
+      "has_lock": false,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_10",
+      "exercises": [
+        {
+          "name_key": "side_walks_with_incline",
+          "duration": 240000,
+          "img_key": "tm_side_walks_with_incline",
+		  "tm_speed": 5
+        },
+		{
+          "name_key": "high_knees",
+          "duration": 240000,
+          "img_key": "tm_high_knees",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "running_backwards",
+          "duration": 240000,
+          "img_key": "tm_running_backwards",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "crossover_with_squad",
+          "duration": 180000,
+          "img_key": "tm_crossover_with_squad",
+		  "tm_speed": 7
+        },
+        {
+          "name_key": "tiptoe_jogging",
+          "duration": 240000,
+          "img_key": "tm_tiptoe_jogging",
+		  "tm_speed": -1
+        },
+        {
+          "name_key": "low_walks_with_incline",
+          "duration": 240000,
+          "img_key": "tm_low_walks_with_incline",
+		  "tm_speed": 5
+        },
+        {
+          "name_key": "running_in_a_high_speed",
+          "duration": 120000,
+          "img_key": "tm_running_in_a_high_speed",
+		  "tm_speed": -1
+        }
+      ]
+    }
+  ]
+}

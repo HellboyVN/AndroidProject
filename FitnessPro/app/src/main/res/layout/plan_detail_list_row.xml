@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/imageViewDay" android:padding="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:id="@+id/textViewDayName" android:paddingLeft="7.0dip" android:paddingTop="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/imageViewDay" />
+    <TextView android:textSize="16.0sp" android:id="@+id/textViewExerciseCount" android:paddingLeft="7.0dip" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/imageViewDay" android:layout_below="@+id/textViewDayName" />
+</RelativeLayout>

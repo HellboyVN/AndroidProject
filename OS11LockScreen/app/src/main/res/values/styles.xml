@@ -1,0 +1,171 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:actionBarDivider">@color/colorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="actionBarStyle">@style/MyMaterialTheme.Base.ActionBar</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MyMaterialTheme.Base.ActionBar" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="background">@color/colorPrimary</item>
+        <item name="elevation">2.0dip</item>
+    </style>
+    <style name="CustomCardView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+    </style>
+    <style name="CustomImageViewSetting">
+        <item name="android:layout_width">30.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+    </style>
+    <style name="CustomRelativeLayoutSetting">
+        <item name="android:background">@drawable/relative_layout_selector</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">60.0dip</item>
+    </style>
+    <style name="CustomSeekbarSetting">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">21.0dip</item>
+        <item name="android:layout_marginRight">21.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="CustomTextViewSetting">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">17.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="CustomTitleForImage">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CustomTitleSetting">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">35.0dip</item>
+        <item name="android:layout_marginLeft">17.0dip</item>
+        <item name="android:layout_marginTop">7.0dip</item>
+        <item name="android:layout_marginBottom">6.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="CustomViewDivider">
+        <item name="android:background">#603e66a8</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="CustomViewDividerHozirontal">
+        <item name="android:background">#603e66a8</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="CustomWindowTitleStyle">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+    <style name="RelativeLayoutSetting">
+        <item name="android:background">@drawable/relative_layout_selector</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">70.0dip</item>
+    </style>
+    <style name="SeekbarSetting">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">21.0dip</item>
+        <item name="android:layout_marginRight">21.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="StyleDialogTitle">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">19.0dip</item>
+        <item name="android:paddingTop">23.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50.0dip</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="SwitchSetting">
+        <item name="android:background">@drawable/ripple_switch_selector</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">7.0dip</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="ImageViewSetting">
+        <item name="android:layout_width">28.0dip</item>
+        <item name="android:layout_height">28.0dip</item>
+        <item name="android:layout_marginLeft">17.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="CardView.Dark" parent="@style/CardView">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light" parent="@style/CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="ViewDivider">
+        <item name="android:background">#203e66a8</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_marginLeft">63.0dip</item>
+    </style>
+    <style name="TitleSetting">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/color_text_title</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">35.0dip</item>
+        <item name="android:layout_marginLeft">17.0dip</item>
+        <item name="android:layout_marginTop">7.0dip</item>
+        <item name="android:layout_marginBottom">6.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextViewSetting">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_marginLeft">17.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="TextViewValueRight">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/text_color_value</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">33.0dip</item>
+        <item name="android:layout_marginRight">20.0dip</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+</resources>

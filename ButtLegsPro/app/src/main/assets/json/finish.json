@@ -1,0 +1,18 @@
+[
+  {
+    "name": "congrats_card",
+    "view_type": 0
+  },
+  {
+    "name": "recomend_card",
+    "view_type": 3
+  },
+  {
+    "name": "rate_card",
+    "view_type": 1
+  },
+  {
+    "name": "remind_card",
+    "view_type": 2
+  }
+]

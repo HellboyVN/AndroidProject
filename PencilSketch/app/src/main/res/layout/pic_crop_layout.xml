@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/crop_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/pic_crop"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="demo"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/picmaker_txt_size" />
+
+    <LinearLayout
+        android:layout_width="@dimen/picmaker_btnspace"
+        android:layout_height="@dimen/picmaker_btnspace"
+        android:background="@color/transparent" />
+</LinearLayout>

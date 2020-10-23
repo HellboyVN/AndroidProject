@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    xmlns:n2="http://schemas.android.com/apk/res-auto"
+    n1:id="@+id/contentSetting"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n2:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        n1:id="@+id/settingContent"
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content"
+        n1:layout_alignParentLeft="true"
+        n1:layout_alignParentStart="true"
+        n1:layout_alignParentTop="true"
+        n1:background="@color/md_divider_white"
+        n1:orientation="vertical"
+        n1:paddingBottom="@dimen/activity_vertical_margin"
+        n1:paddingLeft="@dimen/activity_horizontal_margin"
+        n1:paddingRight="@dimen/activity_horizontal_margin"
+        n1:paddingTop="@dimen/activity_vertical_margin">
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:id="@+id/sstPersonal"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:text="@string/personal"
+            n1:textColor="#ff000000"
+            n1:textSize="16.0sp" />
+
+
+
+        <LinearLayout
+            n1:visibility="gone"
+            n1:id="@+id/genderLayout"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="left"
+            n1:foreground="?android:selectableItemBackground"
+            n1:gravity="left"
+            n1:orientation="horizontal">
+
+            <LinearLayout
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:orientation="vertical"
+                n1:paddingLeft="10.0dip">
+
+                <LinearLayout
+                    n1:layout_width="match_parent"
+                    n1:layout_height="wrap_content"
+                    n1:gravity="center"
+                    n1:orientation="horizontal">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        n1:id="@+id/sGenderImage"
+                        n1:layout_width="28.0dip"
+                        n1:layout_height="28.0dip"
+                        n1:paddingRight="2.0dip"
+                        n2:srcCompat="@drawable/girl" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        n1:id="@+id/sGender"
+                        n1:layout_width="match_parent"
+                        n1:layout_height="wrap_content"
+                        n1:text="@string/settings_gender"
+                        n1:textColor="#ff212020"
+                        n1:textSize="16.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            n1:layout_width="match_parent"
+            n1:layout_height="0.5dip"
+            n1:layout_margin="10.0dip"
+            n1:background="#ff605f5f"
+            n1:visibility="gone" />
+
+        <FrameLayout
+            n1:id="@+id/weightLayout"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="left"
+            n1:foreground="?android:selectableItemBackground"
+            n1:gravity="left"
+            n1:orientation="horizontal"
+            n1:visibility="gone">
+
+            <LinearLayout
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:orientation="vertical"
+                n1:paddingLeft="10.0dip">
+
+                <LinearLayout
+                    n1:layout_width="match_parent"
+                    n1:layout_height="wrap_content"
+                    n1:gravity="center"
+                    n1:orientation="horizontal">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        n1:id="@+id/weightImage"
+                        n1:layout_width="28.0dip"
+                        n1:layout_height="28.0dip"
+                        n1:paddingRight="2.0dip"
+                        n2:srcCompat="@drawable/ic_weght" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        n1:id="@+id/sWeight"
+                        n1:layout_width="match_parent"
+                        n1:layout_height="wrap_content"
+                        n1:paddingLeft="8.0dip"
+                        n1:text="@string/weight"
+                        n1:textColor="#ff212020"
+                        n1:textSize="16.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatTextView
+                n1:id="@+id/sWeightMetricText"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="center|right"
+                n1:gravity="center|right"
+                n1:paddingRight="20.0dip"
+                n1:text="kg"
+                n1:textColor="#ff212020"
+                n1:textSize="16.0sp" />
+        </FrameLayout>
+
+        <View
+            n1:layout_width="match_parent"
+            n1:layout_height="0.5dip"
+            n1:layout_margin="10.0dip"
+            n1:background="#ff605f5f" />
+
+        <LinearLayout
+            n1:id="@+id/soundLayout"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:foreground="?android:selectableItemBackground"
+            n1:orientation="horizontal">
+
+            <LinearLayout
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:orientation="vertical"
+                n1:padding="10.0dip">
+
+                <FrameLayout
+                    n1:layout_width="match_parent"
+                    n1:layout_height="wrap_content">
+
+                    <android.support.v7.widget.SwitchCompat
+                        n1:id="@+id/soundSwitch"
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:layout_gravity="center|right"
+                        n1:gravity="center|right" />
+
+                    <LinearLayout
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:layout_gravity="center_vertical"
+                        n1:orientation="horizontal">
+
+                        <android.support.v7.widget.AppCompatImageView
+                            n1:layout_width="40dp"
+                            n1:layout_height="40dp"
+                            n1:padding="5.0dip"
+                            n2:srcCompat="@drawable/ic_sound_on" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            n1:id="@+id/sSound"
+                            n1:layout_width="wrap_content"
+                            n1:layout_height="wrap_content"
+                            n1:layout_gravity="center|left"
+                            n1:text="@string/settings_sound"
+                            n1:textColor="#ff212020"
+                            n1:textSize="16.0sp" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:paddingTop="15.0dip"
+            n1:text="@string/duration"
+            n1:textColor="#ff000000"
+            n1:textSize="16.0sp"
+            n1:visibility="gone" />
+
+
+        <FrameLayout
+            n1:visibility="gone"
+            n1:id="@+id/restTimeLayout"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:foreground="?android:selectableItemBackground">
+
+            <LinearLayout
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:gravity="center_vertical"
+                n1:orientation="vertical"
+                n1:padding="10.0dip">
+
+                <LinearLayout
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:gravity="center_vertical"
+                    n1:orientation="horizontal"
+                    >
+
+                    <android.support.v7.widget.AppCompatImageView
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:gravity="center_vertical"
+                        n1:padding="5.0dip"
+                        n2:srcCompat="@drawable/ic_timer" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        n1:id="@+id/sRestTime"
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:layout_gravity="center_vertical"
+                        n1:gravity="center_vertical"
+                        n1:text="@string/setting_rest_duration"
+                        n1:textColor="#ff212020"
+                        n1:textSize="16.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatTextView
+                n1:id="@+id/restTime"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="center|right"
+                n1:layout_marginRight="10.0dip"
+                n1:gravity="center|right" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            n1:visibility="gone"
+            n1:id="@+id/readyTimeLayout"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:foreground="?android:selectableItemBackground">
+
+            <LinearLayout
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:gravity="center_vertical"
+                n1:orientation="vertical"
+                n1:padding="10.0dip">
+
+                <LinearLayout
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:gravity="center_vertical"
+                    n1:orientation="horizontal"
+                    n1:visibility="gone">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:layout_gravity="center_vertical"
+                        n1:gravity="center_vertical"
+                        n1:padding="5.0dip"
+                        n2:srcCompat="@drawable/ic_timer" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        n1:id="@+id/sReadyTime"
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:layout_gravity="center_vertical"
+                        n1:gravity="center_vertical"
+                        n1:text="@string/setting_ready_duration"
+                        n1:textColor="#ff212020"
+                        n1:textSize="16.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatTextView
+                n1:id="@+id/readyTime"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="center|right"
+                n1:layout_marginRight="10.0dip"
+                n1:gravity="center|right" />
+        </FrameLayout>
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:paddingTop="15.0dip"
+            n1:text="@string/Statistics"
+            n1:textColor="#ff000000"
+            n1:textSize="16.0sp"
+            n1:visibility="gone" />
+
+        <View
+            n1:id="@+id/hellboy"
+            n1:layout_width="match_parent"
+            n1:layout_height="0.5dip"
+            n1:layout_marginBottom="10.0dip"
+            n1:layout_marginTop="10.0dip"
+            n1:background="#ff605f5f" />
+
+        <LinearLayout
+            n1:visibility="gone"
+            n1:id="@+id/weekStartLayout"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:foreground="?android:selectableItemBackground"
+            n1:orientation="horizontal">
+
+            <LinearLayout
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:orientation="vertical"
+                n1:padding="10.0dip">
+
+                <FrameLayout
+                    n1:layout_width="match_parent"
+                    n1:layout_height="wrap_content"
+                    n1:gravity="right"
+                    n1:orientation="horizontal">
+
+                    <LinearLayout
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:orientation="horizontal"
+                        n1:visibility="gone">
+
+                        <android.support.v7.widget.AppCompatImageView
+                            n1:layout_width="wrap_content"
+                            n1:layout_height="wrap_content"
+                            n1:padding="5.0dip"
+                            n2:srcCompat="@drawable/ic_today" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            n1:id="@+id/sWeekStart"
+                            n1:layout_width="wrap_content"
+                            n1:layout_height="wrap_content"
+                            n1:layout_gravity="center|left"
+                            n1:gravity="center_vertical"
+                            n1:text="@string/settings_week_start"
+                            n1:textColor="#ff212020"
+                            n1:textSize="16.0sp" />
+                    </LinearLayout>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        n1:id="@+id/weekStart"
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:layout_gravity="center|right"
+                        n1:gravity="center|right" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        n1:layout_below="@+id/settingContent"
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:background="@drawable/ic_launcher_background"
+        n1:layout_alignParentBottom="true"
+        >
+        <android.support.v7.widget.AppCompatImageView
+            n1:id="@+id/imgGender"
+            n1:layout_width="200dp"
+            n1:layout_height="200dp"
+            n2:srcCompat="@drawable/boy"
+            n1:layout_centerHorizontal="true"
+            n1:layout_centerVertical="true"
+            n1:scaleType="fitCenter"/>
+        <android.support.v7.widget.AppCompatTextView
+            n1:id="@+id/settingVersionName"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_alignParentBottom="true"
+            n1:layout_centerHorizontal="true"
+            n1:padding="10.0dip"
+            n1:text="v.1.0.0"
+            n1:textColor="#ff000000"
+            n1:textSize="14.0sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?selectableItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@+id/linear_flag_holder" android:layout_width="40.0dip" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/google_1x" android:layout_marginRight="@dimen/google_1x">
+        <ImageView android:id="@+id/image_flag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/flag_india" android:adjustViewBounds="true" />
+    </LinearLayout>
+    <TextView android:textColor="@android:color/secondary_text_light" android:gravity="center_vertical" android:id="@+id/textView_countryName" android:layout_width="match_parent" android:layout_height="50.0dip" android:text="India (IN)" android:layout_toLeftOf="@+id/textView_code" android:layout_toRightOf="@+id/linear_flag_holder" android:layout_centerVertical="true" />
+    <TextView android:textColor="@android:color/secondary_text_light" android:gravity="center_vertical" android:id="@+id/textView_code" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginRight="8.0dip" android:text="+91" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@+id/preferenceDivider" android:background="#ff898989" android:layout_width="match_parent" android:layout_height="2.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentTop="true" android:alpha="0.2" />
+</RelativeLayout>

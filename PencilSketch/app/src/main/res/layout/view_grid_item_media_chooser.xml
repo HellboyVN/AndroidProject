@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/imageViewFromMediaChooserGridItemRowView" android:layout_width="100.0dip" android:layout_height="50.0dip" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <CheckedTextView android:textAppearance="?android:textAppearanceLarge" android:id="@+id/checkTextViewFromMediaChooserGridItemRowView" android:padding="5.0dip" android:paddingBottom="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkMark="@drawable/selector_check" android:layout_alignRight="@+id/imageViewFromMediaChooserGridItemRowView" style="@android:style/Theme" />
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00796B</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#00897B</color>
+    <color name="home_background">#eeeeee</color>
+    <color name="card_background">#fefefe</color>
+    <color name="material_drawer_selected_text">#01579B</color>
+
+    <color name="teal_100">#b2dfdb</color>
+    <color name="teal_500">#009688</color>
+    <color name="white">#ffffffff</color>
+    <color name="color_button_done_selector">#802f4779</color>
+
+    <color name="color_trending">#ff8080</color>
+    <color name="color_category">#8035cb</color>
+    <color name="color_variety">#0cca7d</color>
+    <color name="color_favorite">#088cae</color>
+    <color name="color_settings">#0d9bbe</color>
+    <color name="color_about">#b8b048</color>
+    <color name="color_ielts">#b59fff</color>
+    <color name="color_rocket">#00d700</color>
+    <color name="color_removeads">#ff0000</color>
+</resources>

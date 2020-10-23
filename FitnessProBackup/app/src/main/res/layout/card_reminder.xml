@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:id="@+id/rCardItemLayout"
+    n1:layout_width="match_parent"
+    n1:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/rCardLayout"
+        n1:layout_width="match_parent"
+        n1:layout_height="130.0dip"
+        n1:layout_gravity="center"
+        n1:layout_margin="@dimen/card_margin"
+        n1:padding="20.0dip"
+        n2:cardBackgroundColor="#ffffffff"
+        n2:cardCornerRadius="@dimen/card_album_radius">
+
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            n1:layout_gravity="center"
+            n1:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatImageView
+                n1:id="@+id/rCardImage"
+                n1:layout_width="120.0dip"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="center"
+                n1:clickable="true"
+                n1:padding="15.0dip"
+                n1:scaleType="centerInside"
+                n2:srcCompat="@drawable/bmi_button" />
+
+            <LinearLayout
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="center_vertical"
+                n1:gravity="center"
+                n1:orientation="vertical">
+
+                <TextView
+                    n1:id="@+id/rCardTitle"
+                    n1:layout_width="match_parent"
+                    n1:layout_height="wrap_content"
+                    n1:layout_gravity="center"
+                    n1:gravity="center"
+                    n1:padding="5.0dip"
+                    n1:text="@string/reminder_card_title"
+                    n1:textColor="@color/album_title"
+                    n1:textSize="16.0dip" />
+
+                <View
+                    n1:layout_width="match_parent"
+                    n1:layout_height="1.0dip"
+                    n1:layout_marginLeft="10.0dip"
+                    n1:layout_marginTop="10.0dip"
+                    n1:background="#ffebebeb" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            n1:id="@+id/rCardSetReminder"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="bottom"
+            n1:layout_margin="3.0dip"
+            n1:gravity="bottom|center|right"
+            n1:paddingBottom="5.0dip"
+            n1:paddingRight="15.0dip"
+            n1:paddingTop="15.0dip"
+            n1:text="@string/set_reminder"
+            n1:textColor="@color/colorAccent"
+            n1:textSize="16.0sp" />
+    </android.support.v7.widget.CardView>
+</FrameLayout>

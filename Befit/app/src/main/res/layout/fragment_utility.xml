@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.RecyclerView android:name="com.workout.workout.fragment.TrainingFragment" android:id="@+id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/adSmartBanner" app:layoutManager="LinearLayoutManager" />
+    <include layout="@layout/admob_banner_ad_layout" />
+</RelativeLayout>

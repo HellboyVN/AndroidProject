@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipTitleValues">
+        <item>Start A YouTube Channel</item>
+        <item>Start A Blog</item>
+        <item>Do Affiliate Marketing</item>
+        <item>Create Niche Websites</item>
+        <item>Create A Membership Site</item>
+        <item>Publish A Kindle eBook</item>
+        <item>Sell Websites On Flippa</item>
+        <item>Sell A Video Course On Udemy</item>
+        <item>Resell Items On eBay</item>
+        <item>Sell A Service On Fiverr</item>
+        <item>Become An Amazon Associate</item>
+        <item>Do CPA Marketing</item>
+        <item>Sell Art and Crafts on Etsy</item>
+        <item>Join Leapforce</item>
+        <item>Develop Mobile Apps</item>
+        <item>Create Wordpress Themes</item>
+        <item>Start TeeSpring Campaigns</item>
+        <item>Do Email Marketing</item>
+        <item>Do Facebook Marketing</item>
+        <item>Start Copywriting</item>
+        <item>Click And Sell Photos</item>
+        <item>Join Survey Panels</item>
+        <item>Become A Freelancer</item>
+        <item>Start Your Podcast</item>
+        <item>Start A Book Review Site</item>
+        <item>Develop A Software</item>
+        <item>Teach Your Native Language</item>
+        <item>Do Document Translation</item>
+        <item>Do Interview Transcribing</item>
+        <item>Become An Online Tutor</item>
+        <item>Become Virtual Call Center Employee</item>
+        <item>Sell Merchandise On Zazzle</item>
+        <item>Join Q&amp;A Sites</item>
+        <item>Register On Reward Sites</item>
+        <item>Participate In Usability Testing</item>
+        <item>Join Micro Job Sites</item>
+        <item>Do Shopping</item>
+        <item>Unlock Your Android Phone</item>
+        <item>Share Links On Social Media</item>
+        <item>Do Smartphone Photography</item>
+        <item>Join Focus Groups</item>
+        <item>Buy And Sell Domain Names</item>
+        <item>Use ReceiptHog App</item>
+        <item>Use CashPirate App</item>
+        <item>Write Articles On Authority Sites</item>
+        <item>Start Data Entry Work</item>
+        <item>Become Social Media Evaluator</item>
+        <item>Become A Telephone Mystery Shopper</item>
+        <item>Become A Captioner</item>
+        <item>Be A Proofreader</item>
+        <item>Become A Ghostwriter</item>
+        <item>Become A Graphic Designer</item>
+        <item>Do Voice Acting</item>
+        <item>Do Instagram Marketing</item>
+        <item>Start Dropshipping Business</item>
+        <item>Get Paid For Tweeting</item>
+        <item>Listen And Rate Music</item>
+        <item>Become A Research Assistant</item>
+        <item>Discover Products</item>
+        <item>Do Social Media Moderation</item>
+        <item>Sell PLR</item>
+        <item>Sell Quote Printables</item>
+        <item>Video Creation And Editing</item>
+        <item>Write Slogans And Taglines</item>
+        <item>Do Pinterest Marketing</item>
+
+    </string-array>
+
+    <string-array name="thumbImageValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

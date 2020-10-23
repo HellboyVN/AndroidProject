@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_setting"
+        app.popupTheme="@style/AppTheme.PopupOverlay"
+        android:layout_width="fill_parent"
+        android:layout_height="?actionBarSize"
+        android:background="?colorPrimary" />
+    <LinearLayout
+        android:id="@+id/native_ad_admob_1"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/toolbar_setting"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" />
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_below="@+id/native_ad_admob_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:orientation="vertical">
+
+
+            <io.gloxey.cfv.CFTextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2.0dip"
+                android:layout_marginLeft="7.0dip"
+                android:layout_marginTop="10.0dip"
+                android:text="CUSTOM SETTINGS"
+                android:textStyle="bold"
+                app:font_name="@string/sintony" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="@color/colorSettings" />
+
+            <LinearLayout
+                android:id="@+id/llselectalarm"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:background="@drawable/click_background"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <io.gloxey.cfv.CFTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.0dip"
+                    android:layout_weight="1.0"
+                    android:text="Theme"
+                    app:font_name="@string/sintony" />
+
+                <Button
+                    android:id="@+id/button_color"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="15.0dip" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="@color/colorSettings" />
+
+            <LinearLayout
+                android:id="@+id/llhelp"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:background="@drawable/click_background"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <io.gloxey.cfv.CFTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.0dip"
+                    android:layout_weight="1.0"
+                    android:text="Help"
+                    app:font_name="@string/sintony" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="@color/colorSettings" />
+
+            <LinearLayout
+                android:id="@+id/llprivacypolicy"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:background="@drawable/click_background"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <io.gloxey.cfv.CFTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.0dip"
+                    android:layout_weight="1.0"
+                    android:text="Privacy Policy"
+                    app:font_name="@string/sintony" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="@color/colorSettings" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

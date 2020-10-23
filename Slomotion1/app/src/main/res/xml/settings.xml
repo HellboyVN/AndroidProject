@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="slomo_control"
+        android:summaryOff="Audio/Video slow motion control is disabled."
+        android:summaryOn="Audio/Video slow motion control is enabled."
+        android:title="Audio/Video Slow Motion" />
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="filter_control"
+        android:summaryOff="Color filter control is disabled."
+        android:summaryOn="Color filter control is enabled."
+        android:title="Color Filter" />
+</PreferenceScreen>

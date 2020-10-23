@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_activity_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/app_background">
+
+    <RelativeLayout
+        android:id="@+id/rl_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:minHeight="?actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-medium"
+            android:text="Lock Screen OS10"
+            android:textColor="@color/white"
+            android:textSize="22.0dip" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_general"
+                style="@style/CustomCardView"
+                card_view:cardCornerRadius="0.0dip">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_fragment"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_general"
+                        style="@style/TitleSetting"
+                        android:text="General" />
+
+                    <RelativeLayout
+                        android:id="@+id/menu_activate"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/img_enable"
+                            style="@style/ImageViewSetting"
+                            android:background="@drawable/ic_track_changes_white_36dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="17.0dip"
+                            android:layout_toRightOf="@+id/img_enable"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txt_enable"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="Enable Lock"
+                                android:textColor="@color/text_color"
+                                android:textSize="16.0sp"
+                                android:typeface="sans" />
+                        </LinearLayout>
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/sw_enable"
+                            style="@style/SwitchSetting" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.0dip"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/native_ad_admob_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/native_ad_fb_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_setting"
+                style="@style/CustomCardView"
+                card_view:cardCornerRadius="0.0dip">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_fragment"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_floating_menu"
+                        style="@style/TitleSetting"
+                        android:text="Setting" />
+
+                    <RelativeLayout
+                        android:id="@+id/menu_lockscreen"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/img_menu_setting"
+                            style="@style/ImageViewSetting"
+                            android:background="@drawable/ic_track_changes_white_36dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="17.0dip"
+                            android:layout_toRightOf="@+id/img_menu_setting"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txt_menu_setting"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="Disable lockscreen system"
+                                android:textColor="@color/text_color"
+                                android:textSize="16.0sp"
+                                android:typeface="sans"
+                                android:layout_marginBottom="6dp"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="Set none or swipe to avoid double screen"
+                                android:maxLines="2"
+                                android:textColor="@color/text_disable"
+                                android:textSize="14.0sp"
+                                android:typeface="sans" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <View style="@style/ViewDivider" />
+
+                    <RelativeLayout
+                        android:id="@+id/menu_wallpaper"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/img_setting_wallpaper"
+                            style="@style/ImageViewSetting"
+                            android:background="@drawable/ic_track_changes_white_36dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="17.0dip"
+                            android:layout_toRightOf="@+id/img_setting_wallpaper"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txt_setting_wallpaper"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="Change Wallpaper"
+                                android:textColor="@color/text_color"
+                                android:textSize="16.0sp"
+                                android:typeface="sans" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                    <View style="@style/ViewDivider" />
+
+                    <RelativeLayout
+                        android:id="@+id/menu_timeout"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/img_setting_timeout"
+                            style="@style/ImageViewSetting"
+                            android:background="@drawable/ic_track_changes_white_36dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="17.0dip"
+                            android:layout_toRightOf="@+id/img_setting_timeout"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txt_setting_timeout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="Timeout"
+                                android:textColor="@color/text_color"
+                                android:textSize="16.0sp"
+                                android:layout_marginBottom="6dp"
+                                android:typeface="sans" />
+                            <TextView
+                                android:id="@+id/txt_setting_timeout_value"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="2 minutes"
+                                android:maxLines="2"
+                                android:textColor="@color/text_disable"
+                                android:textSize="14.0sp"
+                                android:typeface="sans" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <View style="@style/ViewDivider" />
+
+                    <RelativeLayout
+                        android:id="@+id/menu_preview"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/img_setting_preview"
+                            style="@style/ImageViewSetting"
+                            android:background="@drawable/ic_track_changes_white_36dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="17.0dip"
+                            android:layout_toRightOf="@+id/img_setting_preview"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txt_setting_preview"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="Preview"
+                                android:textColor="@color/text_color"
+                                android:textSize="16.0sp"
+                                android:typeface="sans" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            android:id="@+id/card_security"
+            style="@style/CustomCardView"
+            card_view:cardCornerRadius="0.0dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background_fragment"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_floating_icon"
+                    style="@style/TitleSetting"
+                    android:text="Security"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:id="@+id/menu_security"
+                    style="@style/RelativeLayoutSetting">
+
+                    <ImageView
+                        android:id="@+id/img_security"
+                        style="@style/ImageViewSetting"
+                        android:background="@drawable/ic_track_changes_white_36dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="17.0dip"
+                        android:layout_toRightOf="@+id/img_security"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_security"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:text="Passcode"
+                            android:textColor="@color/text_color"
+                            android:textSize="16.0sp"
+                            android:typeface="sans" />
+                    </LinearLayout>
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/sw_security"
+                        style="@style/SwitchSetting" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_visual"
+                style="@style/CustomCardView"
+                card_view:cardCornerRadius="0.0dip">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_fragment"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_visual"
+                        style="@style/TitleSetting"
+                        android:text="Visual Option"
+                        android:layout_height="wrap_content" />
+
+                    <RelativeLayout
+                        android:id="@+id/menu_sound"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/img_sound"
+                            style="@style/ImageViewSetting"
+                            android:background="@drawable/ic_track_changes_white_36dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="17.0dip"
+                            android:layout_toRightOf="@+id/img_sound"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txt_visual"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="Enable Sound"
+                                android:textColor="@color/text_color"
+                                android:textSize="16.0sp"
+                                android:typeface="sans" />
+                        </LinearLayout>
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/sw_sound"
+                            style="@style/SwitchSetting" />
+                    </RelativeLayout>
+
+                    <View style="@style/ViewDivider" />
+                    <RelativeLayout
+                        android:id="@+id/menu_vibrate"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/img_vibrate"
+                            style="@style/ImageViewSetting"
+                            android:background="@drawable/ic_track_changes_white_36dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="17.0dip"
+                            android:layout_toRightOf="@+id/img_vibrate"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txt_vibrate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="Enable Vibrate"
+                                android:textColor="@color/text_color"
+                                android:textSize="16.0sp"
+                                android:typeface="sans" />
+                        </LinearLayout>
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/sw_vibrate"
+                            style="@style/SwitchSetting" />
+                    </RelativeLayout>
+                    <View style="@style/ViewDivider" />
+                    <RelativeLayout
+                        android:id="@+id/menu_timeformat"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/img_time_format"
+                            style="@style/ImageViewSetting"
+                            android:background="@drawable/ic_track_changes_white_36dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="17.0dip"
+                            android:layout_toRightOf="@+id/img_time_format"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txt_time_format"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="Time Format"
+                                android:textColor="@color/text_color"
+                                android:textSize="16.0sp"
+                                android:typeface="sans" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                    <View style="@style/ViewDivider" />
+                    <RelativeLayout
+                        android:id="@+id/menu_unlocktext"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/img_unlock_text"
+                            style="@style/ImageViewSetting"
+                            android:background="@drawable/ic_track_changes_white_36dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="17.0dip"
+                            android:layout_toRightOf="@+id/img_unlock_text"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txt_unlock_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="Change Unlock Text"
+                                android:textColor="@color/text_color"
+                                android:textSize="16.0sp"
+                                android:typeface="sans" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--style="@style/CustomCardView"-->
+                <!--android:visibility="gone"-->
+                <!--card_view:cardCornerRadius="2.0dip">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@color/background_fragment"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_uninstall"-->
+                        <!--android:layout_width="fill_parent"-->
+                        <!--android:layout_height="35.0dip"-->
+                        <!--android:layout_marginBottom="6.0dip"-->
+                        <!--android:layout_marginLeft="17.0dip"-->
+                        <!--android:layout_marginTop="7.0dip"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:text="Uninstall"-->
+                        <!--android:textColor="@color/colorPrimary"-->
+                        <!--android:textSize="15.0dip"-->
+                        <!--android:textStyle="bold" />-->
+
+                    <!--<RelativeLayout-->
+                        <!--android:id="@+id/rl_uninstall1"-->
+                        <!--style="@style/RelativeLayoutSetting">-->
+
+                        <!--<ImageView-->
+                            <!--android:id="@+id/img_uninstall1"-->
+                            <!--style="@style/ImageViewSetting"-->
+                            <!--android:layout_width="35.0dip"-->
+                            <!--android:layout_height="35.0dip"-->
+                            <!--android:layout_marginLeft="15.0dip"-->
+                            <!--android:background="@drawable/ic_track_changes_white_36dp" />-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/txt_uninstall1"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="40.0dip"-->
+                            <!--android:layout_centerVertical="true"-->
+                            <!--android:layout_marginLeft="17.0dip"-->
+                            <!--android:layout_toRightOf="@+id/img_uninstall1"-->
+                            <!--android:gravity="center_vertical"-->
+                            <!--android:text="Deactive Uninstall"-->
+                            <!--android:textColor="@color/text_color"-->
+                            <!--android:textSize="16.0dip" />-->
+                    <!--</RelativeLayout>-->
+                <!--</LinearLayout>-->
+            <!--</android.support.v7.widget.CardView>-->
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_info"
+                style="@style/CustomCardView"
+                android:layout_marginBottom="4.0dip"
+                card_view:cardCornerRadius="0.0dip">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_fragment"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/title_about"
+                        style="@style/TitleSetting"
+                        android:text="About" />
+
+                    <RelativeLayout
+                        android:id="@+id/menu_rate"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/icon_rate_us"
+                            style="@style/ImageViewSetting"
+                            android:layout_width="23.0dip"
+                            android:layout_height="23.0dip"
+                            android:layout_marginLeft="19.0dip"
+                            android:background="@drawable/ic_track_changes_white_36dp" />
+
+                        <TextView
+                            android:id="@+id/txt_rate_us"
+                            style="@style/TextViewSetting"
+                            android:layout_marginLeft="19.0dip"
+                            android:layout_toRightOf="@+id/icon_rate_us"
+                            android:text="Rate us" />
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/divider_vip"
+                        style="@style/ViewDivider" />
+
+                    <RelativeLayout
+                        android:id="@+id/menu_more"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/icon_more"
+                            style="@style/ImageViewSetting"
+                            android:background="@drawable/ic_track_changes_white_36dp" />
+
+                        <TextView
+                            android:id="@+id/txt_more"
+                            style="@style/TextViewSetting"
+                            android:layout_toRightOf="@+id/icon_more"
+                            android:text="More" />
+                    </RelativeLayout>
+
+                    <View style="@style/ViewDivider" />
+
+                    <RelativeLayout
+                        android:id="@+id/menu_share"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/icon_share"
+                            style="@style/ImageViewSetting"
+                            android:background="@drawable/ic_track_changes_white_36dp" />
+
+                        <TextView
+                            android:id="@+id/txt_share"
+                            style="@style/TextViewSetting"
+                            android:layout_toRightOf="@+id/icon_share"
+                            android:text="Share to friends" />
+                    </RelativeLayout>
+
+                    <View style="@style/ViewDivider" />
+
+                    <RelativeLayout
+                        android:id="@+id/menu_uninstall"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/img_uninstall"
+                            style="@style/ImageViewSetting"
+                            android:layout_width="30.0dip"
+                            android:layout_height="30.0dip"
+                            android:layout_marginLeft="16.0dip"
+                            android:background="@drawable/ic_track_changes_white_36dp"
+                            android:padding="4.0dip" />
+
+                        <TextView
+                            android:id="@+id/txt_uninstall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40.0dip"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16.0dip"
+                            android:layout_toRightOf="@+id/img_uninstall"
+                            android:gravity="center_vertical"
+                            android:text="Uninstall"
+                            android:textColor="@color/text_color"
+                            android:textSize="16.0dip" />
+                    </RelativeLayout>
+
+                    <View style="@style/ViewDivider" />
+
+                    <RelativeLayout
+                        android:id="@+id/menu_policy"
+                        style="@style/RelativeLayoutSetting">
+
+                        <ImageView
+                            android:id="@+id/img_privacy_policy"
+                            style="@style/ImageViewSetting"
+                            android:layout_width="30.0dip"
+                            android:layout_height="30.0dip"
+                            android:layout_marginLeft="16.0dip"
+                            android:background="@drawable/ic_track_changes_white_36dp"
+                            android:padding="4.0dip" />
+
+                        <TextView
+                            android:id="@+id/txt_privacy_policy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40.0dip"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16.0dip"
+                            android:layout_toRightOf="@+id/img_privacy_policy"
+                            android:gravity="center_vertical"
+                            android:text="Privacy Policy"
+                            android:textColor="@color/text_color"
+                            android:textSize="16.0dip" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/linear_ad_view_fragment_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/toolbar"
+        n1:layout_width="match_parent"
+        n1:layout_height="?actionBarSize"
+        n1:background="@color/colorPrimary"
+        n2:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <android.support.v7.widget.RecyclerView
+        n1:id="@+id/currentItemsRA"
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:clipToPadding="false" />
+</LinearLayout>

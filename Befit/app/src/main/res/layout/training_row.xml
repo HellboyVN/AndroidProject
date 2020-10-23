@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/imageViewBodyPart" android:layout_width="match_parent" android:layout_height="@dimen/body_part_image_height" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/header_shadow" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/training_body_part_text_size" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/textViewTrainingName" android:paddingBottom="10.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="part name" android:layout_alignBottom="@+id/imageViewBodyPart" android:layout_centerHorizontal="true" />
+    <include layout="@layout/progress_bar" />
+</RelativeLayout>

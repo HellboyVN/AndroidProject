@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonRemoveAds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10.0dip"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ads"
+            android:gravity="center"
+            android:padding="10.0dip"
+            android:text="Remove ADS"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonMoreApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10.0dip"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/premium"
+            android:gravity="center"
+            android:padding="10.0dip"
+            android:text="Get More App"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/adsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible" />
+    </LinearLayout>
+</RelativeLayout>

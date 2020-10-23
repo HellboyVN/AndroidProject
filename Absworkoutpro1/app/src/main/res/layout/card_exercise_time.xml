@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:n1="http://schemas.android.com/apk/res/android"
+    xmlns:n2="http://schemas.android.com/apk/res-auto"
+    n1:id="@+id/card"
+    n1:layout_width="match_parent"
+    n1:layout_height="wrap_content"
+    n1:layout_marginLeft="1.0dip"
+    n1:layout_marginRight="1.0dip"
+    n2:cardCornerRadius="@dimen/card_view_roundcorner">
+
+    <LinearLayout
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            n1:id="@+id/exTimeRecView"
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent" />
+
+        <LinearLayout
+            n1:id="@+id/lock_layout"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="right"
+            n1:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatImageView
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:padding="5.0dip"
+                n2:srcCompat="@drawable/ic_lock_primary" />
+
+            <TextView
+                n1:id="@+id/lock"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:layout_marginRight="10.0dip"
+                n1:padding="5.0dip"
+                n1:text="@string/more"
+                n1:textAllCaps="false"
+                n1:textSize="16.0dip"
+                n1:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.AppBarOverlay" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="@style/ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.Base" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+    <style name="AppTheme.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    <style name="AppIntroButtonStyleCompat" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="CircularProgress" parent="@style/Theme.AppCompat.Light">
+        <item name="colorAccent">#80000000</item>
+    </style>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme_amber" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/amber_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/amber_colorPrimaryDark</item>
+        <item name="colorAccent">@color/amber_colorAccent</item>
+    </style>
+    <style name="AppTheme_black" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/black_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/black_colorPrimaryDark</item>
+        <item name="colorAccent">@color/black_colorAccent</item>
+    </style>
+    <style name="AppTheme_blue" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/blue_colorPrimaryDark</item>
+        <item name="colorAccent">@color/blue_colorAccent</item>
+    </style>
+    <style name="AppTheme_bluee" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/bluee_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/bluee_colorPrimaryDark</item>
+        <item name="colorAccent">@color/bluee_colorAccent</item>
+    </style>
+    <style name="AppTheme_brown" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/brown_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/brown_colorPrimaryDark</item>
+        <item name="colorAccent">@color/brown_colorAccent</item>
+    </style>
+    <style name="AppTheme_cyan" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/cyan_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/cyan_colorPrimaryDark</item>
+        <item name="colorAccent">@color/cyan_colorAccent</item>
+    </style>
+    <style name="AppTheme_darpink" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/darkpink_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkpink_colorPrimary</item>
+        <item name="colorAccent">@color/darkpink_colorAccent</item>
+    </style>
+    <style name="AppTheme_dorange" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/dorange_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/dorange_colorPrimaryDark</item>
+        <item name="colorAccent">@color/dorange_colorAccent</item>
+    </style>
+    <style name="AppTheme_gray" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gray_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gray_colorPrimaryDark</item>
+        <item name="colorAccent">@color/gray_colorAccent</item>
+    </style>
+    <style name="AppTheme_green" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/green_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/green_colorPrimaryDark</item>
+        <item name="colorAccent">@color/green_colorAccent</item>
+    </style>
+    <style name="AppTheme_grey" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/grey_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/grey_colorPrimaryDark</item>
+        <item name="colorAccent">@color/grey_colorAccent</item>
+    </style>
+    <style name="AppTheme_lgreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/lgreen_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/lgreen_colorPrimaryDark</item>
+        <item name="colorAccent">@color/lgreen_colorAccent</item>
+    </style>
+    <style name="AppTheme_lime" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/lime_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/lime_colorPrimaryDark</item>
+        <item name="colorAccent">@color/lime_colorAccent</item>
+    </style>
+    <style name="AppTheme_orange" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/orange_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/orange_colorPrimaryDark</item>
+        <item name="colorAccent">@color/orange_colorAccent</item>
+    </style>
+    <style name="AppTheme_pink" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/pink_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/pink_colorPrimaryDark</item>
+        <item name="colorAccent">@color/pink_colorAccent</item>
+    </style>
+    <style name="AppTheme_red" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/red_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/red_colorPrimaryDark</item>
+        <item name="colorAccent">@color/red_colorAccent</item>
+    </style>
+    <style name="AppTheme_skyblue" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/skyblue_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/skyblue_colorPrimaryDark</item>
+        <item name="colorAccent">@color/skyblue_colorAccent</item>
+    </style>
+    <style name="AppTheme_teal" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/teal_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/teal_colorPrimaryDark</item>
+        <item name="colorAccent">@color/teal_colorAccent</item>
+    </style>
+    <style name="AppTheme_violet" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/violet_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/violet_colorPrimaryDark</item>
+        <item name="colorAccent">@color/violet_colorAccent</item>
+    </style>
+    <style name="AppTheme_yellow" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/yellow_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/yellow_colorPrimaryDark</item>
+        <item name="colorAccent">@color/yellow_colorAccent</item>
+    </style>
+</resources>

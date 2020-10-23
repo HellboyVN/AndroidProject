@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hb.me.homeworkout.gym.buttlegs.buttlegspro">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="hb.me.homeworkout.gym.buttlegs.buttlegspro.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="hb.me.homeworkout.gym.buttlegs.buttlegspro.permission.C2D_MESSAGE" />
+    <application
+        android:name="hb.me.homeworkout.gym.buttlegs.buttlegspro.MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="hb.me.homeworkout.gym.buttlegs.buttlegspro.home.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="hb.me.homeworkout.gym.buttlegs.buttlegspro.setting.SettingActivity" />
+        <activity android:name="hb.me.homeworkout.gym.buttlegs.buttlegspro.preview.LevelPreviewActivity" />
+        <activity android:name="hb.me.homeworkout.gym.buttlegs.buttlegspro.reminder.ReminderActivity" />
+        <activity android:name="hb.me.homeworkout.gym.buttlegs.buttlegspro.exersices.ExerciseActivity" />
+        <activity android:name="hb.me.homeworkout.gym.buttlegs.buttlegspro.finish.FinishActivity" />
+        <activity android:name="hb.me.homeworkout.gym.buttlegs.buttlegspro.custom.CustomPreviewActivity" />
+        <activity android:name="hb.me.homeworkout.gym.buttlegs.buttlegspro.statistic.StatisticActivity" />
+
+
+        <receiver android:name="hb.me.homeworkout.gym.buttlegs.buttlegspro.reminder.receivers.NotifReceiver" />
+        <receiver
+            android:name="hb.me.homeworkout.gym.buttlegs.buttlegspro.reminder.receivers.RefreshReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+</manifest>

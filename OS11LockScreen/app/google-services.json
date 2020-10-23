@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "701145476267",
+    "firebase_url": "https://ios11-lockscreen.firebaseio.com",
+    "project_id": "ios11-lockscreen",
+    "storage_bucket": "ios11-lockscreen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701145476267:android:9fc823ed6c1362ca",
+        "android_client_info": {
+          "package_name": "hellboy.bka.tlvan.os11lockscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701145476267-nks4fvb3pjma52e6qodg3l95edl7o0df.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDooz6FbLjFD11x2bkjerIMqPkdKi7LCUs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

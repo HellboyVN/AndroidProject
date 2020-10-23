@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonAddWorkout"
+        android:fadeScrollbars="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                card_view:cardCornerRadius="5.0dip"
+                card_view:cardElevation="3.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:gravity="center"
+                        android:text="Plan Detail"
+                        android:textSize="20.0sp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/spinnerPlan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15.0dip"
+                        android:prompt="@string/spinner_body_part" />
+
+                    <Spinner
+                        android:id="@+id/spinnerDay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15.0dip"
+                        android:prompt="@string/spinner_exercise" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewWorkout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardViewPlan"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                card_view:cardCornerRadius="5.0dip"
+                card_view:cardElevation="3.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:gravity="center"
+                        android:text="Workout Detail"
+                        android:textSize="20.0sp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/spinnerBodyPart"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15.0dip"
+                        android:prompt="@string/spinner_body_part" />
+
+                    <Spinner
+                        android:id="@+id/spinnerExercise"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15.0dip"
+                        android:prompt="@string/spinner_exercise" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewSetsAndReps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardViewWorkout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                card_view:cardCornerRadius="5.0dip"
+                card_view:cardElevation="3.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:gravity="center"
+                        android:text="Sets and Reps"
+                        android:textSize="20.0sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/textInputLayoutSets"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15.0dip"
+                            android:theme="@style/TextLabel">
+
+                            <EditText
+                                android:id="@+id/editTextSets"
+                                android:layout_width="50.0dip"
+                                android:layout_height="wrap_content"
+                                android:digits="\ 123456789"
+                                android:hint="Sets"
+                                android:imeOptions="actionNext"
+                                android:inputType="numberSigned"
+                                android:maxLength="1"
+                                android:maxLines="1"
+                                android:nextFocusForward="@+id/editTextReps" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="X"
+                            android:textSize="18.0sp"
+                            android:textStyle="bold" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/textInputLayoutReps"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15.0dip"
+                            android:theme="@style/TextLabel">
+
+                            <EditText
+                                android:id="@+id/editTextReps"
+                                android:layout_width="50.0dip"
+                                android:layout_height="wrap_content"
+                                android:digits="\ 0123456789"
+                                android:hint="Reps"
+                                android:imeOptions="actionDone"
+                                android:inputType="numberSigned"
+                                android:maxLength="2"
+                                android:maxLines="1" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewNoPlansAdded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:visibility="gone"
+                card_view:cardCornerRadius="5.0dip"
+                card_view:cardElevation="3.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:gravity="center"
+                        android:text="No Plans Added"
+                        android:textSize="20.0sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/buttonAddPlan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_margin="15.0dip"
+                        android:background="@drawable/rounded_button"
+                        android:padding="10.0dip"
+                        android:text="Add Plan"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16.0sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonAddWorkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5.0dip"
+        android:background="@drawable/rounded_button"
+        android:padding="10.0dip"
+        android:text="Add workout"
+        android:textColor="@color/colorAccent"
+        android:textSize="16.0sp"
+        android:textStyle="bold" />
+</RelativeLayout>

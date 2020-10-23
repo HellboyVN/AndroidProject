@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:id="@+id/menuGoPro"
+    n1:layout_width="match_parent"
+    n1:layout_height="wrap_content"
+    n1:layout_gravity="bottom"
+    n1:background="@color/colorPrimaryDark"
+    n1:gravity="center"
+    n1:orientation="vertical"
+    n1:padding="10.0dip">
+
+    <android.support.v7.widget.AppCompatTextView
+        n1:id="@+id/goProText1"
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="center"
+        n1:gravity="center"
+        n1:padding="2.0dip"
+        n1:text="@string/menu_help_to_perfect_the_app"
+        n1:textColor="#ffffffff"
+        n1:textSize="15.0dip" />
+
+    <android.support.v7.widget.AppCompatTextView
+        n1:id="@+id/goProText2"
+        n1:layout_width="wrap_content"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="center"
+        n1:drawablePadding="5.0dip"
+        n1:gravity="center"
+        n1:padding="2.0dip"
+        n1:text="@string/menu_remove_ads"
+        n1:textAllCaps="true"
+        n1:textColor="#ffffffff"
+        n1:textSize="16.0dip" />
+</LinearLayout>

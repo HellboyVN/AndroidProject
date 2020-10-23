@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <hb.me.homeworkout.gym.buttlegs.buttlegspro.home.SquareRelativeLayout n1:id="@+id/dayLayout" n1:background="@drawable/day_card_selector" n1:padding="5.0dip" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="5.0dip">
+        <android.support.v7.widget.AppCompatTextView n1:textSize="20.0dip" n1:textColor="@color/colorPrimaryDark" n1:id="@+id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true" />
+        <android.support.v7.widget.AppCompatImageView n1:id="@+id/icCheck" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" n2:srcCompat="@drawable/ic_check" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </hb.me.homeworkout.gym.buttlegs.buttlegspro.home.SquareRelativeLayout>
+</LinearLayout>

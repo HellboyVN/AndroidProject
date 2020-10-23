@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/screen"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30.0dip"
+            android:orientation="horizontal">
+
+            <lp.me.lockos10.view.TextViewRobotoThin
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00"
+                android:textColor="@color/white"
+                android:textSize="100.0sp" />
+
+            <lp.me.lockos10.view.TextViewRobotoThin
+                android:id="@+id/tvFormat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5.0dip"
+                android:text="AM"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+
+        <lp.me.lockos10.view.TextViewRobotoLight
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/time"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5.0dip"
+            android:text="Thứ 2, 6 tháng tám"
+            android:textColor="@color/white"
+            android:textSize="20.0sp" />
+
+        <com.romainpiel.shimmer.ShimmerTextView
+            android:id="@+id/shimmer_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70.0dip"
+            android:text="@string/slidetounlock"
+            android:textColor="@color/slidetounlock"
+            android:textSize="25.0sp"
+            app:reflectionColor="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>

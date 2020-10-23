@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adSmartBanner">
+
+        <include layout="@layout/toolbar" />
+
+        <TextView
+            android:id="@+id/textViewEmptyNotifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="No New Notifications"
+            android:textColor="@color/white"
+            android:textSize="18.0sp"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/newslistrecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            app:layoutManager="LinearLayoutManager" />
+    </RelativeLayout>
+
+    <include layout="@layout/admob_banner_ad_layout" />
+</RelativeLayout>

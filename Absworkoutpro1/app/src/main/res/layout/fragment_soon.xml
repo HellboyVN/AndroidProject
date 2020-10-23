@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:background="#ffffffff"
+    n1:orientation="vertical">
+
+    <LinearLayout
+        n1:layout_width="wrap_content"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="center"
+        n1:gravity="center"
+        n1:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:id="@+id/soonText"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="center"
+            n1:text="@string/soon"
+            n1:textColor="@color/colorAccent"
+            n1:textSize="40.0sp"
+            n1:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatImageView xmlns:n2="http://schemas.android.com/apk/res-auto"
+            n1:id="@+id/appCompatImageView"
+            n1:layout_width="300.0dip"
+            n1:layout_height="300.0dip"
+            n2:srcCompat="@drawable/ic_stats" />
+    </LinearLayout>
+</FrameLayout>

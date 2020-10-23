@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:n1="http://schemas.android.com/apk/res/android"
+    xmlns:n2="http://schemas.android.com/apk/res-auto"
+    n1:id="@+id/recCard"
+    n1:layout_width="match_parent"
+    n1:layout_height="wrap_content"
+    n1:layout_marginBottom="5.0dip"
+    n1:layout_marginLeft="5.0dip"
+    n1:layout_marginRight="5.0dip"
+    n1:background="#ffffffff"
+    n2:cardBackgroundColor="#ffffffff"
+    n1:visibility="gone"
+    n2:cardCornerRadius="@dimen/card_view_roundcorner">
+
+    <LinearLayout
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:orientation="vertical">
+
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatImageView
+                n1:id="@+id/recImage"
+                n1:layout_width="0.0dip"
+                n1:layout_height="120.0dip"
+                n1:layout_gravity="center"
+                n1:layout_weight="0.8"
+                n2:srcCompat="@drawable/male_full_plank" />
+
+            <LinearLayout
+                n1:layout_width="0.0dip"
+                n1:layout_height="match_parent"
+                n1:layout_gravity="center"
+                n1:layout_weight="1.0"
+                n1:gravity="center_vertical"
+                n1:orientation="vertical"
+                n1:paddingLeft="10.0dip">
+
+                <android.support.v7.widget.AppCompatTextView
+                    n1:id="@+id/recTitle"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:gravity="left"
+                    n1:paddingLeft="5.0dip"
+                    n1:text="@string/rec_next"
+                    n1:textAllCaps="true"
+                    n1:textColor="@color/colorPrimaryDark"
+                    n1:textSize="22.0dip" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    n1:id="@+id/recAppName"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:padding="5.0dip"
+                    n1:text="ABS"
+                    n1:textAllCaps="false"
+                    n1:textColor="#ff000000"
+                    n1:textSize="18.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:id="@+id/recDoit"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="end|bottom|center"
+            n1:layout_marginRight="10.0dip"
+            n1:padding="10.0dip"
+            n1:text="@string/do_it_now"
+            n1:textColor="@color/colorPrimaryDark"
+            n1:textSize="16.0dip" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

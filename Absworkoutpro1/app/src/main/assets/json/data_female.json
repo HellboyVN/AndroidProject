@@ -1,0 +1,746 @@
+{
+  "type": "male",
+  "data": [
+    {
+      "name_key": "level",
+      "level": 1,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_1_female",
+      "exercises": [
+        {
+          "name_key": "crossover_crunch_r_abs",
+          "duration": 40000,
+          "img_key": "female_crossover_crunch_abs_right"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 40000,
+          "img_key": "female_crisscross_abs"
+
+        },
+        {
+          "name_key": "crossover_crunch_l_abs",
+          "duration": 40000,
+          "img_key": "female_crossover_crunch_abs_left"
+        },
+        {
+          "name_key": "crunch_abs",
+          "duration": 40000,
+          "img_key": "female_crunch_abs"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 40000,
+          "img_key": "female_heel_touch_foot"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 40000,
+          "img_key": "female_flutter_ficks_abs"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 2,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_2_female",
+      "exercises": [
+        {
+          "name_key": "leg_lifts",
+          "duration": 40000,
+          "img_key": "female_leg_lifts"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 40000,
+          "img_key": "female_v_sits"
+        },
+        {
+          "name_key": "full_plank",
+          "duration": 40000,
+          "img_key": "female_full_plank"
+        },
+        {
+          "name_key": "plank_with_leg_raise_l",
+          "duration": 40000,
+          "img_key": "female_plank_with_leg_raise_left"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 40000,
+          "img_key": "female_crisscross_abs"
+        },
+        {
+          "name_key": "plank_with_leg_raise_r",
+          "duration": 40000,
+          "img_key": "female_plank_with_leg_raise_right"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 3,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_3_female",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "dead_bug",
+          "duration": 60000,
+          "img_key": "female_dead_bug"
+        },
+        {
+          "name_key": "wall_crunch",
+          "duration": 40000,
+          "img_key": "female_wall_crunch"
+        },
+        {
+          "name_key": "back_extension",
+          "duration": 60000,
+          "img_key": "female_back_extension"
+        },
+        {
+          "name_key": "side_plank",
+          "duration": 40000,
+          "img_key": "female_side_plank"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 4,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_4_female",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "air_bike_crunches",
+          "duration": 30000,
+          "img_key": "female_air_bike_crunches"
+        },
+        {
+          "name_key": "crossover_crunch_l_abs",
+          "duration": 50000,
+          "img_key": "female_crossover_crunch_abs_left"
+        },
+        {
+          "name_key": "full_plank",
+          "duration": 40000,
+          "img_key": "female_full_plank"
+        },
+        {
+          "name_key": "crossover_crunch_r_abs",
+          "duration": 50000,
+          "img_key": "female_crossover_crunch_abs_right"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 50000,
+          "img_key": "female_flutter_ficks_abs"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 40000,
+          "img_key": "female_heel_touch_foot"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 5,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_5_female",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 50000,
+          "img_key": "female_leg_raise_circles"
+        },
+        {
+          "name_key": "sit_up",
+          "duration": 60000,
+          "img_key": "female_sit_up"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 50000,
+          "img_key": "female_sitting_twists"
+        },
+        {
+          "name_key": "plank_with_leg_raise_l",
+          "duration": 40000,
+          "img_key": "female_plank_with_leg_raise_left"
+        },
+        {
+          "name_key": "wall_crunch",
+          "duration": 50000,
+          "img_key": "female_wall_crunch"
+        },
+        {
+          "name_key": "plank_with_leg_raise_r",
+          "duration": 40000,
+          "img_key": "female_plank_with_leg_raise_right"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 6,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_6_female",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "the_bird_dog_r",
+          "duration": 50000,
+          "img_key": "female_the_bird_dog_right"
+        },
+        {
+          "name_key": "the_cat_and_camel",
+          "duration": 60000,
+          "img_key": "female_the_cat_and_camel"
+        },
+        {
+          "name_key": "sit_up",
+          "duration": 60000,
+          "img_key": "female_sit_up"
+        },
+        {
+          "name_key": "the_bird_dog_l",
+          "duration": 50000,
+          "img_key": "female_the_bird_dog_left"
+        },
+        {
+          "name_key": "side_plank",
+          "duration": 40000,
+          "img_key": "female_side_plank"
+        },
+        {
+          "name_key": "full_plank",
+          "duration": 50000,
+          "img_key": "female_full_plank"
+        }
+
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 7,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_7_female",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "elbow_plank",
+          "duration": 60000,
+          "img_key": "female_elbow_plank"
+        },
+        {
+          "name_key": "long_arm_crunches",
+          "duration": 60000,
+          "img_key": "female_long_arm_crunches"
+        },
+        {
+          "name_key": "reverse_crunches",
+          "duration": 50000,
+          "img_key": "female_reverse_crunches"
+        },
+        {
+          "name_key": "leg_lifts",
+          "duration": 50000,
+          "img_key": "female_leg_lifts"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 60000,
+          "img_key": "female_v_sits"
+        },
+        {
+          "name_key": "full_plank",
+          "duration": 40000,
+          "img_key": "female_full_plank"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 8,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_8_female",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "knee_to_elbow_crunches_left",
+          "duration": 60000,
+          "img_key": "female_knee_to_elbow_crunches_left"
+        },
+        {
+          "name_key": "sit_up",
+          "duration": 60000,
+          "img_key": "female_sit_up"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 60000,
+          "img_key": "female_leg_raise_circles"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_right",
+          "duration": 60000,
+          "img_key": "female_knee_to_elbow_crunches_right"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 50000,
+          "img_key": "female_sitting_twists"
+        },
+        {
+          "name_key": "sit_up",
+          "duration": 60000,
+          "img_key": "female_sit_up"
+        },
+        {
+          "name_key": "full_plank",
+          "duration": 40000,
+          "img_key": "female_full_plank"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 9,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_9_female",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "v_crunches",
+          "duration": 60000,
+          "img_key": "female_v_crunches"
+        },
+        {
+          "name_key": "leg_lifts",
+          "duration": 60000,
+          "img_key": "female_leg_lifts"
+        },
+        {
+          "name_key": "abdominal_crunch",
+          "duration": 60000,
+          "img_key": "female_abdominal_crunch"
+        },
+        {
+          "name_key": "hip_raise",
+          "duration": 60000,
+          "img_key": "female_hip_raise"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 60000,
+          "img_key": "female_side_crunches"
+        },
+        {
+          "name_key": "side_bends_l",
+          "duration": 40000,
+          "img_key": "female_side_bends_left"
+        },
+        {
+          "name_key": "side_bends_r",
+          "duration": 40000,
+          "img_key": "female_side_bends_right"
+        }
+
+
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 10,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_10_female",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "knee_to_elbow_crunches_left",
+          "duration": 60000,
+          "img_key": "female_knee_to_elbow_crunches_left"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_right",
+          "duration": 60000,
+          "img_key": "female_knee_to_elbow_crunches_right"
+        },
+        {
+          "name_key": "elbow_plank",
+          "duration": 60000,
+          "img_key": "female_elbow_plank"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 60000,
+          "img_key": "female_flutter_ficks_abs"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 60000,
+          "img_key": "female_v_sits"
+        },
+        {
+          "name_key": "reverse_crunches",
+          "duration": 60000,
+          "img_key": "female_reverse_crunches"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 60000,
+          "img_key": "female_leg_raise_circles"
+        },
+        {
+          "name_key": "side_plank",
+          "duration": 40000,
+          "img_key": "female_side_plank"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 11,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_11_female",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "full_plank",
+          "duration": 50000,
+          "img_key": "female_full_plank"
+        },
+        {
+          "name_key": "sit_up",
+          "duration": 60000,
+          "img_key": "female_sit_up"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_left",
+          "duration": 30000,
+          "img_key": "female_knee_to_elbow_crunches_left"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_right",
+          "duration": 30000,
+          "img_key": "female_knee_to_elbow_crunches_right"
+        },
+        {
+          "name_key": "leg_lifts",
+          "duration": 50000,
+          "img_key": "female_leg_lifts"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 60000,
+          "img_key": "female_heel_touch_foot"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 60000,
+          "img_key": "female_v_sits"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 60000,
+          "img_key": "female_sitting_twists"
+        },
+        {
+          "name_key": "elbow_plank",
+          "duration": 60000,
+          "img_key": "female_elbow_plank"
+        },
+        {
+          "name_key": "back_extension",
+          "duration": 60000,
+          "img_key": "female_back_extension"
+        }
+      ]
+    },{
+      "name_key": "level",
+      "level": 12,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_12_female",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "plank_with_leg_raise_r",
+          "duration": 30000,
+          "img_key": "female_plank_with_leg_raise_right"
+        },
+        {
+          "name_key": "plank_with_leg_raise_l",
+          "duration": 30000,
+          "img_key": "female_plank_with_leg_raise_left"
+        },
+        {
+          "name_key": "dead_bug",
+          "duration": 60000,
+          "img_key": "female_dead_bug"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 50000,
+          "img_key": "female_sitting_twists"
+        },
+        {
+          "name_key": "full_plank",
+          "duration": 80000,
+          "img_key": "female_full_plank"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 60000,
+          "img_key": "female_flutter_ficks_abs"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_left",
+          "duration": 35000,
+          "img_key": "female_knee_to_elbow_crunches_left"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_right",
+          "duration": 35000,
+          "img_key": "female_knee_to_elbow_crunches_right"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 70000,
+          "img_key": "female_v_sits"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 60000,
+          "img_key": "female_leg_raise_circles"
+        },
+        {
+          "name_key": "leg_lifts",
+          "duration": 70000,
+          "img_key": "female_leg_lifts"
+        },
+        {
+          "name_key": "full_plank",
+          "duration": 80000,
+          "img_key": "female_full_plank"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 13,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_13_female",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "elbow_plank",
+          "duration": 90000,
+          "img_key": "female_elbow_plank"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 70000,
+          "img_key": "female_sitting_twists"
+        },
+        {
+          "name_key": "wall_sit",
+          "duration": 90000,
+          "img_key": "female_wall_sit"
+        },
+        {
+          "name_key": "v_crunches",
+          "duration": 60000,
+          "img_key": "female_v_crunches"
+        },
+        {
+          "name_key": "leg_lifts",
+          "duration": 60000,
+          "img_key": "female_leg_lifts"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_left",
+          "duration": 35000,
+          "img_key": "female_knee_to_elbow_crunches_left"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_right",
+          "duration": 35000,
+          "img_key": "female_knee_to_elbow_crunches_right"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 60000,
+          "img_key": "female_heel_touch_foot"
+        },
+        {
+          "name_key": "air_bike_crunches",
+          "duration": 60000,
+          "img_key": "female_air_bike_crunches"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 70000,
+          "img_key": "female_v_sits"
+        },
+        {
+          "name_key": "plank_with_leg_raise_l",
+          "duration": 45000,
+          "img_key": "female_plank_with_leg_raise_left"
+        },
+        {
+          "name_key": "plank_with_leg_raise_r",
+          "duration": 45000,
+          "img_key": "female_plank_with_leg_raise_right"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 14,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_14_female",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "full_plank",
+          "duration": 80000,
+          "img_key": "female_full_plank"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 80000,
+          "img_key": "female_sitting_twists"
+        },
+        {
+          "name_key": "leg_lifts",
+          "duration": 80000,
+          "img_key": "female_leg_lifts"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 90000,
+          "img_key": "female_leg_raise_circles"
+        },
+        {
+          "name_key": "crossover_crunch_l_abs",
+          "duration": 80000,
+          "img_key": "female_crossover_crunch_abs_left"
+        },
+        {
+          "name_key": "full_plank",
+          "duration": 70000,
+          "img_key": "female_full_plank"
+        },
+        {
+          "name_key": "plank_with_leg_raise_l",
+          "duration": 50000,
+          "img_key": "female_plank_with_leg_raise_left"
+        },
+        {
+          "name_key": "plank_with_leg_raise_r",
+          "duration": 50000,
+          "img_key": "female_plank_with_leg_raise_right"
+        },
+        {
+          "name_key": "air_bike_crunches",
+          "duration": 80000,
+          "img_key": "female_air_bike_crunches"
+        },
+        {
+          "name_key": "sit_up",
+          "duration": 80000,
+          "img_key": "female_sit_up"
+        },
+        {
+          "name_key": "side_plank",
+          "duration": 90000,
+          "img_key": "female_side_plank"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 15,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_15_female",
+      "has_lock": true,
+      "exercises": [
+        {
+        "name_key": "elbow_plank",
+        "duration": 120000,
+        "img_key": "female_elbow_plank"
+      },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 60000,
+          "img_key": "female_heel_touch_foot"
+        },
+        {
+          "name_key": "side_plank",
+          "duration": 900000,
+          "img_key": "female_side_plank"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 100000,
+          "img_key": "female_sitting_twists"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 90000,
+          "img_key": "female_flutter_ficks_abs"
+        },
+        {
+          "name_key": "air_bike_crunches",
+          "duration": 80000,
+          "img_key": "female_air_bike_crunches"
+        },
+        {
+          "name_key": "wall_crunch",
+          "duration": 70000,
+          "img_key": "female_wall_crunch"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_left",
+          "duration": 45000,
+          "img_key": "female_knee_to_elbow_crunches_left"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_right",
+          "duration": 45000,
+          "img_key": "female_knee_to_elbow_crunches_right"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 100000,
+          "img_key": "female_side_crunches"
+        },
+        {
+          "name_key": "crossover_crunch_l_abs",
+          "duration": 55000,
+          "img_key": "female_crossover_crunch_abs_left"
+        },
+        {
+          "name_key": "crossover_crunch_r_abs",
+          "duration": 55000,
+          "img_key": "female_crossover_crunch_abs_right"
+        },
+        {
+          "name_key": "plank_with_leg_raise_l",
+          "duration": 60000,
+          "img_key": "female_plank_with_leg_raise_left"
+        },
+        {
+          "name_key": "plank_with_leg_raise_r",
+          "duration": 60000,
+          "img_key": "female_plank_with_leg_raise_right"
+        }
+      ]
+    }
+  ]
+}

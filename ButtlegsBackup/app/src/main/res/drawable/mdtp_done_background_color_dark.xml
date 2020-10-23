@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_focused="true" n1:state_pressed="false" n1:drawable="@color/mdtp_red_focused"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:state_pressed="true" n2:drawable="@color/mdtp_red"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:drawable="@color/mdtp_light_gray"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+</selector>

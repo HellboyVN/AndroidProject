@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <lp.me.lockos10.view.TextViewRobotoLight
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="15.0dip"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textSize="20.0sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cancel"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/keyboard"
+            android:layout_width="300.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <include layout="@layout/fragment_lock_passcode_keyboard_nomarl" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/keyboard"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <lp.me.lockos10.view.TextViewRobotoLight
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/enter_passcode"
+                android:textColor="@color/white"
+                android:textSize="@dimen/enter_number_size" />
+
+            <ImageView
+                android:id="@+id/imgPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:src="@drawable/pas7" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

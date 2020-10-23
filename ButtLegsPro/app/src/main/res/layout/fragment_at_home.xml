@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    xmlns:n2="http://schemas.android.com/apk/res-auto"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:background="#ffdedede"
+    n2:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <android.support.v7.widget.RecyclerView
+        n1:id="@+id/recyclerViewHome"
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:clipToPadding="false"
+        n1:padding="5.0dip" />
+</RelativeLayout>

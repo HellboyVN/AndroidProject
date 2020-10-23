@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="listExplore">
+        <item>@string/sec_actions</item>
+        <item>@string/sec_animals</item>
+        <item>@string/sec_art</item>
+        <item>@string/sec_cartoons</item>
+        <item>@string/sec_funny</item>
+        <item>@string/sec_film</item>
+        <item>@string/sec_games</item>
+        <item>@string/sec_islamic</item>
+        <item>@string/sec_nature</item>
+        <item>@string/sec_news</item>
+        <item>@string/sec_science</item>
+        <item>@string/sec_sports</item>
+    </array>
+    <array name="resolution_option">
+        <item>Low (for slow connection)</item>
+        <item>Normal (for normal connection)</item>
+    </array>
+    <array name="share_apps">
+        <item>Instagram</item>
+        <item>Twitter</item>
+        <item>Telegram</item>
+        <item>Google+</item>
+        <item>Viber</item>
+        <item>Tango</item>
+        <item>BBM</item>
+        <item>Hangouts</item>
+        <item>More…</item>
+    </array>
+    <array name="actions_links">
+        <item>http://media3.giphy.com/media/ZZk5YBSgTvWrm/200_s.gif</item>
+        <item>http://media2.giphy.com/media/u9e7fk2rL5njy/200_s.gif</item>
+        <item>http://media2.giphy.com/media/OmsVsGxSlkczC/200_s.gif</item>
+        <item>http://media0.giphy.com/media/xqrvSHPX14hAQ/200_s.gif</item>
+        <item>http://media4.giphy.com/media/10QbzBy3KKAw36/200_s.gif</item>
+        <item>http://media3.giphy.com/media/vKRvPapJ49rJm/200_s.gif</item>
+        <item>http://media1.giphy.com/media/PnDUJJanPnHA4/200_s.gif</item>
+        <item>http://media0.giphy.com/media/d2lcHJTG5Tscg/200_s.gif</item>
+        <item>http://media4.giphy.com/media/3XiQswSmbjBiU/200_s.gif</item>
+        <item>http://media2.giphy.com/media/3o8doTrOWoQMV8h74k/200_s.gif</item>
+        <item>http://media0.giphy.com/media/SFRhYgSElTfvG/200_s.gif</item>
+        <item>http://media0.giphy.com/media/GfAD7Bl016Gfm/200_s.gif</item>
+        <item>http://media0.giphy.com/media/eHAtUeGfEXFJK/200_s.gif</item>
+        <item>http://media0.giphy.com/media/RoPxd5Rej0fDy/200_s.gif</item>
+        <item>http://media4.giphy.com/media/kfX3j9q5JoGkg/200_s.gif</item>
+        <item>http://media2.giphy.com/media/wMo0ehZa8O3ao/200_s.gif</item>
+        <item>http://media0.giphy.com/media/xHMIDAy1qkzNS/200_s.gif</item>
+        <item>http://media2.giphy.com/media/rXliavIYbs60o/200_s.gif</item>
+        <item>http://media1.giphy.com/media/YXQJwLmCTYwI8/200_s.gif</item>
+        <item>http://media4.giphy.com/media/13k4VSc3ngLPUY/200_s.gif</item>
+        <item>http://media3.giphy.com/media/wZkWIjZyvwhq0/200_s.gif</item>
+        <item>http://media3.giphy.com/media/pxwlYSM8PfY5y/200_s.gif</item>
+        <item>http://media1.giphy.com/media/xTiTneKRnQW3gILvz2/200_s.gif</item>
+        <item>http://media1.giphy.com/media/IgOEWPOgK6uVa/200_s.gif</item>
+        <item>http://media1.giphy.com/media/IMSq59ySKydYQ/200_s.gif</item>
+        <item>http://media3.giphy.com/media/cuPm4p4pClZVC/200_s.gif</item>
+        <item>http://media4.giphy.com/media/sYBCSe11tKRI4/200_s.gif</item>
+        <item>http://media4.giphy.com/media/mcH0upG1TeEak/200_s.gif</item>
+        <item>http://media0.giphy.com/media/uewEaFpHFre2Q/200_s.gif</item>
+        <item>http://media2.giphy.com/media/vPN3zK9dNL236/200_s.gif</item>
+        <item>http://media4.giphy.com/media/R459x856IfF6w/200_s.gif</item>
+        <item>http://media4.giphy.com/media/xT77XWum9yH7zNkFW0/200_s.gif</item>
+        <item>http://media2.giphy.com/media/26tPtM8Arb1nyc1i0/200_s.gif</item>
+        <item>http://media4.giphy.com/media/p7UaKej9lYkUg/200_s.gif</item>
+        <item>http://media1.giphy.com/media/N30oja8TjKdos/200_s.gif</item>
+        <item>http://media2.giphy.com/media/krM6ANSNvFg52/200_s.gif</item>
+        <item>http://media4.giphy.com/media/yoJC2Olx0ekMy2nX7W/200_s.gif</item>
+        <item>http://media1.giphy.com/media/bEVKYB487Lqxy/200_s.gif</item>
+        <item>http://media3.giphy.com/media/xT77XZR8ZkwSnSQx8I/200_s.gif</item>
+        <item>http://media0.giphy.com/media/ViUqU2JgM4eaY/200_s.gif</item>
+        <item>http://media4.giphy.com/media/Lfkq4d1E2OPAI/200_s.gif</item>
+        <item>http://media1.giphy.com/media/gEOUGN3HnK5Fu/200_s.gif</item>
+        <item>http://media3.giphy.com/media/6peCaDvmLo5dm/200_s.gif</item>
+        <item>http://media0.giphy.com/media/yfYXfIuFz08hO/200_s.gif</item>
+        <item>http://media0.giphy.com/media/nU704Y2jeFOHm/200_s.gif</item>
+        <item>http://media1.giphy.com/media/tLql6mMHC6wvK/200_s.gif</item>
+        <item>https://media4.giphy.com/media/F77lbfwEAnYNG/200_s.gif</item>
+        <item>http://media2.giphy.com/media/tjwzClJM6fyEw/200_s.gif</item>
+        <item>http://media2.giphy.com/media/VeBeB9rR524RW/200_s.gif</item>
+        <item>http://media3.giphy.com/media/glmRyiSI3v5E4/200_s.gif</item>
+        <item>http://media2.giphy.com/media/lYKvaJ8EQTzCU/200_s.gif</item>
+        <item>http://media4.giphy.com/media/Rf3GrcV7uS1yM/200_s.gif</item>
+        <item>http://media4.giphy.com/media/TBvEYkHRUKBWM/200_s.gif</item>
+        <item>http://media3.giphy.com/media/CmQQsUxwjBEgU/200_s.gif</item>
+    </array>
+    <array name="actions_tags">
+        <item>REACTION</item>
+        <item>AGREE</item>
+        <item>AMAZING</item>
+        <item>AWESOME</item>
+        <item>BYE</item>
+        <item>COOKING</item>
+        <item>COOL</item>
+        <item>CRY</item>
+        <item>DONE</item>
+        <item>DREAMING</item>
+        <item>EATING</item>
+        <item>EMBARRASSED</item>
+        <item>EXCITED</item>
+        <item>EXCUSE ME</item>
+        <item>FABULOUS</item>
+        <item>FALLING</item>
+        <item>GOOD JOB</item>
+        <item>GOOD LUCK</item>
+        <item>GOOD MORNING</item>
+        <item>HAPPY</item>
+        <item>HATERS</item>
+        <item>HELLO</item>
+        <item>HELP</item>
+        <item>HUNGRY</item>
+        <item>LAUGHING</item>
+        <item>LAZY</item>
+        <item>LOL</item>
+        <item>LOSER</item>
+        <item>MISS YOU</item>
+        <item>NO</item>
+        <item>OK</item>
+        <item>OMG</item>
+        <item>OOPS</item>
+        <item>PLEASE</item>
+        <item>PROUD</item>
+        <item>RUNNING</item>
+        <item>SAD</item>
+        <item>SCARED</item>
+        <item>SICK</item>
+        <item>SLEEPY</item>
+        <item>SMILE</item>
+        <item>SORRY</item>
+        <item>STOP</item>
+        <item>STRESSED</item>
+        <item>THANK YOU</item>
+        <item>WAIT</item>
+        <item>WAITING</item>
+        <item>WANT</item>
+        <item>WELCOME</item>
+        <item>WHAT</item>
+        <item>WHY</item>
+        <item>WIN</item>
+        <item>WOW</item>
+        <item>YES</item>
+    </array>
+    <array name="animals_links">
+        <item>http://media3.giphy.com/media/pArhCgHcVcyRO/200_s.gif</item>
+        <item>http://media2.giphy.com/media/iYzlNqOCF5dDO/200_s.gif</item>
+        <item>http://media2.giphy.com/media/t3yZAynLPVkGY/200_s.gif</item>
+        <item>http://media0.giphy.com/media/hqnMFgrNktTBS/200_s.gif</item>
+        <item>http://media2.giphy.com/media/7nvNwrsO4WlZS/200_s.gif</item>
+        <item>http://media2.giphy.com/media/pf1BPD11ewPjq/200_s.gif</item>
+        <item>http://media3.giphy.com/media/Q64xRvLOmEmPK/200_s.gif</item>
+        <item>http://media1.giphy.com/media/A5pcWMMIEO95S/200_s.gif</item>
+        <item>http://media0.giphy.com/media/8VR88d4XXCdBS/200_s.gif</item>
+        <item>http://media3.giphy.com/media/Wen3tZFsGA1hu/200_s.gif</item>
+        <item>http://media4.giphy.com/media/AWQdSuOw5UbrW/200_s.gif</item>
+        <item>http://media0.giphy.com/media/10CQOoOrvfpgbe/200_s.gif</item>
+        <item>http://media1.giphy.com/media/9EC1okpxH360M/200_s.gif</item>
+        <item>http://media4.giphy.com/media/3o85xqLJyVaLNVKEDK/200_s.gif</item>
+        <item>http://media2.giphy.com/media/J0UgtZkOjXOeY/200_s.gif</item>
+        <item>http://media2.giphy.com/media/RBGFF4tYEpayA/200_s.gif</item>
+        <item>http://media1.giphy.com/media/xTiTnoQ1VqihLcNO6I/200_s.gif</item>
+        <item>http://media2.giphy.com/media/3oEdv5sZlpeFL15172/200_s.gif</item>
+        <item>http://media0.giphy.com/media/Jd35YBP0EEsFy/200_s.gif</item>
+        <item>http://media3.giphy.com/media/JnvlBMZ5R0GyI/200_s.gif</item>
+        <item>http://media1.giphy.com/media/I9An1NhP6OQFi/200_s.gif</item>
+        <item>http://media1.giphy.com/media/KtGRtwb4dFyE0/200_s.gif</item>
+        <item>http://media1.giphy.com/media/3o6UB2rsSFjy5MA9LW/200_s.gif</item>
+        <item>http://media0.giphy.com/media/K6FB0C0M9vk8E/200_s.gif</item>
+        <item>http://media0.giphy.com/media/FtcSB6e5hzxaU/200_s.gif</item>
+        <item>http://media3.giphy.com/media/zdFbQtZ4pAmcg/200_s.gif</item>
+        <item>http://media2.giphy.com/media/qISaMW1xwmvNS/200_s.gif</item>
+        <item>https://media2.giphy.com/media/tcAykk8j17GIU/200_s.gif</item>
+        <item>http://media3.giphy.com/media/XItRQJP0wai7m/200_s.gif</item>
+        <item>http://media4.giphy.com/media/VSiNfsl8VIRIk/200_s.gif</item>
+        <item>http://media2.giphy.com/media/DAkTj5U6okQY8/200_s.gif</item>
+        <item>http://media3.giphy.com/media/d61HjTO829HXO/200_s.gif</item>
+        <item>http://media2.giphy.com/media/JR1gFcWnidhGU/200_s.gif</item>
+        <item>http://media2.giphy.com/media/2lbhL8dSGMh8I/200_s.gif</item>
+        <item>http://media4.giphy.com/media/26tP6GWFcEILXAsVi/200_s.gif</item>
+        <item>http://media4.giphy.com/media/TamBxvSGZp5tu/200_s.gif</item>
+        <item>http://media0.giphy.com/media/CvgezXSuQTMTC/200_s.gif</item>
+    </array>
+    <array name="animals_tags">
+        <item>ANIMALS</item>
+        <item>BAT</item>
+        <item>BIRD</item>
+        <item>BULLDOG</item>
+        <item>CAMEL</item>
+        <item>CAT</item>
+        <item>CHICKEN</item>
+        <item>COW</item>
+        <item>DOG</item>
+        <item>DRAGON</item>
+        <item>DUCK</item>
+        <item>EAGLE</item>
+        <item>ELEPHANT</item>
+        <item>FISH</item>
+        <item>FROG</item>
+        <item>GIRAFFE</item>
+        <item>GOAT</item>
+        <item>HAMSTER</item>
+        <item>HIPPO</item>
+        <item>HORSE</item>
+        <item>INSECT</item>
+        <item>KANGAROO</item>
+        <item>KOALA</item>
+        <item>LION</item>
+        <item>MONKEY</item>
+        <item>MOUSE</item>
+        <item>OWL</item>
+        <item>PANDA</item>
+        <item>PENGUIN</item>
+        <item>RABBIT</item>
+        <item>RACCOON</item>
+        <item>SHARK</item>
+        <item>SHEEP</item>
+        <item>SNAKE</item>
+        <item>SPIDER</item>
+        <item>TIGER</item>
+        <item>WOLF</item>
+    </array>
+    <array name="art_links">
+        <item>http://media0.giphy.com/media/d2Z7wetTpiqlmjq8/200_s.gif</item>
+        <item>http://media3.giphy.com/media/PdfNwG98g6Sxq/200_s.gif</item>
+        <item>http://media2.giphy.com/media/26xoqbWVpnMkVnkZi/200_s.gif</item>
+        <item>http://media2.giphy.com/media/HoffxyN8ghVuw/200_s.gif</item>
+        <item>http://media4.giphy.com/media/3oEdv89QcEryJ3meJ2/200_s.gif</item>
+        <item>http://media2.giphy.com/media/3o6UBeqwXYeoLVlajS/200_s.gif</item>
+        <item>http://media3.giphy.com/media/3oxRmD9a5pLTOOLigM/200_s.gif</item>
+        <item>http://media0.giphy.com/media/aHyjIpGhPppT2/200_s.gif</item>
+        <item>http://media0.giphy.com/media/JZGmwArn4vN8A/200_s.gif</item>
+        <item>http://media1.giphy.com/media/c8ygOpL64UDuw/200_s.gif</item>
+        <item>http://media0.giphy.com/media/KYRWe7ZhXcck8/200_s.gif</item>
+        <item>http://media3.giphy.com/media/fMYhlRdVtRnsk/200_s.gif</item>
+        <item>http://media4.giphy.com/media/titjbzlTDx0nC/200_s.gif</item>
+        <item>http://media3.giphy.com/media/xTiTnL0RWKiEuoDzVu/200_s.gif</item>
+        <item>http://media4.giphy.com/media/3oEduYzwtPL5cBQ5ZS/200_s.gif</item>
+    </array>
+    <array name="art_tags">
+        <item>ART</item>
+        <item>DESIGN</item>
+        <item>3D</item>
+        <item>ANIMATION</item>
+        <item>ARCHITECTURE</item>
+        <item>ILLUSTRATION</item>
+        <item>LOOP</item>
+        <item>MASH UP</item>
+        <item>PHOTOGRAPHY</item>
+        <item>PAINTING</item>
+        <item>PIXEL</item>
+        <item>TIMELAPSE</item>
+        <item>TRANSPARENT</item>
+        <item>TYPOGRAPHY</item>
+        <item>SLOW MOTION</item>
+    </array>
+    <array name="cartoons_links">
+        <item>http://media3.giphy.com/media/fm4WhPMzu9hRK/200_s.gif</item>
+        <item>http://media2.giphy.com/media/eSwGh3YK54JKU/200_s.gif</item>
+        <item>http://media0.giphy.com/media/PyVcGRE19j0DS/200_s.gif</item>
+        <item>http://media4.giphy.com/media/z2YiftHRaPbWw/200_s.gif</item>
+        <item>http://media4.giphy.com/media/3ehVPaYoboTWE/200_s.gif</item>
+        <item>http://media4.giphy.com/media/lWk5mX0we3cv6/200_s.gif</item>
+        <item>http://media3.giphy.com/media/LLXDKlDo76skU/200_s.gif</item>
+        <item>http://media0.giphy.com/media/1Mc4AD6EJgWEo/200_s.gif</item>
+        <item>http://media3.giphy.com/media/aAXXSKOxmmhzO/200_s.gif</item>
+        <item>http://media2.giphy.com/media/Hidva3NC6BulW/200_s.gif</item>
+        <item>http://media3.giphy.com/media/QVlGEBzzBiCfC/200_s.gif</item>
+        <item>http://media2.giphy.com/media/KOpQog4Ua2W2c/200_s.gif</item>
+        <item>http://media3.giphy.com/media/OXF91oNPj8NH2/200_s.gif</item>
+        <item>https://media0.giphy.com/media/d2ZipRN6XnWYZV9m/200_s.gif</item>
+        <item>http://media0.giphy.com/media/HVzXGCqZT753q/200_s.gif</item>
+        <item>http://media1.giphy.com/media/UZ41SqwgD7AtO/200_s.gif</item>
+        <item>http://media3.giphy.com/media/yoJC2NNuYLAS58gewE/200_s.gif</item>
+        <item>http://media1.giphy.com/media/xEXxUYMrGKJiw/200_s.gif</item>
+        <item>http://media0.giphy.com/media/nHwGSE8XYVBbG/200_s.gif</item>
+        <item>http://media1.giphy.com/media/LtArhBbsJZbd6/200_s.gif</item>
+        <item>http://media2.giphy.com/media/3e19AnHL81rMs/200_s.gif</item>
+        <item>http://media4.giphy.com/media/Godtj62ewycxy/200_s.gif</item>
+        <item>http://media3.giphy.com/media/hnnjpuPHxEzGo/200_s.gif</item>
+        <item>http://media2.giphy.com/media/VelWewgR6CpNK/200_s.gif</item>
+        <item>http://media0.giphy.com/media/qwMeF2Ir9swhi/200_s.gif</item>
+        <item>https://media1.giphy.com/media/z9sFrQMfEME5a/200_s.gif</item>
+        <item>http://media2.giphy.com/media/d2Z4gjbzojS3KQLe/200_s.gif</item>
+        <item>http://media3.giphy.com/media/89AAoZicNaRsA/200_s.gif</item>
+        <item>http://media1.giphy.com/media/DMNqE0oBP2BEY/200_s.gif</item>
+        <item>http://media0.giphy.com/media/kDCargqZQ88Jq/200_s.gif</item>
+        <item>http://media3.giphy.com/media/voirD51GFZte0/200_s.gif</item>
+    </array>
+    <array name="cartoons_tags">
+        <item>CARTOON</item>
+        <item>ANIME</item>
+        <item>101 DALMATIANS</item>
+        <item>ALADDIN</item>
+        <item>ALVIN AND THE CHIPMUNKS</item>
+        <item>ARTHUR</item>
+        <item>BLEACH</item>
+        <item>CALVIN AND HOBBES</item>
+        <item>CARTOON NETWORK</item>
+        <item>DAFFY DUCK</item>
+        <item>DISNEY</item>
+        <item>DREAMWORKS</item>
+        <item>FINDING NEMO</item>
+        <item>GARFIELD</item>
+        <item>GUNDAM</item>
+        <item>HAYAO MIYAZAKI</item>
+        <item>HOTEL TRANSYLVANIA</item>
+        <item>KAKASHI</item>
+        <item>MANGA</item>
+        <item>MINIONS</item>
+        <item>NARUTO</item>
+        <item>ONE PIECE</item>
+        <item>PINK PANTHER</item>
+        <item>POKEMON</item>
+        <item>POPEYE</item>
+        <item>SPONGEBOB</item>
+        <item>SHAUN THE SHEEP</item>
+        <item>THE LION KING</item>
+        <item>THE SIMPSONS</item>
+        <item>Toy Story</item>
+        <item>WALL E</item>
+    </array>
+    <array name="film_links">
+        <item>http://media1.giphy.com/media/avbafjL1jRiFy/200_s.gif</item>
+        <item>http://media0.giphy.com/media/TeSh0CFqLvUpq/200_s.gif</item>
+        <item>http://media0.giphy.com/media/O1PEaUAQF728M/200_s.gif</item>
+        <item>http://media4.giphy.com/media/hn45V8hBhRIpW/200_s.gif</item>
+        <item>http://media1.giphy.com/media/kg4e4Wksv20eY/200_s.gif</item>
+        <item>http://media2.giphy.com/media/3oEdv2UGoOS0y5XUkg/200_s.gif</item>
+        <item>http://media4.giphy.com/media/nrYYAqiWyoIUw/200_s.gif</item>
+        <item>http://media2.giphy.com/media/ZlJucADyRZSCc/200_s.gif</item>
+        <item>http://media1.giphy.com/media/lrAG3NWoiwhYk/200_s.gif</item>
+        <item>http://media1.giphy.com/media/13gaJAKMCi52w0/200_s.gif</item>
+        <item>http://media4.giphy.com/media/6eldw9RwTe3de/200_s.gif</item>
+        <item>http://media3.giphy.com/media/bC2yFvnHCJHz2/200_s.gif</item>
+        <item>http://media4.giphy.com/media/Fl4kD7CnqDS6I/200_s.gif</item>
+        <item>http://media0.giphy.com/media/s5G8VG1SKGrmM/200_s.gif</item>
+        <item>http://media4.giphy.com/media/o5HKScC1PflLO/200_s.gif</item>
+        <item>http://media1.giphy.com/media/ZwxN341b8glIA/200_s.gif</item>
+        <item>http://media2.giphy.com/media/TLlpzNrXwro6A/200_s.gif</item>
+        <item>http://media3.giphy.com/media/oKVs1VY0MKfvO/200_s.gif</item>
+        <item>http://media0.giphy.com/media/kpFaM6QoLKJnW/200_s.gif</item>
+        <item>http://media2.giphy.com/media/wViS9n0RqN2/200_s.gif</item>
+        <item>http://media4.giphy.com/media/3o6QL6BkYYlWuu66oE/200_s.gif</item>
+        <item>http://media0.giphy.com/media/3o8dpcfzJPTcoQyKvm/200_s.gif</item>
+        <item>http://media4.giphy.com/media/jg5LTuTOtmyAw/200_s.gif</item>
+        <item>http://media3.giphy.com/media/g3cOYozjt6J9u/200_s.gif</item>
+        <item>http://media0.giphy.com/media/Yh8zGlvEA5JZK/200_s.gif</item>
+        <item>http://media2.giphy.com/media/pSuXENDfMQBDW/200_s.gif</item>
+        <item>http://media4.giphy.com/media/vRJQeWPwpvfuE/200_s.gif</item>
+        <item>http://media3.giphy.com/media/l41lSXhAIArFTfJQs/200_s.gif</item>
+        <item>https://media1.giphy.com/media/biJpWkEdgitMs/200_s.gif</item>
+        <item>http://media0.giphy.com/media/1bYaHhGtueIqQ/200_s.gif</item>
+        <item>http://media3.giphy.com/media/yKJMd3e5fOZOM/200_s.gif</item>
+        <item>http://media4.giphy.com/media/yoJC2JaiEMoxIhQhY4/200_s.gif</item>
+        <item>http://media3.giphy.com/media/n7TyooZtZn3Ko/200_s.gif</item>
+        <item>http://media1.giphy.com/media/h5abppAhSBKb6/200_s.gif</item>
+        <item>http://media4.giphy.com/media/IT9bacW1C5blC/200_s.gif</item>
+        <item>http://media4.giphy.com/media/xTiTnto6H3cR1YX6bS/200_s.gif</item>
+        <item>http://media4.giphy.com/media/jVcfxZm55lpiU/200_s.gif</item>
+        <item>http://media1.giphy.com/media/3o8doOlGO3pjQa5h28/200_s.gif</item>
+        <item>http://media0.giphy.com/media/YoB1eEFB6FZ1m/200_s.gif</item>
+        <item>http://media3.giphy.com/media/3o6UBb8buJoZJq88N2/200_s.gif</item>
+        <item>http://media0.giphy.com/media/IntzOO5aNafJu/200_s.gif</item>
+        <item>http://media2.giphy.com/media/kqIKoMb3qH69i/200_s.gif</item>
+        <item>http://media2.giphy.com/media/MT8oDPnGQh8Oc/200_s.gif</item>
+        <item>http://media4.giphy.com/media/kEM10Bt6I1HHO/200_s.gif</item>
+        <item>http://media4.giphy.com/media/3x7gy3rsn73kA/200_s.gif</item>
+        <item>http://media1.giphy.com/media/ckvuK4mlUuohi/200_s.gif</item>
+        <item>http://media0.giphy.com/media/xT77XUDZOSCsTjxjPi/200_s.gif</item>
+        <item>http://media0.giphy.com/media/xa60ShyL0OAIU/200_s.gif</item>
+        <item>http://media3.giphy.com/media/3hpzUQUYFoqCk/200_s.gif</item>
+        <item>http://media3.giphy.com/media/ZEK8Cx1lLdhxm/200_s.gif</item>
+        <item>http://media3.giphy.com/media/YLDAnQOMRc0mY/200_s.gif</item>
+        <item>http://media1.giphy.com/media/b4bVp5rGZxfck/200_s.gif</item>
+        <item>http://media2.giphy.com/media/10woBn78bLk6D6/200_s.gif</item>
+    </array>
+    <array name="film_tags">
+        <item>MOVIES</item>
+        <item>TV</item>
+        <item>ANT MAN</item>
+        <item>BACK TO THE FUTURE</item>
+        <item>BATMAN</item>
+        <item>BATMAN V SUPERMAN</item>
+        <item>BRAVEHEART</item>
+        <item>BREAKING BAD</item>
+        <item>CAPTAIN AMERICA</item>
+        <item>CREED</item>
+        <item>DEADPOOL</item>
+        <item>DIE HARD</item>
+        <item>GLADIATOR</item>
+        <item>GUARDIANS OF THE GALAXY</item>
+        <item>HARRY POTTER</item>
+        <item>HBO</item>
+        <item>ICE AGE</item>
+        <item>INDIANA JONES</item>
+        <item>INSIDE OUT</item>
+        <item>INTERSTELLAR</item>
+        <item>IRON MAN</item>
+        <item>JURASSIC PARK</item>
+        <item>KUNG FU PANDA</item>
+        <item>LEON THE PROFESSIONAL</item>
+        <item>LONDON HAS FALLEN</item>
+        <item>MAD MAX FURY ROAD</item>
+        <item>MARVEL</item>
+        <item>MAZE RUNNER</item>
+        <item>MINIONS</item>
+        <item>PIRATES OF THE CARRIBEAN</item>
+        <item>PRISON BREAK</item>
+        <item>ROCKY</item>
+        <item>SAVING PRIVATE RYAN</item>
+        <item>SHAWSHANK REDEMPTION</item>
+        <item>SHERLOCK</item>
+        <item>SHOWTIME</item>
+        <item>SICARIO</item>
+        <item>STAR WARS</item>
+        <item>TERMINATOR</item>
+        <item>THE ANGRY BIRDS MOVIE</item>
+        <item>THE AVENGERS</item>
+        <item>THE DARK KNIGHT</item>
+        <item>THE GODFATHER</item>
+        <item>THE GREEN MILE</item>
+        <item>THE HATEFUL EIGHT</item>
+        <item>THE LORD OF THE RINGS</item>
+        <item>THE MARTIAN</item>
+        <item>THE REVENANT</item>
+        <item>THE WALKING DEAD</item>
+        <item>TOP GEAR</item>
+        <item>TRANSFORMERS</item>
+        <item>X MEN</item>
+        <item>ZOOLANDER</item>
+    </array>
+    <array name="funny_links">
+        <item>http://media4.giphy.com/media/WqmYGa2LjQlTG/200_s.gif</item>
+        <item>http://media3.giphy.com/media/72JnkKLYdM0ms/200_s.gif</item>
+        <item>http://media1.giphy.com/media/Q8oPSxoYUMsLK/200_s.gif</item>
+        <item>http://media3.giphy.com/media/Iyq7QuL4c6boQ/200_s.gif</item>
+        <item>http://media3.giphy.com/media/lbsalrGHuPTy0/200_s.gif</item>
+        <item>http://media3.giphy.com/media/11ieom1EOWviAo/200_s.gif</item>
+        <item>http://media3.giphy.com/media/dLewXS6C5I1Co/200_s.gif</item>
+        <item>http://media0.giphy.com/media/jMIIRDLjmaPhC/200_s.gif</item>
+        <item>http://media1.giphy.com/media/128Qxo1auMtD4k/200_s.gif</item>
+        <item>http://media3.giphy.com/media/Yy2HSgpPYpa/200_s.gif</item>
+        <item>http://media0.giphy.com/media/2FazrQFldulr3dUqI/200_s.gif</item>
+        <item>http://media2.giphy.com/media/MOTkF7sT8u2Z2/200_s.gif</item>
+        <item>http://media0.giphy.com/media/rEuGybfguM5Gw/200_s.gif</item>
+    </array>
+    <array name="funny_tags">
+        <item>FUNNY</item>
+        <item>80S</item>
+        <item>90S</item>
+        <item>BABY</item>
+        <item>CUTE</item>
+        <item>LOL</item>
+        <item>MEMES</item>
+        <item>MR BEAN</item>
+        <item>SPRING</item>
+        <item>STICKERS</item>
+        <item>SUMMER</item>
+        <item>VACATION</item>
+        <item>WINTER</item>
+    </array>
+    <array name="games_links">
+        <item>http://media0.giphy.com/media/13qctMBrrgbwJi/200_s.gif</item>
+        <item>http://media4.giphy.com/media/3oEduUkR13701mndnO/200_s.gif</item>
+        <item>http://media4.giphy.com/media/OR4LZ5fNwREEU/200_s.gif</item>
+        <item>http://media4.giphy.com/media/yTamWngxhVWyQ/200_s.gif</item>
+        <item>http://media0.giphy.com/media/Z9aV9pm8fiiOY/200_s.gif</item>
+        <item>http://media3.giphy.com/media/ukMnhqGilS8x2/200_s.gif</item>
+        <item>http://media4.giphy.com/media/MdXXZh65YfC7e/200_s.gif</item>
+        <item>http://media0.giphy.com/media/Vs6ASalhnbomk/200_s.gif</item>
+        <item>http://media2.giphy.com/media/TTy5YmVmhmWhq/200_s.gif</item>
+        <item>http://media3.giphy.com/media/znhmcXljbueI0/200_s.gif</item>
+        <item>http://media1.giphy.com/media/Zouh9NJUZNCmc/200_s.gif</item>
+        <item>http://media4.giphy.com/media/zeUuNWeknf2co/200_s.gif</item>
+        <item>http://media1.giphy.com/media/VEwN3OpVHE7GE/200_s.gif</item>
+        <item>http://media4.giphy.com/media/11czkLkU3uBD0c/200_s.gif</item>
+        <item>http://media4.giphy.com/media/YwR8wm7KknBok/200_s.gif</item>
+        <item>http://media4.giphy.com/media/ZVZbyfM3eYrLi/200_s.gif</item>
+        <item>http://media4.giphy.com/media/Em94upA57KaZO/200_s.gif</item>
+        <item>http://media2.giphy.com/media/zcvvmLU7ofYe4/200_s.gif</item>
+        <item>http://media4.giphy.com/media/wZIgooEtGeGs/200_s.gif</item>
+    </array>
+    <array name="games_tags">
+        <item>VIDEO GAMES</item>
+        <item>8BIT</item>
+        <item>ATARI</item>
+        <item>CALL OF DUTY</item>
+        <item>CLASH OF CLANS</item>
+        <item>DEAD SPACE</item>
+        <item>DUCK HUNT</item>
+        <item>MORTAL KOMBAT</item>
+        <item>NINTENDO</item>
+        <item>PACMAN</item>
+        <item>PS3</item>
+        <item>PS4</item>
+        <item>SEGA</item>
+        <item>SONIC</item>
+        <item>STREET FIGHTER</item>
+        <item>SUPER MARIO</item>
+        <item>SUPER NINTENDO</item>
+        <item>TETRIS</item>
+        <item>XBOX</item>
+    </array>
+    <array name="islamic_blog">
+        <item>islamic-quotes.tumblr.com</item>
+        <item>minalita.tumblr.com</item>
+        <item>islamic-art-and-quotes.tumblr.com</item>
+        <item>hadeth.tumblr.com</item>
+        <item>allah66.tumblr.com</item>
+        <item>islamicartforyou.tumblr.com</item>
+        <item>racetojannah.tumblr.com</item>
+        <item>islamic-pictures.tumblr.com</item>
+        <item>quran-quotes.tumblr.com</item>
+        <item>closer-to-allah.tumblr.com</item>
+        <item>storiesofthesahabah.tumblr.com</item>
+        <item>majd-dahlan.tumblr.com</item>
+        <item>tdbur.tumblr.com</item>
+        <item>layalsaleh.tumblr.com</item>
+        <item>islamic-reminder.tumblr.com</item>
+        <item>wehab.tumblr.com</item>
+        <item>productivemuslim.tumblr.com</item>
+    </array>
+    <array name="islamic_links">
+        <item>https://68.media.tumblr.com/6ef7cca74a92ebc789946dab1055882e/tumblr_ok6rgy40H71qdxa23o1_400.jpg</item>
+        <item>https://68.media.tumblr.com/2718f7a90af0a2fbcc4d13ffc03461f2/tumblr_nvkqvcOfUb1syktgpo1_400.gif</item>
+        <item>https://68.media.tumblr.com/c41d00a32420df90d8f7f7eb3fa689d6/tumblr_oocc4tsiQu1qapk2qo1_250.gif</item>
+        <item>https://68.media.tumblr.com/b9cbd8594c4320ab8c7f07f784c865e1/tumblr_olf4j8vqgv1qa0em7o1_400.jpg</item>
+        <item>https://68.media.tumblr.com/370237372ba81e4e2c279b1f2b81fb4e/tumblr_o17g8ubCHl1trbsfoo1_400.gif</item>
+        <item>https://68.media.tumblr.com/413a4d9d10ed5d445099fdf6dea43d91/tumblr_olmpz0Kapg1tvw09xo1_500.gif</item>
+        <item>https://68.media.tumblr.com/1d0ff48f6afed5612a040075c1213717/tumblr_nj5t08p2Ad1sq86p0o1_400.jpg</item>
+        <item>https://68.media.tumblr.com/d57374cb68763a67c28726b5a717004f/tumblr_nootc7b84j1rpll93o1_400.jpg</item>
+        <item>https://68.media.tumblr.com/44c4c97dd517cd7cd384b0b315e681a6/tumblr_okeh31vh6o1smyb0ko1_400.png</item>
+        <item>https://68.media.tumblr.com/45e9c0e175fa7d54a125276712ba6630/tumblr_oh1qi1BM4k1vw0e1mo1_400.png</item>
+        <item>https://68.media.tumblr.com/00a1df00462dab5d8aadb98004502eb0/tumblr_ohyeb1tRw31rlhexfo1_400.png</item>
+        <item>https://68.media.tumblr.com/27dcec1877fbf1c24ae4e860f507c325/tumblr_ojdjnfqGi31rdd0smo1_400.jpg</item>
+        <item>https://68.media.tumblr.com/10558847d8b6be97c3230b54006d5777/tumblr_o1irlhxdN31tgxg1ko6_400.png</item>
+        <item>https://68.media.tumblr.com/021012d0f9e8c7ed9385fe1796d13fa9/tumblr_njeucdaWyH1tultcpo1_250.gif</item>
+        <item>https://68.media.tumblr.com/56a8d1a0c9e0ce018b173c9abd20a076/tumblr_oblgfmCvJY1uiuif9o1_400.jpg</item>
+        <item>https://68.media.tumblr.com/dcbde64a76f696eafa4056dcd58618f9/tumblr_odbt6adK5M1rm52gmo1_400.jpg</item>
+        <item>https://68.media.tumblr.com/a691714d9d6c1fa8b3fe903aa20afb7e/tumblr_od9ptin2sk1rr1f4xo1_400.png</item>
+    </array>
+    <array name="islamic_tags">
+        <item>Islamic Quotes</item>
+        <item>MINALITA</item>
+        <item>Islamic Art and Quotes</item>
+        <item>أحاديث نبوية</item>
+        <item>الله جل جلاله</item>
+        <item>islamic art for you</item>
+        <item>Race to Jannah</item>
+        <item>Islamic Pictures</item>
+        <item>Quranic Quotes</item>
+        <item>Closer to Allah</item>
+        <item>Stories of the Sahabah</item>
+        <item>Majd-muslim</item>
+        <item>تدبر آية</item>
+        <item>Layal Saleh</item>
+        <item>Islamic Reminder</item>
+        <item>Wehab</item>
+        <item>Productive Muslim</item>
+    </array>
+    <array name="nature_links">
+        <item>http://media4.giphy.com/media/TnDoEoXfT7YoE/200_s.gif</item>
+        <item>http://media1.giphy.com/media/HoUgegTjteXCw/200_s.gif</item>
+        <item>http://media3.giphy.com/media/11BFjIeFy8hx28/200_s.gif</item>
+        <item>http://media1.giphy.com/media/H1daWEJ3jqoyA/200_s.gif</item>
+        <item>http://media3.giphy.com/media/VeevaQ0W85jzy/200_s.gif</item>
+        <item>http://media3.giphy.com/media/tGUJr7N765suQ/200_s.gif</item>
+        <item>http://media4.giphy.com/media/Rhe2Ae9cSF6ta/200_s.gif</item>
+        <item>http://media4.giphy.com/media/j3ZKk3xt1clEI/200_s.gif</item>
+        <item>http://media4.giphy.com/media/kbC4apLJ553Og/200_s.gif</item>
+        <item>http://media4.giphy.com/media/i3Q3sx91EfmJq/200_s.gif</item>
+        <item>http://media3.giphy.com/media/jeJhrnhrM71Ze/200_s.gif</item>
+        <item>http://media0.giphy.com/media/xT77YdzLs34GSWPsME/200_s.gif</item>
+        <item>http://media4.giphy.com/media/2A5feTniPI48M/200_s.gif</item>
+        <item>http://media0.giphy.com/media/WzLDljBpplUvm/200_s.gif</item>
+        <item>http://media3.giphy.com/media/wOt4FV2NkqldS/200_s.gif</item>
+        <item>http://media0.giphy.com/media/XBbe8ApwcblsY/200_s.gif</item>
+        <item>http://media1.giphy.com/media/s8S8RddFTH6G4/200_s.gif</item>
+        <item>http://media2.giphy.com/media/iLFXGjZS51DO/200_s.gif</item>
+        <item>http://media0.giphy.com/media/G5n8sqIOxBqow/200_s.gif</item>
+    </array>
+    <array name="nature_tags">
+        <item>NATURE</item>
+        <item>CLOUDS</item>
+        <item>FLOWERS</item>
+        <item>FOREST</item>
+        <item>LANDSCAPE</item>
+        <item>LAVA</item>
+        <item>MOON</item>
+        <item>MOUNTAINS</item>
+        <item>PLANTS</item>
+        <item>RIVER</item>
+        <item>SAND</item>
+        <item>SNOW</item>
+        <item>SUN</item>
+        <item>SUNRISE</item>
+        <item>SUNSET</item>
+        <item>TREES</item>
+        <item>WATERFALL</item>
+        <item>WEATHER</item>
+        <item>WIND</item>
+    </array>
+    <array name="news_links">
+        <item>http://media0.giphy.com/media/6ES2apotPBX4Q/200_s.gif</item>
+        <item>http://media4.giphy.com/media/1uvYwb3tSI0qk/200_s.gif</item>
+        <item>http://media1.giphy.com/media/l3nWk2pcA3qSpI3iE/200_s.gif</item>
+        <item>http://media0.giphy.com/media/15Hq5y3rXBFmw/200_s.gif</item>
+        <item>http://media4.giphy.com/media/101lazQJhPkfp6/200_s.gif</item>
+        <item>http://media4.giphy.com/media/Nq9duH8GpUcjC/200_s.gif</item>
+        <item>http://media0.giphy.com/media/TkQA1G1PtxMDC/200_s.gif</item>
+    </array>
+    <array name="news_tags">
+        <item>NEWS</item>
+        <item>POLITICS</item>
+        <item>BARACK OBAMA</item>
+        <item>DONALD TRUMP</item>
+        <item>ELECTION 2016</item>
+        <item>JOHN MCCAIN</item>
+        <item>NORTH KOREA</item>
+    </array>
+    <array name="progress_colors">
+        <item>#ff3f8af8</item>
+        <item>#ff279b5e</item>
+        <item>#ffd8433c</item>
+        <item>#fff2af3a</item>
+    </array>
+    <array name="resolution_values">
+        <item>low</item>
+        <item>normal</item>
+    </array>
+    <array name="science_links">
+        <item>http://media4.giphy.com/media/qrlOmXoTgHAd2/200_s.gif</item>
+        <item>http://media3.giphy.com/media/AELBwXQlJsakM/200_s.gif</item>
+        <item>http://media3.giphy.com/media/PlURZ2lEzVU64/200_s.gif</item>
+        <item>http://media3.giphy.com/media/RcQHEQ3H08AOQ/200_s.gif</item>
+        <item>http://media4.giphy.com/media/h9KtiB6DgiS2s/200_s.gif</item>
+        <item>http://media1.giphy.com/media/pLdUtVivROYWA/200_s.gif</item>
+        <item>http://media4.giphy.com/media/9OhKZ15x1RzLa/200_s.gif</item>
+        <item>http://media2.giphy.com/media/SpiDrrJTePpyU/200_s.gif</item>
+        <item>http://media4.giphy.com/media/YHjJMzbFaT8Va/200_s.gif</item>
+        <item>http://media3.giphy.com/media/tY5m0YMXLYZi/200_s.gif</item>
+        <item>http://media4.giphy.com/media/13cxHLqRer5q6s/200_s.gif</item>
+        <item>http://media0.giphy.com/media/26tOY3KjQUL9YhRT2/200_s.gif</item>
+        <item>http://media3.giphy.com/media/IaqlNUXfacG52/200_s.gif</item>
+    </array>
+    <array name="science_tags">
+        <item>SCIENCE</item>
+        <item>ASTRONOMY</item>
+        <item>BIOLOGY</item>
+        <item>CHEMISTRY</item>
+        <item>COMPUTERS</item>
+        <item>ENGINEERING</item>
+        <item>LASER</item>
+        <item>MAGNETS</item>
+        <item>MATHEMATICS</item>
+        <item>PHYSICS</item>
+        <item>PLANETS</item>
+        <item>TECHNOLOGY</item>
+        <item>SLOW MOTION</item>
+    </array>
+    <array name="sport_links">
+        <item>http://media2.giphy.com/media/3o85xITPwvTjusWr0A/200_s.gif</item>
+        <item>http://media0.giphy.com/media/yBRN7a6ap7PLW/200_s.gif</item>
+        <item>http://media3.giphy.com/media/mxWsSFFvDemnS/200_s.gif</item>
+        <item>http://media4.giphy.com/media/3IOyAjddmqRDa/200_s.gif</item>
+        <item>http://media0.giphy.com/media/kkY2uiKsEoNTG/200_s.gif</item>
+        <item>http://media2.giphy.com/media/xTiTniJxdAPEjeCkVi/200_s.gif</item>
+        <item>http://media0.giphy.com/media/3oEdvcYPOvmUNYbO3S/200_s.gif</item>
+        <item>http://media3.giphy.com/media/xTiTnvU2gPB3Llq4W4/200_s.gif</item>
+        <item>http://media2.giphy.com/media/10RZJCsS2qT7YQ/200_s.gif</item>
+        <item>http://media0.giphy.com/media/9BdxKdIOsxATC/200_s.gif</item>
+        <item>http://media0.giphy.com/media/J0fm1nczGW58c/200_s.gif</item>
+        <item>http://media0.giphy.com/media/x790itVk2bD9K/200_s.gif</item>
+        <item>http://media2.giphy.com/media/1054NET6HHQX9S/200_s.gif</item>
+        <item>http://media1.giphy.com/media/6QatX9q78jAic/200_s.gif</item>
+        <item>http://media4.giphy.com/media/urRCDw5SB3Dnq/200_s.gif</item>
+        <item>http://media3.giphy.com/media/xTiTngFHv1quEU7Tm8/200_s.gif</item>
+        <item>http://media0.giphy.com/media/6SjdlWVipON0Y/200_s.gif</item>
+        <item>http://media1.giphy.com/media/xTiTnmeJ1bBGONMCBy/200_s.gif</item>
+        <item>http://media3.giphy.com/media/WXwrelNklz3Hi/200_s.gif</item>
+        <item>http://media2.giphy.com/media/3oEdv90CrFeDJ9luak/200_s.gif</item>
+        <item>http://media3.giphy.com/media/9HjVvMU5H3viM/200_s.gif</item>
+    </array>
+    <array name="sport_tags">
+        <item>SPORT</item>
+        <item>MESSI</item>
+        <item>RONALDO</item>
+        <item>REAL MADRID</item>
+        <item>FCB</item>
+        <item>BASEBALL</item>
+        <item>BASKETBALL</item>
+        <item>BOXING</item>
+        <item>DIVING</item>
+        <item>FOOTBALL</item>
+        <item>FORMULA ONE</item>
+        <item>GOLF</item>
+        <item>HOCKEY</item>
+        <item>HORSE RACING</item>
+        <item>OLYMPIC</item>
+        <item>MMA</item>
+        <item>RUGBY</item>
+        <item>RACING</item>
+        <item>SKYDIVING</item>
+        <item>SOCCER</item>
+        <item>TENNIS</item>
+    </array>
+</resources>

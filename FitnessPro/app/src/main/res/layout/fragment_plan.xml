@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.NestedScrollView android:background="#ffe5e5e5" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_above="@+id/adSmartBanner" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.fragment.PlanFragment" android:id="@+id/recyclerViewPlan" android:background="@android:color/white" android:focusableInTouchMode="false" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="GridLayoutManager" app:spanCount="2" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <android.support.design.widget.FloatingActionButton android:id="@+id/floatingActionButton" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" android:src="@drawable/add_plan_icon" android:layout_above="@+id/adSmartBanner" android:layout_alignParentRight="true" app:elevation="4.0dip" app:fabSize="normal" app:backgroundTint="@color/colorPrimary" />
+    <include android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/admob_banner_ad_layout" />
+    <ProgressBar android:id="@+id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent">
+
+
+    <LinearLayout
+        n1:id="@+id/contentInfo"
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:layout_centerInParent="true"
+        n1:layout_gravity="center"
+        n1:background="@drawable/ic_launcher_background"
+        n1:orientation="vertical"
+        n1:paddingBottom="10.0dip"
+        n1:paddingLeft="30.0dip"
+        n1:paddingRight="30.0dip"
+        n1:paddingTop="10.0dip">
+
+        <RadioGroup
+            n1:id="@+id/genderRGroup"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:gravity="center"
+            n1:orientation="horizontal">
+
+            <RadioButton
+                n1:id="@+id/rMale"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_margin="10.0dip"
+                n1:layout_weight="1.0"
+                n1:background="@color/album_title"
+                n1:button="@null"
+                n1:checked="true"
+                n1:gravity="center"
+                n1:padding="5.0dip"
+                n1:text="@string/male"
+                n1:textColor="@drawable/rm_text_selector" />
+
+            <RadioButton
+                n1:id="@+id/rFemale"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_margin="10.0dip"
+                n1:layout_weight="1.0"
+                n1:background="@color/album_title"
+                n1:button="@null"
+                n1:gravity="center"
+                n1:padding="5.0dip"
+                n1:text="@string/female"
+                n1:textColor="@drawable/rm_text_selector" />
+        </RadioGroup>
+
+        <FrameLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            >
+
+            <android.support.v7.widget.AppCompatImageView xmlns:n2="http://schemas.android.com/apk/res-auto"
+                n1:id="@+id/userImgBoy"
+                n1:layout_width="match_parent"
+                n1:layout_height="match_parent"
+                n1:contentDescription="@string/male"
+                n2:srcCompat="@drawable/boy" />
+
+            <android.support.v7.widget.AppCompatImageView xmlns:n3="http://schemas.android.com/apk/res-auto"
+                n1:id="@+id/userImgGirl"
+                n1:layout_width="match_parent"
+                n1:layout_height="match_parent"
+                n1:contentDescription="@string/female"
+                n1:visibility="gone"
+                n3:srcCompat="@drawable/girl" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        n1:id="@+id/startWorkout"
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:layout_alignParentLeft="true"
+        n1:layout_alignParentStart="true"
+        n1:layout_alignParentTop="true">
+
+        <Button
+            n1:id="@+id/beginWorkout"
+            n1:layout_width="wrap_content"
+            n1:layout_height="40.0dip"
+            n1:layout_alignParentBottom="true"
+            n1:layout_centerInParent="true"
+            n1:layout_marginBottom="20dp"
+            n1:background="@drawable/shape"
+            n1:paddingLeft="20.0dip"
+            n1:paddingRight="20.0dip"
+            n1:text="@string/launch_begin"
+            n1:textAllCaps="false"
+            n1:textColor="#ffffffff" />
+    </RelativeLayout>
+
+</RelativeLayout>

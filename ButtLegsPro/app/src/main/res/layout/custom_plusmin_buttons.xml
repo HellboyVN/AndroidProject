@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="horizontal" n1:id="@+id/buyButtonsLayout" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatImageView n1:layout_gravity="center" n1:id="@+id/cRemoveTime" n1:layout_width="28.0dip" n1:layout_height="28.0dip" n1:layout_margin="6.0dip" n2:srcCompat="@drawable/ic_remove_circle" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <TextView n1:textSize="20.0dip" n1:layout_gravity="center" n1:id="@+id/productAddToCardText" n1:padding="2.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="2.0dip" n1:text="0s" />
+    <android.support.v7.widget.AppCompatImageView n1:layout_gravity="center" n1:id="@+id/cAddTime" n1:layout_width="28.0dip" n1:layout_height="28.0dip" n1:layout_margin="6.0dip" n3:srcCompat="@drawable/ic_add_circle" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

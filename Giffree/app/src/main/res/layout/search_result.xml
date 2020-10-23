@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="@dimen/grid_margin"
+    android:layout_marginLeft="@dimen/grid_margin"
+    android:layout_marginRight="@dimen/grid_margin"
+    android:layout_marginTop="@dimen/grid_margin"
+    android:background="@color/home_background">
+
+    <com.rey.material.widget.ProgressView
+        android:id="@+id/search_loading_progressview"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        app:pv_autostart="true"
+        app:pv_circular="true"
+        app:pv_progressMode="indeterminate"
+        app:pv_progressStyle="@style/ColorsCircularProgressDrawableStyle" />
+
+    <LinearLayout
+        android:id="@+id/linear_no_gif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/image_wall"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:contentDescription="@string/no_result"
+            android:src="@drawable/ic_search" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_result"
+            android:textColor="@color/md_black_1000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/ad_linear"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+    <com.rey.material.widget.ProgressView
+        android:id="@+id/search_more_progressview"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50.0dip"
+        app:pv_autostart="false"
+        app:pv_circular="true"
+        app:pv_progressMode="indeterminate"
+        app:pv_progressStyle="@style/ColorsCircularProgressDrawableStyle" />
+
+    <LinearLayout
+        android:id="@+id/ad_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+    </LinearLayout>
+</RelativeLayout>

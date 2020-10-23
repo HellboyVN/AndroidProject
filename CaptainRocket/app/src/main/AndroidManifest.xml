@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sev_user.captainrocket">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/start"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Ui.MainActivity"
+            android:noHistory="true"
+
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+
+        </activity>
+        <activity
+            android:name=".Activities.GameActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".Ui.EndGame"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+
+        <service android:name=".Sound.BackgroundSoundService" />
+
+        <activity
+            android:name=".Ui.SplashScreen"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".Ui.EndBroadcaseReceiver">
+
+            <intent-filter>
+                <action android:name="com.example.sev_user.captainrocket.END_GAME" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".Components.SoundGame" />
+        <service android:name=".Sound.FlashSoundService" />
+    </application>
+
+</manifest>

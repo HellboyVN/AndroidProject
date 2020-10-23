@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adSmartBanner"
+        android:layout_below="@+id/toolbar"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list"
+            android:name="com.workout.workout.fragment.TrainingFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3.0dip"
+            app:layoutManager="GridLayoutManager"
+            app:spanCount="2" />
+    </LinearLayout>
+
+    <include layout="@layout/admob_banner_ad_layout" />
+</RelativeLayout>

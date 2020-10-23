@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="wrap_content"
+    n1:layout_height="wrap_content"
+    n1:orientation="vertical">
+
+
+<TextView
+    n1:id="@android:id/text1"
+    style="@style/ThemeOverlay.AppCompat.Light"
+    n1:layout_width="wrap_content"
+    n1:layout_height="wrap_content"
+    n1:background="?android:selectableItemBackground"
+    n1:gravity="center"
+    n1:paddingLeft="16.0dip"
+    n1:paddingRight="16.0dip"
+    n1:textAllCaps="true"
+    n1:text="hellboy"
+    n1:textColor="@color/white"
+    n1:textSize="14.0sp" />
+    <ImageView
+        n1:id="@+id/tab_icon"
+        n1:layout_width="wrap_content"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="center"
+        />
+</LinearLayout>

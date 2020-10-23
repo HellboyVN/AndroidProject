@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="wrap_content">
+
+    <ImageButton xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/play"
+        n1:layout_width="@dimen/card_toolbar_btn"
+        n1:layout_height="@dimen/card_toolbar_btn"
+        n1:layout_alignParentRight="true"
+        n1:layout_marginRight="5.0dip"
+        n1:background="?selectableItemBackgroundBorderless"
+        n2:srcCompat="@drawable/ic_play_toolbar" />
+
+    <ImageButton xmlns:n3="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/update"
+        n1:layout_width="@dimen/card_toolbar_btn"
+        n1:layout_height="@dimen/card_toolbar_btn"
+        n1:layout_toLeftOf="@+id/play"
+        n1:background="?selectableItemBackgroundBorderless"
+        n3:srcCompat="@drawable/ic_refresh" />
+</RelativeLayout>

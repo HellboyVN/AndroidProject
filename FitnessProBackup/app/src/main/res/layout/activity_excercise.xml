@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:background="@color/white"
+    n1:keepScreenOn="true"
+    n1:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar xmlns:n2="http://schemas.android.com/apk/res-auto"
+            n1:id="@+id/toolbarExersice"
+            n1:layout_width="match_parent"
+            n1:layout_height="?actionBarSize"
+            n1:background="#ffffffff"
+            n2:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <TextView
+                n1:id="@+id/toolbarExersiceText"
+                n1:layout_width="match_parent"
+                n1:layout_height="?actionBarSize"
+                n1:gravity="center_vertical"
+                n1:padding="2.0dip"
+                n1:text="Workout Name"
+                n1:textAllCaps="true"
+                n1:textColor="@color/colorPrimary"
+                n1:textSize="18.0sp" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:id="@+id/exersiceRound"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_marginTop="10.0dip"
+            n1:gravity="center"
+            n1:padding="10.0dip"
+            n1:text="ROUND 1/4"
+            n1:textAllCaps="true"
+            n1:textColor="#ff575757"
+            n1:textSize="20.0sp" />
+        <ToggleButton
+            n1:id="@+id/btn_pause"
+            n1:layout_width="48dp"
+            n1:layout_height="48dp"
+            n1:layout_alignParentRight="true"
+            n1:layout_alignBottom="@+id/exersiceRound"
+            n1:background="@drawable/sound_selector"
+            n1:padding="10.0dip"
+            n1:textOff=""
+            n1:textOn=""/>
+
+        <hb.fitnesschallenge.homeworkout.homeworkouts.noequipment.fitnesspro.exersices.NonSwipeableViewPager
+            n1:id="@+id/pager"
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            n1:layout_below="@+id/exersiceRound" />
+
+        <hb.fitnesschallenge.homeworkout.homeworkouts.noequipment.fitnesspro.exersices.StepperIndicator
+            n1:id="@+id/stepper_indicator"
+            n1:layout_width="match_parent"
+            n1:layout_height="100.0dip"
+            n1:layout_marginLeft="32.0dip"
+            n1:layout_marginRight="32.0dip"
+            n1:layout_marginTop="32.0dip"
+            n1:visibility="gone"/>
+    </RelativeLayout>
+</LinearLayout>

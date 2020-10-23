@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    tools:context="hellboy.bka.tlvan.blowwifiprank.Process.ActivityShaking">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#9d74fa"
+        android:textSize="21sp"
+        android:text="Blow or Whistle Even Scream on Screen to make the wifi signal Stronger"
+        android:id="@+id/textViewHeader" />
+    <com.gelitenight.waveview.library.WaveView
+        android:id="@+id/wave"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@color/trans"
+        
+        android:layout_below="@+id/textViewHeader"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/img_wifiTrans"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/wifi_3d"
+        android:layout_alignBottom="@+id/wave"
+        android:layout_centerHorizontal="true"
+         />
+    <ImageView
+        android:id="@+id/img_border"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/wifi_3d_bordel"
+        android:layout_alignBottom="@+id/wave"
+        android:layout_centerHorizontal="true"
+         />
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageview"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/giphy"
+        android:layout_below="@+id/textViewHeader"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        />
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seekBar"
+        android:max="100"
+        android:layout_below="@+id/wave"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_amtitude"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/seekBar"
+        android:text="Fade"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/image_wifi"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/wifi_4"
+        android:layout_below="@+id/btn_amtitude"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp" />
+    <TextView
+        android:id="@+id/tv_wifiname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="wifi name"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/image_wifi"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/tv_wifiStreng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="italic|bold"
+        android:layout_below="@+id/tv_wifiname"
+        android:layout_centerHorizontal="true"
+        android:hint="wifi Strength"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageviewlaunch2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/image_wifi"
+        android:layout_toRightOf="@+id/image_wifi"
+        android:src="@drawable/ngunguoi"
+
+        />
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageviewlaunch3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/image_wifi"
+        android:layout_toLeftOf="@+id/image_wifi"
+        android:src="@drawable/ngunguoi"
+        />
+    <ImageView
+        android:id="@+id/img_galaxy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/galaxy"
+        />
+
+</RelativeLayout>

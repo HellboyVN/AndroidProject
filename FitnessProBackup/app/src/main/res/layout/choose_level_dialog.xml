@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:n1="http://schemas.android.com/apk/res/android"
+    xmlns:n2="http://schemas.android.com/apk/res-auto"
+    n1:id="@+id/cLLayout"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:layout_gravity="center"
+    n1:background="#ffffffff"
+    n1:scrollbars="none">
+
+    <FrameLayout
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="center"
+        n1:layout_marginTop="10dp">
+
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="center"
+            n1:gravity="center_horizontal"
+            n1:orientation="vertical"
+            n1:padding="5.0dip">
+
+            <android.support.v7.widget.AppCompatTextView
+                n1:id="@+id/clTitle"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="center_horizontal"
+                n1:layout_margin="10.0dip"
+                n1:text="@string/chose_level"
+                n1:textAllCaps="true"
+                n1:textColor="@color/colorPrimaryDark"
+                n1:textSize="20.0dip" />
+
+            <android.support.v7.widget.AppCompatImageView xmlns:n2="http://schemas.android.com/apk/res-auto"
+                n1:layout_width="45.0dip"
+                n1:layout_height="45.0dip"
+                n1:layout_gravity="center"
+                n1:gravity="center"
+                n1:padding="2.0dip"
+                n2:srcCompat="@drawable/ic_challenger" />
+
+            <LinearLayout
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_marginTop="15.0dip"
+                n1:orientation="vertical"
+                n1:paddingLeft="15.0dip"
+                n1:paddingRight="15.0dip">
+
+                <LinearLayout
+                    n1:layout_width="match_parent"
+                    n1:layout_height="wrap_content"
+                    n1:layout_marginBottom="10dp"
+                    n1:background="@color/album_title"
+                    n1:orientation="horizontal">
+
+                    <ImageButton
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:background="@drawable/icon_medal" />
+
+                    <LinearLayout
+                        n1:id="@+id/cLFirstLayout"
+                        n1:layout_width="match_parent"
+                        n1:layout_height="wrap_content"
+                        n1:layout_gravity="center"
+                        n1:orientation="vertical"
+                        n1:padding="5.0dip">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            n1:id="@+id/cLFirstTitle"
+                            n1:layout_width="wrap_content"
+                            n1:layout_height="wrap_content"
+                            n1:layout_gravity="left"
+                            n1:padding="2.0dip"
+                            n1:text="@string/beginner"
+                            n1:textColor="@color/white"
+                            n1:textSize="20.0dip" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            n1:id="@+id/cLFirstDesc"
+                            n1:layout_width="wrap_content"
+                            n1:layout_height="wrap_content"
+                            n1:layout_gravity="left"
+                            n1:padding="2.0dip"
+                            n1:text="@string/beginer_desc"
+                            n1:textColor="@color/white"
+                            n1:textSize="15.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    n1:layout_width="match_parent"
+                    n1:layout_height="wrap_content"
+                    n1:layout_marginBottom="10dp"
+                    n1:background="@color/album_title"
+                    n1:orientation="horizontal">
+
+                    <ImageButton
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:background="@drawable/icon_medal" />
+
+                    <LinearLayout
+                        n1:id="@+id/cLSecondLayout"
+                        n1:layout_width="match_parent"
+                        n1:layout_height="wrap_content"
+                        n1:layout_gravity="center"
+                        n1:orientation="vertical"
+                        n1:padding="5.0dip">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            n1:id="@+id/cLSecondTitle"
+                            n1:layout_width="wrap_content"
+                            n1:layout_height="wrap_content"
+                            n1:layout_centerInParent="true"
+                            n1:layout_gravity="left"
+                            n1:padding="2.0dip"
+                            n1:text="@string/medium"
+                            n1:textColor="@color/white"
+                            n1:textSize="20.0sp" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            n1:id="@+id/cLSecondDesc"
+                            n1:layout_width="wrap_content"
+                            n1:layout_height="wrap_content"
+                            n1:layout_centerInParent="true"
+                            n1:layout_gravity="left"
+                            n1:padding="2.0dip"
+                            n1:text="@string/medium_desc"
+                            n1:textColor="@color/white"
+                            n1:textSize="15.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    n1:layout_width="match_parent"
+                    n1:layout_height="wrap_content"
+                    n1:layout_marginBottom="10dp"
+                    n1:background="@color/album_title"
+                    n1:orientation="horizontal">
+
+                    <ImageButton
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:background="@drawable/icon_medal" />
+
+                    <LinearLayout
+                        n1:id="@+id/cLThirdLayout"
+                        n1:layout_width="match_parent"
+                        n1:layout_height="wrap_content"
+                        n1:orientation="vertical"
+                        n1:padding="5.0dip">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            n1:id="@+id/cLThirdTitle"
+                            n1:layout_width="wrap_content"
+                            n1:layout_height="wrap_content"
+                            n1:layout_centerInParent="true"
+                            n1:layout_gravity="left"
+                            n1:padding="2.0dip"
+                            n1:text="@string/profi"
+                            n1:textColor="@color/white"
+                            n1:textSize="20.0sp" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            n1:id="@+id/cLThirdDesc"
+                            n1:layout_width="wrap_content"
+                            n1:layout_height="wrap_content"
+                            n1:layout_centerInParent="true"
+                            n1:layout_gravity="left"
+                            n1:padding="2.0dip"
+                            n1:text="@string/profi_dec"
+                            n1:textColor="@color/white"
+                            n1:textSize="15.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <android.support.v7.widget.AppCompatTextView
+                    n1:id="@+id/clOr"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:layout_gravity="center_horizontal"
+                    n1:layout_margin="15.0dip"
+                    n1:padding="10.0dip"
+                    n1:text="@string/label_or"
+                    n1:textAllCaps="true"
+                    n1:textColor="#ff50658b"
+                    n1:textSize="15.0dip"
+                    n1:visibility="gone" />
+
+                <LinearLayout
+                    n1:id="@+id/chooseLevel"
+                    n1:layout_width="match_parent"
+                    n1:layout_height="match_parent"
+                    n1:layout_gravity="center"
+                    n1:layout_marginLeft="15.0dip"
+                    n1:layout_marginRight="15.0dip"
+                    n1:background="@drawable/ripple_color_green"
+                    n1:gravity="center"
+                    n1:orientation="horizontal"
+                    n1:padding="10.0dip"
+                    n1:visibility="gone">
+
+                    <android.support.v7.widget.AppCompatImageView xmlns:n3="http://schemas.android.com/apk/res-auto"
+                        n1:id="@+id/chooseLevel_icone"
+                        n1:layout_width="0.0dip"
+                        n1:layout_height="50.0dip"
+                        n1:layout_gravity="center"
+                        n1:layout_weight="1.0"
+                        n1:gravity="center"
+                        n3:srcCompat="@drawable/ic_lose_weight" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        n1:id="@+id/chooseLevelTitle"
+                        n1:layout_width="0.0dip"
+                        n1:layout_height="wrap_content"
+                        n1:layout_gravity="center"
+                        n1:layout_marginLeft="10.0dip"
+                        n1:layout_weight="6.0"
+                        n1:gravity="left"
+                        n1:text="@string/lose_weight"
+                        n1:textColor="@color/white"
+                        n1:textSize="21.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

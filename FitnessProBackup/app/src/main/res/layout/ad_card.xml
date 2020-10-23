@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:n1="http://schemas.android.com/apk/res/android"
+    xmlns:n2="http://schemas.android.com/apk/res-auto"
+    n1:id="@+id/adCardView"
+    n1:layout_width="match_parent"
+    n1:layout_height="wrap_content"
+    n1:layout_margin="@dimen/card_margin"
+    n2:cardBackgroundColor="#ffffffff"
+    n2:cardCornerRadius="@dimen/card_album_radius">
+
+    <ProgressBar
+        n1:layout_width="40.0dip"
+        n1:layout_height="40.0dip"
+        n1:layout_gravity="center"
+        n1:gravity="center"
+        n1:indeterminate="true"
+        n1:padding="5.0dip"
+        n1:visibility="invisible"/>
+
+    <LinearLayout
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:orientation="vertical">
+
+        <LinearLayout
+            n1:id="@+id/adLayout"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_centerHorizontal="true"
+            n1:orientation="vertical"
+            n1:visibility="gone"/>
+
+        <LinearLayout
+            n1:id="@+id/adButtonsLayout"
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            n1:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                n1:id="@+id/removeAds"
+                n1:layout_width="0.0dip"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="center"
+                n1:layout_weight="1.0"
+                n1:gravity="center"
+                n1:padding="5.0dip"
+                n1:text="@string/remove_ads"
+                n1:textAllCaps="true"
+                n1:textColor="@color/colorPrimary"
+                n1:textSize="14.0dip" />
+
+            <android.support.v7.widget.AppCompatTextView
+                n1:id="@+id/whyAds"
+                n1:layout_width="0.0dip"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="center"
+                n1:layout_weight="1.0"
+                n1:gravity="center"
+                n1:padding="5.0dip"
+                n1:text="@string/why_i_see_ads"
+                n1:textAllCaps="true"
+                n1:textColor="@color/colorAccent"
+                n1:textSize="14.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

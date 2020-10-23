@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1049584668418",
+    "firebase_url": "https://rocket-warrior.firebaseio.com",
+    "project_id": "rocket-warrior",
+    "storage_bucket": "rocket-warrior.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049584668418:android:f0ed314894007271",
+        "android_client_info": {
+          "package_name": "hellboy.bka.tlvan.rocketwarrior"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049584668418-74p445aiu0pdbs090ijtde5fbd7l7rlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyPokXZWD9fgwxiMcHbnNMXpzG4jABAxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

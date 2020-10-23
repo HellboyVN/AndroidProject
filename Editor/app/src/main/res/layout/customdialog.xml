@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginTop="10.0dip"
+        android:orientation="vertical">
+
+        <com.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_title"
+            android:textColor="@android:color/background_light"
+            android:textSize="22.0sp"
+            android:textStyle="bold" />
+
+        <com.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginTop="10.0dip"
+            android:text="@string/dialog_message"
+            android:textColor="@android:color/background_light"
+            android:textSize="20.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="25.0dip"
+        android:background="@android:color/background_light" />
+
+    <LinearLayout
+        android:id="@+id/btnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginLeft="50.0dip"
+        android:layout_marginRight="50.0dip"
+        android:layout_marginTop="25.0dip"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10.0dip"
+            android:layout_weight="1.0"
+            android:text="@string/exit" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10.0dip"
+            android:layout_weight="1.0"
+            android:text="@string/Ok" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25.0dip"
+        android:layout_below="@+id/btnLayout" />
+</RelativeLayout>

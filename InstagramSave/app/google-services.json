@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "725845200392",
+    "firebase_url": "https://instagramsave-333a6.firebaseio.com",
+    "project_id": "instagramsave-333a6",
+    "storage_bucket": "instagramsave-333a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725845200392:android:62ab17183a701c88",
+        "android_client_info": {
+          "package_name": "hb.me.instagramsave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725845200392-lcl68b0t4llsibfvvmbt9lh2un75cvj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo0_kWtEQK5g4WskT35CcWBEIVnG8ddEA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

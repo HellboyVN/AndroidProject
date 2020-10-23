@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.1"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash" />
+
+    <ImageView
+        android:id="@+id/premiumbadge"
+        android:layout_width="100.0dip"
+        android:layout_height="100.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0.0dip"
+        android:layout_marginTop="20.0dip"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/premiumbadge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/premiumbadge"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20.0dip"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="4.0dip"
+                android:drawableLeft="@drawable/premium"
+                android:gravity="center"
+                android:text="UNLOCK ALL WORKOUT PLANS"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="4.0dip"
+                android:drawableLeft="@drawable/premium"
+                android:gravity="center"
+                android:text="ADS FREE VERSION"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="4.0dip"
+                android:drawableLeft="@drawable/premium"
+                android:gravity="center"
+                android:text="TRAINER GUIDANCE BY EMAIL"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="4.0dip"
+                android:drawableLeft="@drawable/premium"
+                android:gravity="center"
+                android:text="FASTER APP EXPERIENCE"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4.0dip"
+                android:drawableLeft="@drawable/premium"
+                android:gravity="center"
+                android:text="GET BETTER RESULTS"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonPremium1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15.0dip"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="10.0dip"
+            android:text="3 months"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/buttonPremium2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15.0dip"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="10.0dip"
+            android:text="6 months"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/buttonPremium3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15.0dip"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="10.0dip"
+            android:text=" Lifetime"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</RelativeLayout>

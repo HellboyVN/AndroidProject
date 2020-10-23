@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/WorkoutExerciseRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:paddingBottom="1.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="10.0dip"
+            android:text="Workout Completed!"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_margin="5.0dip"
+            card_view:cardCornerRadius="8.0dip">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                card_view:cardCornerRadius="8.0dip">
+
+                <ImageView
+                    android:id="@+id/imageViewPlan"
+                    android:layout_width="130.0dip"
+                    android:layout_height="130.0dip" />
+
+                <include
+                    android:id="@+id/progressBarImageView"
+                    layout="@layout/progress_bar" />
+            </android.support.v7.widget.CardView>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card1"
+            android:layout_centerVertical="true"
+            android:layout_margin="10.0dip"
+            card_view:cardCornerRadius="8.0dip">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewWorkout"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:paddingBottom="1.0dip"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:text="Workout Name: "
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_default"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewPlanName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:paddingBottom="1.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:text="My workout"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_default" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:paddingBottom="1.0dip"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:text="Workout day: "
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_default"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewPlanDay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:paddingBottom="1.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:text="Tuesday"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_default" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:paddingBottom="1.0dip"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:text="Exercises Completed: "
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_default"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewTotalExercises"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:paddingBottom="1.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:text="6"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_default" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:paddingBottom="1.0dip"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:text="Main Focus:"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_default"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewMuscleFocussed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:paddingBottom="1.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:text="Biceps"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_default" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:paddingBottom="10.0dip"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:text="Time Taken:"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_default"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewDuration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:paddingBottom="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:text="30 Minutes"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_default" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card2"
+            android:layout_centerVertical="true"
+            android:layout_margin="10.0dip"
+            card_view:cardCornerRadius="8.0dip"
+            card_view:cardElevation="7.0dip">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/buttonExit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Exit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>

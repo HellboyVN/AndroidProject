@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hb.homeworkout.homeworkouts.noequipment.fitnesspro">
+
+
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_APP_BADGE" />
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+
+    <application
+        android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.application.WorkoutApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.NewsListActivity"
+            android:label="@string/title_activity_News"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.PremiumVersion"
+            android:label="@string/title_activity_Premium" />
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.WorkoutTrackerStart"
+            android:label="@string/title_tracker_start" />
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.TrackerStatsActivity"
+            android:label="@string/title_tracker_stats"
+            android:theme="@style/NoTitleDialog" />
+        <activity android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.TrainingDetailActivity" />
+        <activity android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.WorkoutDetailActivity" />
+        <activity android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.service.FirebaseDBUpdateService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.PlanDetailActivity" />
+        <activity android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.PlanWorkoutListActivity" />
+        <activity android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.MyPlanListActivity" />
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.CreateWorkoutPlanActivity"
+            android:theme="@style/NoTitleDialog"
+            android:windowSoftInputMode="stateVisible|stateAlwaysVisible" />
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.AddWorkoutToPlanActivity"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.BMIActivity"
+            android:windowSoftInputMode="stateVisible|stateAlwaysVisible" />
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.CalorieActivity"
+            android:windowSoftInputMode="stateVisible|stateAlwaysVisible" />
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.ProteinActivity"
+            android:windowSoftInputMode="stateVisible|stateAlwaysVisible" />
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.FatCalculator"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.NotificationActivity">
+            <intent-filter>
+                <action android:name="OPEN_NOTIFICATION_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.LoginActivity"
+            android:theme="@style/NoTitleDialog"
+            android:windowSoftInputMode="stateVisible|stateAlwaysVisible" />
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.MoreActivity"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.activity.PlanDescriptionActivity"
+            android:theme="@style/NoTitleDialog" />
+
+        <service android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro.service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="e906c6e1ecfaf276b174c4209f4bece2680bc83c" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="hb.homeworkout.homeworkouts.noequipment.fitnesspro.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/paths" />
+        </provider>
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            />
+
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            />
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="hb.homeworkout.homeworkouts.noequipment.fitnesspro" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="hb.homeworkout.homeworkouts.noequipment.fitnesspro.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+</manifest>

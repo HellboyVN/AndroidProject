@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:id="@+id/mCardItemLayout"
+    n1:layout_width="match_parent"
+    n1:layout_height="200dp"
+    n1:layout_marginBottom="4dp">
+
+    <android.support.v7.widget.CardView xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/mCardLayout"
+        n1:layout_width="match_parent"
+        n1:layout_height="200dp"
+        n1:layout_gravity="center"
+        n1:elevation="3dp"
+        n1:layout_margin="@dimen/card_margin"
+        n2:cardCornerRadius="@dimen/card_album_radius">
+
+
+            <RelativeLayout
+                n1:layout_width="match_parent"
+                n1:layout_height="match_parent"
+                n1:layout_gravity="center"
+                n1:orientation="vertical">
+
+                <android.support.v7.widget.AppCompatImageView
+                    n1:id="@+id/cCardImage"
+                    n1:layout_width="match_parent"
+                    n1:layout_height="150dp"
+                    n1:layout_gravity="center"
+                    n1:clickable="true"
+                    n1:layout_above="@+id/plank_time"
+                    n1:scaleType="fitXY" />
+
+                <LinearLayout
+                    n1:id="@+id/plank_time"
+                    n1:layout_width="match_parent"
+                    n1:layout_height="wrap_content"
+                    n1:layout_alignParentBottom="true"
+                    n1:layout_gravity="center"
+                    n1:gravity="center"
+                    n1:background="@color/album_title"
+                    n1:orientation="vertical">
+
+                    <TextView
+                        n1:id="@+id/cCardName"
+                        n1:layout_width="match_parent"
+                        n1:layout_height="wrap_content"
+                        n1:layout_gravity="center"
+                        n1:gravity="center"
+                        n1:padding="10.0dip"
+                        n1:text="Plank Name"
+                        n1:maxLines="1"
+                        n1:textColor="@color/white"
+                        n1:textSize="16.0dip" />
+                    <RelativeLayout
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="match_parent">
+                        <include layout="@layout/custom_plusmin_buttons" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

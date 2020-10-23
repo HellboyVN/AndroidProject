@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Blow Wifi Prank</string>
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-6893701289996917/1481202634</string>
+    <string name="interstitial_full_screen">ca-app-pub-6893701289996917/5173035635</string>
+    <string name="interstitial_full_screen_shake">ca-app-pub-6893701289996917/8524945524</string>
+</resources>

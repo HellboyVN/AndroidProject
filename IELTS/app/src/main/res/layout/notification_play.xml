@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffeeeeee">
+
+    <ImageView
+        android:id="@+id/icon_player"
+        android:layout_width="@dimen/icon_with"
+        android:layout_height="@dimen/icon_with"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/icon_player"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_current_notification"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.7"
+            android:clickable="true"
+            android:duplicateParentState="true"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:gravity="left"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:requiresFadingEdge="horizontal"
+            android:scrollHorizontally="false"
+            android:selectAllOnFocus="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size">
+
+            <requestFocus
+                android:duplicateParentState="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.3"
+            android:gravity="right">
+
+            <ImageButton
+                android:id="@+id/btn_prev_notification"
+                android:layout_width="@dimen/touch_default"
+                android:layout_height="@dimen/touch_default"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/btn_prev_selector" />
+
+            <ImageButton
+                android:id="@+id/btn_pause_notification"
+                android:layout_width="@dimen/touch_default"
+                android:layout_height="@dimen/touch_default"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7.0dip"
+                android:layout_marginRight="7.0dip"
+                android:background="@drawable/btn_pause_selector" />
+
+            <ImageButton
+                android:id="@+id/btn_next_notification"
+                android:layout_width="@dimen/touch_default"
+                android:layout_height="@dimen/touch_default"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/btn_next_selector" />
+
+            <ImageButton
+                android:id="@+id/btn_kill_notification"
+                android:layout_width="@dimen/touch_default"
+                android:layout_height="@dimen/touch_default"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7.0dip"
+                android:background="@drawable/btn_close_selector" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_progress_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_margin="5.0dip"
+        android:layout_toRightOf="@+id/icon_player"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:text="@string/zero_progress"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone" />
+</RelativeLayout>

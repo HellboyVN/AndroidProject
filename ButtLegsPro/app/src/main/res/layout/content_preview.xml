@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    xmlns:n2="http://schemas.android.com/apk/res-auto"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n2:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        n1:id="@+id/restPreviewLayout"
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="center"
+        n1:layout_marginBottom="100.0dip"
+        n1:gravity="center"
+        n1:orientation="vertical"
+        n1:visibility="gone">
+
+        <ImageView
+            n1:id="@+id/previewRestDay"
+            n1:layout_width="200.0dip"
+            n1:layout_height="200.0dip"
+            n1:layout_gravity="center"
+            n1:gravity="center"
+            n2:srcCompat="@drawable/ic_rest" />
+
+        <TextView
+            n1:id="@+id/previewRestDayText"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="center"
+            n1:gravity="center"
+            n1:text="@string/rest_text"
+            n1:textColor="@color/colorPrimary"
+            n1:textSize="20.0dip"
+            n2:srcCompat="@drawable/ic_rest" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        n1:id="@+id/previewRV"
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:layout_marginBottom="100.0dip"
+        n1:clipToPadding="false"
+        n1:padding="5.0dip" />
+</FrameLayout>

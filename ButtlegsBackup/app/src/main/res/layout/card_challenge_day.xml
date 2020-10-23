@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="wrap_content"
+    n1:orientation="vertical">
+
+    <hb.legsandbuttocksworkout.homeworkout.gym.buttlegs.buttlegspro.buttlegschallenge.home.tabs.tabfour.SquareRelativeLayout
+        n1:id="@+id/dayLayout"
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content"
+        n1:layout_margin="5.0dip"
+        n1:background="@drawable/day_card_selector"
+        n1:clickable="true"
+        n1:padding="5.0dip">
+        <RelativeLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_centerVertical="true"
+            n1:background="@drawable/shape">
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:id="@+id/title"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_centerInParent="true"
+            n1:gravity="center"
+            n1:textColor="@color/white"
+            n1:textSize="20.0dip" />
+        </RelativeLayout>
+        <android.support.v7.widget.AppCompatImageView xmlns:n2="http://schemas.android.com/apk/res-auto"
+            n1:id="@+id/icCheck"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_centerInParent="true"
+            n1:visibility="invisible"
+            n2:srcCompat="@drawable/ic_check" />
+    </hb.legsandbuttocksworkout.homeworkout.gym.buttlegs.buttlegspro.buttlegschallenge.home.tabs.tabfour.SquareRelativeLayout>
+</LinearLayout>

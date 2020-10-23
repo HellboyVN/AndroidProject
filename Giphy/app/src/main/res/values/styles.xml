@@ -1,0 +1,87 @@
+<resources>
+
+
+    <style name="AppTheme.Base" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#ff212121</item>
+        <item name="android:divider">#ffb6b6b6</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#ff212121</item>
+        <item name="android:divider">#ffb6b6b6</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+
+    <style name="ShowGifstyle" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">#ff212121</item>
+        <item name="android:divider">#ffb6b6b6</item>
+        <item name="android:homeAsUpIndicator">@drawable/back_up_icon</item>
+        <item name="homeAsUpIndicator">@drawable/back_up_icon</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ColorsCircularProgressDrawableStyle" parent="@style/Material.Drawable.CircularProgress">
+        <item name="cpd_strokeColors">@array/progress_colors</item>
+    </style>
+
+    <style name="DownloadFloatingColorActionButton" parent="@style/Material.Drawable.Ripple.Touch.Light">
+        <item name="fab_backgroundColor">#ffd8433c</item>
+        <item name="fab_elevation">4.0dip</item>
+        <item name="rd_rippleColor">#42ffffff</item>
+        <item name="rd_delayClick">none</item>
+    </style>
+
+    <style name="FacebookFloatingColorActionButton" parent="@style/Material.Drawable.Ripple.Touch.Light">
+        <item name="fab_backgroundColor">#ff3c5a99</item>
+        <item name="fab_elevation">4.0dip</item>
+        <item name="rd_rippleColor">#42ffffff</item>
+        <item name="rd_delayClick">none</item>
+    </style>
+
+    <style name="MyActionBarTheme" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="WhatsAppFloatingColorActionButton" parent="@style/Material.Drawable.Ripple.Touch.Light">
+        <item name="fab_backgroundColor">#ff4bc75a</item>
+        <item name="fab_elevation">4.0dip</item>
+        <item name="rd_rippleColor">#42ffffff</item>
+        <item name="rd_delayClick">none</item>
+    </style>
+
+    <style name="SnapchatFloatingColorActionButton" parent="@style/Material.Drawable.Ripple.Touch.Light">
+        <item name="fab_backgroundColor">#fffffc00</item>
+        <item name="fab_elevation">4.0dip</item>
+        <item name="rd_rippleColor">#42ffffff</item>
+        <item name="rd_delayClick">none</item>
+    </style>
+
+    <style name="ShareFloatingColorActionButton" parent="@style/Material.Drawable.Ripple.Touch.Light">
+        <item name="fab_backgroundColor">#fff2af3a</item>
+        <item name="fab_elevation">4.0dip</item>
+        <item name="rd_rippleColor">#42ffffff</item>
+        <item name="rd_delayClick">none</item>
+    </style>
+
+    <style name="RefreshFloatingColorActionButton" parent="@style/Material.Drawable.Ripple.Touch.Light">
+        <item name="fab_backgroundColor">#ff279b5e</item>
+        <item name="fab_elevation">4.0dip</item>
+        <item name="rd_rippleColor">#42ffffff</item>
+        <item name="rd_delayClick">none</item>
+    </style>
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorButtonNormal">@color/primary_dark</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewWorkout"
+                android:layout_width="@dimen/favourite_list_image_size"
+                android:layout_height="@dimen/favourite_list_image_size"
+                android:padding="10.0dip"
+                android:src="@drawable/header_shadow" />
+
+            <include layout="@layout/progress_bar" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewWorkoutName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="10.0dip"
+                android:textColor="@color/design_textinput_error_color_light"
+                android:textSize="@dimen/utility_row_text_size" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item xmlns:n1="http://schemas.android.com/apk/res/android"
+        xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/action_home"
+        n1:enabled="true"
+        n1:icon="@drawable/ic_female"
+        n1:title="@string/home"
+        n2:showAsAction="ifRoom" />
+    <item xmlns:n5="http://schemas.android.com/apk/res/android"
+        xmlns:n6="http://schemas.android.com/apk/res-auto"
+        n5:id="@+id/action_treadmill"
+        n5:enabled="true"
+        n5:icon="@drawable/ic_treadmill"
+        n5:title="@string/treadmill"
+        n6:showAsAction="ifRoom" />
+    <item xmlns:n3="http://schemas.android.com/apk/res/android"
+        xmlns:n4="http://schemas.android.com/apk/res-auto"
+        n3:id="@+id/action_challenge"
+        n3:enabled="true"
+        n3:icon="@drawable/ic_challenger"
+        n3:title="@string/challenge"
+        n4:showAsAction="ifRoom" />
+</menu>

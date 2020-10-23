@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?colorPrimary"
+        android:fitsSystemWindows="true"
+        android:minHeight="?actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <Button
+            android:id="@+id/notificationsharebutton"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:layout_margin="10.0dip"
+            android:background="@drawable/share" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/scrollviewnotification"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adSmartBanner"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/descriptionCarView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                card_view:cardCornerRadius="10.0dip"
+                card_view:cardPreventCornerOverlap="false"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.0dip"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayoutOptions"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/notification_image_height"
+                        android:layout_margin="2.0dip"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:id="@+id/imagerelativelayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <include layout="@layout/progress_bar" />
+
+                            <ImageView
+                                android:id="@+id/notificationImage"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_gravity="center"
+                                android:contentDescription="@null"
+                                android:scaleType="fitStart" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/linkTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="bottom"
+                        android:gravity="end"
+                        android:paddingBottom="5.0dip"
+                        android:paddingLeft="5.0dip"
+                        android:paddingRight="10.0dip"
+                        android:text=""
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12.0sp" />
+
+                    <TextView
+                        android:id="@+id/notificationTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:gravity="top"
+                        android:paddingBottom="10.0dip"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:textSize="20.0sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/notificationText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="10.0dip"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:textSize="@dimen/text_size_default" />
+
+                    <TextView
+                        android:id="@+id/progymwebsite"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingBottom="5.0dip"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="5.0dip"
+                        android:text="Pro Gym Workout"
+                        android:textColor="@color/black"
+                        android:textSize="13.0sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+
+    <include layout="@layout/admob_banner_ad_layout" />
+</RelativeLayout>

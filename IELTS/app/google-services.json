@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "942065226453",
+    "firebase_url": "https://ielts-listening-2018.firebaseio.com",
+    "project_id": "ielts-listening-2018",
+    "storage_bucket": "ielts-listening-2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942065226453:android:5c8adb8e500e105b",
+        "android_client_info": {
+          "package_name": "com.tlvanelearning.ielts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942065226453-bnfc7nmac2faoc4b08r5r998sga25o3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKDB4_-RzOHya0W5aTDuQxphEBNmPLB40"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

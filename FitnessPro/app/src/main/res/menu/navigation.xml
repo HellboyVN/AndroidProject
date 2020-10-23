@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_training_vector" android:id="@+id/navigation_training" android:title="@string/title_exercises" />
+    <item android:icon="@drawable/ic_plan_vector" android:id="@+id/navigation_plan" android:title="@string/title_workout_plan" />
+    <item android:icon="@drawable/ic_utility" android:id="@+id/navigation_utility" android:title="@string/title_utility" />
+    <item android:icon="@drawable/ic_favorite_vector" android:id="@+id/navigation_favourite" android:title="@string/title_favourite" />
+    <item android:icon="@drawable/ic_more" android:id="@+id/navigation_more" android:title="@string/title_more" />
+</menu>

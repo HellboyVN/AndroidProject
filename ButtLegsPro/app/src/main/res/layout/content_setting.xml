@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@+id/contentSetting" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="vertical" n1:id="@+id/settingContent" n1:paddingLeft="@dimen/activity_horizontal_margin" n1:paddingTop="@dimen/activity_vertical_margin" n1:paddingRight="@dimen/activity_horizontal_margin" n1:paddingBottom="@dimen/activity_vertical_margin" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <android.support.v7.widget.AppCompatTextView n1:textSize="16.0sp" n1:textColor="#ff000000" n1:id="@+id/sstPersonal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/personal" />
+        <View n1:background="#ff605f5f" n1:layout_width="match_parent" n1:layout_height="0.5dip" n1:layout_marginTop="10.0dip" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@+id/soundLayout" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:foreground="?android:selectableItemBackground">
+            <LinearLayout n1:orientation="vertical" n1:padding="10.0dip" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <android.support.v7.widget.SwitchCompat n1:gravity="center|right" n1:layout_gravity="center|right" n1:id="@+id/soundSwich" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                    <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                        <android.support.v7.widget.AppCompatImageView n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:srcCompat="@drawable/ic_sound_on" />
+                        <android.support.v7.widget.AppCompatTextView n1:textSize="16.0sp" n1:textColor="#ff212020" n1:layout_gravity="center|left" n1:id="@+id/sSound" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/settings_sound" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View n1:background="#ff605f5f" n1:layout_width="match_parent" n1:layout_height="0.5dip" n1:layout_marginLeft="10.0dip" n1:layout_marginRight="10.0dip" n1:layout_marginBottom="10.0dip" />
+        <FrameLayout n1:gravity="left" n1:layout_gravity="left" n1:orientation="horizontal" n1:id="@+id/weightLayout" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:foreground="?android:selectableItemBackground">
+            <LinearLayout n1:orientation="vertical" n1:paddingLeft="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <ImageView n1:id="@+id/weightImage" n1:padding="3.0dip" n1:layout_width="28.0dip" n1:layout_height="28.0dip" n2:srcCompat="@drawable/ic_weght" />
+                    <android.support.v7.widget.AppCompatTextView n1:textSize="16.0sp" n1:textColor="#ff212020" n1:id="@+id/sWeight" n1:paddingLeft="8.0dip" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/weight" />
+                </LinearLayout>
+            </LinearLayout>
+            <android.support.v7.widget.AppCompatTextView n1:textSize="16.0sp" n1:gravity="center|right" n1:layout_gravity="center|right" n1:id="@+id/sWeightMetricText" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginRight="10.0dip" n1:text="kg" />
+        </FrameLayout>
+        <View n1:background="#ff605f5f" n1:layout_width="match_parent" n1:layout_height="0.5dip" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="10.0dip" n1:layout_marginRight="10.0dip" />
+        <FrameLayout n1:id="@+id/cdVoiceLayout" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:foreground="?android:selectableItemBackground">
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:padding="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <ImageView n1:padding="3.0dip" n1:layout_width="28.0dip" n1:layout_height="28.0dip" n2:srcCompat="@drawable/ic_record_voice_over" />
+                    <android.support.v7.widget.AppCompatTextView n1:textSize="16.0sp" n1:textColor="#ff212020" n1:id="@+id/cdVoiceLabel" n1:paddingLeft="8.0dip" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/settings_cd_voice_start" />
+                </LinearLayout>
+            </LinearLayout>
+            <android.support.v7.widget.AppCompatTextView n1:gravity="center|right" n1:layout_gravity="center|right" n1:id="@+id/cdVoice" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="10.0dip" />
+        </FrameLayout>
+        <View n1:background="#ff605f5f" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.5dip" n1:layout_marginTop="10.0dip" n1:layout_marginBottom="10.0dip" />
+        <android.support.v7.widget.AppCompatTextView n1:textSize="16.0sp" n1:textColor="#ff000000" n1:paddingTop="15.0dip" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/duration" />
+        <View n1:background="#ff605f5f" n1:layout_width="match_parent" n1:layout_height="0.5dip" n1:layout_marginTop="10.0dip" n1:layout_marginBottom="10.0dip" />
+        <FrameLayout n1:id="@+id/restTimeLayout" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:foreground="?android:selectableItemBackground">
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:padding="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <android.support.v7.widget.AppCompatImageView n1:gravity="center_vertical" n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:srcCompat="@drawable/ic_timer" />
+                    <android.support.v7.widget.AppCompatTextView n1:textSize="16.0sp" n1:textColor="#ff212020" n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@+id/sRestTime" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/setting_rest_duration" />
+                </LinearLayout>
+            </LinearLayout>
+            <android.support.v7.widget.AppCompatTextView n1:gravity="center|right" n1:layout_gravity="center|right" n1:id="@+id/restTime" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="10.0dip" />
+        </FrameLayout>
+        <View n1:background="#ff605f5f" n1:layout_width="match_parent" n1:layout_height="0.5dip" n1:layout_marginTop="10.0dip" n1:layout_marginBottom="10.0dip" />
+        <FrameLayout n1:id="@+id/readyTimeLayout" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:foreground="?android:selectableItemBackground">
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:padding="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <android.support.v7.widget.AppCompatImageView n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:srcCompat="@drawable/ic_timer" />
+                    <android.support.v7.widget.AppCompatTextView n1:textSize="16.0sp" n1:textColor="#ff212020" n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@+id/sReadyTime" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/setting_ready_duration" />
+                </LinearLayout>
+            </LinearLayout>
+            <android.support.v7.widget.AppCompatTextView n1:gravity="center|right" n1:layout_gravity="center|right" n1:id="@+id/readyTime" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="10.0dip" />
+        </FrameLayout>
+        <View n1:background="#ff605f5f" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.5dip" n1:layout_marginTop="10.0dip" n1:layout_marginBottom="10.0dip" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@+id/weekStartLayout" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:foreground="?android:selectableItemBackground">
+            <LinearLayout n1:orientation="vertical" n1:padding="10.0dip" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <FrameLayout n1:gravity="right" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <android.support.v7.widget.AppCompatTextView n1:textSize="16.0sp" n1:textColor="#ff212020" n1:gravity="center_vertical" n1:id="@+id/sWeekStart" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/settings_week_start" n1:drawablePadding="5.0dip" />
+                    <android.support.v7.widget.AppCompatTextView n1:gravity="center|right" n1:layout_gravity="center|right" n1:id="@+id/weekStart" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatTextView n1:textSize="14.0sp" n1:textColor="#ff000000" n1:id="@+id/settingVersionName" n1:padding="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="v.1.0.0" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" />
+</RelativeLayout>

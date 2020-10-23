@@ -1,0 +1,1286 @@
+{
+  "type": "male",
+  "data": [
+    {
+      "name_key": "level",
+      "level": 1,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_1_male",
+      "exercises": [
+        {
+          "name_key": "v_sits",
+          "duration": 30000,
+          "img_key": "male_v_sits"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 30000,
+          "img_key": "male_crisscross_abs"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 30000,
+          "img_key": "male_side_crunches"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 30000,
+          "img_key": "male_heel_touch_foot"
+
+        },
+        {
+          "name_key": "hip_raise",
+          "duration": 30000,
+          "img_key": "male_hip_raise"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 30000,
+          "img_key": "male_flutter_ficks_abs"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 2,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_2_male",
+      "exercises": [
+        {
+          "name_key": "knee_to_elbow_crunches_left",
+          "duration": 15000,
+          "img_key": "male_knee_to_elbow_crunches_left"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 40000,
+          "img_key": "male_leg_raise_circles"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 30000,
+          "img_key": "male_side_crunches"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_right",
+          "duration": 15000,
+          "img_key": "male_knee_to_elbow_crunches_right"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 40000,
+          "img_key": "male_sitting_twists"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 40000,
+          "img_key": "male_crisscross_abs"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 30000,
+          "img_key": "male_v_sits"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 3,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_3_male",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "v_crunches",
+          "duration": 40000,
+          "img_key": "male_v_crunches"
+        },
+        {
+          "name_key": "reverse_crunches",
+          "duration": 40000,
+          "img_key": "male_reverse_crunches"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 40000,
+          "img_key": "male_crisscross_abs"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 40000,
+          "img_key": "male_side_crunches"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 40000,
+          "img_key": "male_heel_touch_foot"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_left",
+          "duration": 20000,
+          "img_key": "male_knee_to_elbow_crunches_left"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_right",
+          "duration": 20000,
+          "img_key": "male_knee_to_elbow_crunches_right"
+        }
+
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 4,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_4_male",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "the_bird_dog",
+          "duration": 40000,
+          "img_key": "male_the_bird_dog"
+        },
+        {
+          "name_key": "long_arm_crunches",
+          "duration": 40000,
+          "img_key": "male_long_arm_crunches"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 40000,
+          "img_key": "male_crisscross_abs"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 50000,
+          "img_key": "male_heel_touch_foot"
+        },
+        {
+          "name_key": "reverse_crunches",
+          "duration": 40000,
+          "img_key": "male_reverse_crunches"
+        },
+        {
+          "name_key": "hip_raise",
+          "duration": 50000,
+          "img_key": "male_hip_raise"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 5,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_5_male",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "air_bike_crunches",
+          "duration": 30000,
+          "img_key": "male_air_bike_crunches"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 40000,
+          "img_key": "male_sitting_twists"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 40000,
+          "img_key": "male_leg_raise_circles"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 40000,
+          "img_key": "male_side_crunches"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 50000,
+          "img_key": "male_v_sits"
+        },
+        {
+          "name_key": "reverse_crunches",
+          "duration": 50000,
+          "img_key": "male_reverse_crunches"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 6,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_6_male",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "sit_up",
+          "duration": 40000,
+          "img_key": "male_sit_up"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 50000,
+          "img_key": "male_crisscross_abs"
+        },
+        {
+          "name_key": "side_plank_left",
+          "duration": 25000,
+          "img_key": "male_side_plank_left"
+        },
+        {
+          "name_key": "side_plank_right",
+          "duration": 25000,
+          "img_key": "male_side_plank_right"
+        },
+        {
+          "name_key": "leg_lifts",
+          "duration": 50000,
+          "img_key": "male_leg_lifts"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 50000,
+          "img_key": "male_flutter_ficks_abs"
+        },
+        {
+          "name_key": "crossover_crunch_l_abs",
+          "duration": 40000,
+          "img_key": "male_crossover_crunch_l_abs"
+        },
+        {
+          "name_key": "crossover_crunch_r_abs",
+          "duration": 40000,
+          "img_key": "male_crossover_crunch_r_abs"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 7,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_7_male",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "air_bike_crunches",
+          "duration": 30000,
+          "img_key": "male_air_bike_crunches"
+        },
+        {
+          "name_key": "leg_lifts",
+          "duration": 50000,
+          "img_key": "male_leg_lifts"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 50000,
+          "img_key": "male_heel_touch_foot"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 50000,
+          "img_key": "male_v_sits"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 50000,
+          "img_key": "male_crisscross_abs"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 40000,
+          "img_key": "male_sitting_twists"
+        }
+
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 8,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_8_male",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "full_plank",
+          "duration": 40000,
+          "img_key": "male_full_plank"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 50000,
+          "img_key": "male_side_crunches"
+        },
+        {
+          "name_key": "leg_lifts",
+          "duration": 50000,
+          "img_key": "male_leg_lifts"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 50000,
+          "img_key": "male_crisscross_abs"
+        },
+        {
+          "name_key": "the_bird_dog",
+          "duration": 50000,
+          "img_key": "male_the_bird_dog"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 50000,
+          "img_key": "male_leg_raise_circles"
+        }
+
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 9,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_9_male",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "crisscross_abs",
+          "duration": 50000,
+          "img_key": "male_crisscross_abs"
+        },
+        {
+          "name_key": "leg_lifts",
+          "duration": 50000,
+          "img_key": "male_leg_lifts"
+        },
+        {
+          "name_key": "full_plank",
+          "duration": 50000,
+          "img_key": "male_full_plank"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 60000,
+          "img_key": "male_leg_raise_circles"
+        },
+        {
+          "name_key": "hip_raise",
+          "duration": 50000,
+          "img_key": "male_hip_raise"
+        },
+        {
+          "name_key": "long_arm_crunches",
+          "duration": 40000,
+          "img_key": "male_long_arm_crunches"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 10,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_10_male",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "crossover_crunch_l_abs",
+          "duration": 20000,
+          "img_key": "male_crossover_crunch_l_abs"
+        },
+        {
+          "name_key": "crossover_crunch_r_abs",
+          "duration": 20000,
+          "img_key": "male_crossover_crunch_r_abs"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 60000,
+          "img_key": "male_v_sits"
+        },
+        {
+          "name_key": "v_crunches",
+          "duration": 60000,
+          "img_key": "male_v_crunches"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 50000,
+          "img_key": "male_heel_touch_foot"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 50000,
+          "img_key": "male_sitting_twists"
+        },
+        {
+          "name_key": "air_bike_crunches",
+          "duration": 60000,
+          "img_key": "male_air_bike_crunches"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 11,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_11_male",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "reverse_crunches",
+          "duration": 60000,
+          "img_key": "male_reverse_crunches"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_left",
+          "duration": 30000,
+          "img_key": "male_knee_to_elbow_crunches_left"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_right",
+          "duration": 30000,
+          "img_key": "male_knee_to_elbow_crunches_right"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 60000,
+          "img_key": "male_crisscross_abs"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 50000,
+          "img_key": "male_flutter_ficks_abs"
+        },
+        {
+          "name_key": "leg_lifts",
+          "duration": 40000,
+          "img_key": "male_leg_lifts"
+        },
+        {
+          "name_key": "the_bird_dog",
+          "duration": 60000,
+          "img_key": "male_the_bird_dog"
+        }
+      ]
+    },{
+      "name_key": "level",
+      "level": 12,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_12_male",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "hip_raise",
+          "duration": 60000,
+          "img_key": "male_hip_raise"
+        },
+        {
+          "name_key": "crossover_crunch_l_abs",
+          "duration": 30000,
+          "img_key": "male_crossover_crunch_l_abs"
+        },
+        {
+          "name_key": "crossover_crunch_r_abs",
+          "duration": 30000,
+          "img_key": "male_crossover_crunch_r_abs"
+        },
+        {
+          "name_key": "reverse_crunches",
+          "duration": 50000,
+          "img_key": "male_reverse_crunches"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 60000,
+          "img_key": "male_v_sits"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 60000,
+          "img_key": "male_heel_touch_foot"
+        },
+        {
+          "name_key": "v_crunches",
+          "duration": 50000,
+          "img_key": "male_v_crunches"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 13,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_13_male",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "v_crunches",
+          "duration": 60000,
+          "img_key": "male_v_crunches"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 60000,
+          "img_key": "male_crisscross_abs"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 60000,
+          "img_key": "male_side_crunches"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 60000,
+          "img_key": "male_leg_raise_circles"
+        },
+        {
+          "name_key": "reverse_crunches",
+          "duration": 60000,
+          "img_key": "male_reverse_crunches"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 60000,
+          "img_key": "male_heel_touch_foot"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 14,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_14_male",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "air_bike_crunches",
+          "duration": 60000,
+          "img_key": "male_air_bike_crunches"
+        },
+        {
+          "name_key": "side_plank",
+          "duration": 60000,
+          "img_key": "male_side_plank"
+        },
+        {
+          "name_key": "leg_lifts",
+          "duration": 70000,
+          "img_key": "male_leg_lifts"
+        },
+        {
+          "name_key": "the_bird_dog",
+          "duration": 60000,
+          "img_key": "male_the_bird_dog"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 70000,
+          "img_key": "male_flutter_ficks_abs"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 60000,
+          "img_key": "male_side_crunches"
+        }
+
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 15,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_15_male",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "v_crunches",
+          "duration": 70000,
+          "img_key": "male_v_crunches"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 60000,
+          "img_key": "male_sitting_twists"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 70000,
+          "img_key": "male_crisscross_abs"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 60000,
+          "img_key": "male_v_sits"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 60000,
+          "img_key": "male_heel_touch_foot"
+        },
+        {
+          "name_key": "hip_raise",
+          "duration": 70000,
+          "img_key": "male_hip_raise"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 16,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_16",
+      "exercises": [
+
+        {
+          "name_key": "reverse_crunches",
+          "duration": 70000,
+          "img_key": "male_reverse_crunches"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 70000,
+          "img_key": "male_side_crunches"
+        },
+        {
+          "name_key": "air_bike_crunches",
+          "duration": 50000,
+          "img_key": "male_air_bike_crunches"
+        },
+        {
+          "name_key": "crossover_crunch_l_abs",
+          "duration": 35000,
+          "img_key": "male_crossover_crunch_l_abs"
+        },
+        {
+          "name_key": "crossover_crunch_r_abs",
+          "duration": 35000,
+          "img_key": "male_crossover_crunch_r_abs"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 60000,
+          "img_key": "male_leg_raise_circles"
+        },
+        {
+          "name_key": "the_bird_dog",
+          "duration": 70000,
+          "img_key": "male_the_bird_dog"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 17,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_17",
+      "exercises": [
+        {
+          "name_key": "sit_up",
+          "duration": 70000,
+          "img_key": "male_sit_up"
+        },
+        {
+          "name_key": "leg_lifts",
+          "duration": 70000,
+          "img_key": "male_leg_lifts"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 70000,
+          "img_key": "male_sitting_twists"
+        },
+        {
+          "name_key": "v_crunches",
+          "duration": 70000,
+          "img_key": "male_v_crunches"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 70000,
+          "img_key": "male_v_sits"
+        },
+        {
+          "name_key": "crossover_crunch_l_abs",
+          "duration": 35000,
+          "img_key": "male_crossover_crunch_l_abs"
+        },
+        {
+          "name_key": "crossover_crunch_r_abs",
+          "duration": 35000,
+          "img_key": "male_crossover_crunch_r_abs"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 18,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_18",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "reverse_crunches",
+          "duration": 70000,
+          "img_key": "male_reverse_crunches"
+        },
+        {
+          "name_key": "v_crunches",
+          "duration": 80000,
+          "img_key": "male_v_crunches"
+        },
+        {
+          "name_key": "hip_raise",
+          "duration": 70000,
+          "img_key": "male_hip_raise"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 70000,
+          "img_key": "male_flutter_ficks_abs"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 80000,
+          "img_key": "male_crisscross_abs"
+
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 70000,
+          "img_key": "male_leg_raise_circles"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 19,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_19",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "full_plank",
+          "duration": 80000,
+          "img_key": "male_full_plank"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_left",
+          "duration": 35000,
+          "img_key": "male_knee_to_elbow_crunches_left"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_right",
+          "duration": 35000,
+          "img_key": "male_knee_to_elbow_crunches_right"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 70000,
+          "img_key": "male_side_crunches"
+        },
+        {
+          "name_key": "wall_crunch",
+          "duration": 80000,
+          "img_key": "male_wall_crunch"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 80000,
+          "img_key": "male_heel_touch_foot"
+        },
+        {
+          "name_key": "air_bike_crunches",
+          "duration": 70000,
+          "img_key": "male_air_bike_crunches"
+        }
+
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 20,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_20",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 80000,
+          "img_key": "male_flutter_ficks_abs"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 80000,
+          "img_key": "male_v_sits"
+        },
+        {
+          "name_key": "reverse_crunches",
+          "duration": 80000,
+          "img_key": "male_reverse_crunches"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 80000,
+          "img_key": "male_leg_raise_circles"
+        },
+        {
+          "name_key": "sit_up",
+          "duration": 80000,
+          "img_key": "male_sit_up"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 80000,
+          "img_key": "male_crisscross_abs"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 21,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_21",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "full_plank",
+          "duration": 85000,
+          "img_key": "male_full_plank"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 85000,
+          "img_key": "male_heel_touch_foot"
+        },
+        {
+          "name_key": "sit_up",
+          "duration": 85000,
+          "img_key": "male_sit_up"
+        },
+        {
+          "name_key": "air_bike_crunches",
+          "duration": 70000,
+          "img_key": "male_air_bike_crunches"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 80000,
+          "img_key": "male_leg_raise_circles"
+        },
+        {
+          "name_key": "crossover_crunch_l_abs",
+          "duration": 40000,
+          "img_key": "male_crossover_crunch_l_abs"
+        },
+        {
+          "name_key": "crossover_crunch_r_abs",
+          "duration": 40000,
+          "img_key": "male_crossover_crunch_r_abs"
+        }
+
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 22,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_22",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "v_crunches",
+          "duration": 85000,
+          "img_key": "male_v_crunches"
+        },
+        {
+          "name_key": "wall_crunch",
+          "duration": 90000,
+          "img_key": "male_wall_crunch"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 85000,
+          "img_key": "male_side_crunches"
+        },
+        {
+          "name_key": "the_bird_dog",
+          "duration": 85000,
+          "img_key": "male_the_bird_dog"
+        },
+        {
+          "name_key": "side_plank",
+          "duration": 85000,
+          "img_key": "male_side_plank"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_left",
+          "duration": 40000,
+          "img_key": "male_knee_to_elbow_crunches_left"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_right",
+          "duration": 40000,
+          "img_key": "male_knee_to_elbow_crunches_right"
+        }
+
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 23,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_23",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "wall_crunch",
+          "duration": 90000,
+          "img_key": "male_wall_crunch"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 90000,
+          "img_key": "male_flutter_ficks_abs"
+        },
+        {
+          "name_key": "sit_up",
+          "duration": 90000,
+          "img_key": "male_sit_up"
+        },
+        {
+          "name_key": "long_arm_crunches",
+          "duration": 90000,
+          "img_key": "male_long_arm_crunches"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 90000,
+          "img_key": "male_v_sits"
+        },
+        {
+          "name_key": "full_plank",
+          "duration": 90000,
+          "img_key": "male_full_plank"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 24,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_24",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "leg_lifts",
+          "duration": 90000,
+          "img_key": "male_leg_lifts"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 90000,
+          "img_key": "male_sitting_twists"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 90000,
+          "img_key": "male_heel_touch_foot"
+        },
+        {
+          "name_key": "air_bike_crunches",
+          "duration": 95000,
+          "img_key": "male_air_bike_crunches"
+        },
+        {
+          "name_key": "the_bird_dog",
+          "duration": 90000,
+          "img_key": "male_the_bird_dog"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 100000,
+          "img_key": "male_leg_raise_circles"
+        }
+
+
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 25,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_25",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "full_plank",
+          "duration": 90000,
+          "img_key": "male_full_plank"
+        },
+        {
+          "name_key": "sit_up",
+          "duration": 100000,
+          "img_key": "male_sit_up"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 100000,
+          "img_key": "male_v_sits"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 90000,
+          "img_key": "male_flutter_ficks_abs"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_left",
+          "duration": 50000,
+          "img_key": "male_knee_to_elbow_crunches_left"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_right",
+          "duration": 50000,
+          "img_key": "male_knee_to_elbow_crunches_right"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 100000,
+          "img_key": "male_sitting_twists"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 26,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_26",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "wall_crunch",
+          "duration": 100000,
+          "img_key": "male_wall_crunch"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 100000,
+          "img_key": "male_crisscross_abs"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 100000,
+          "img_key": "male_sitting_twists"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 100000,
+          "img_key": "male_heel_touch_foot"
+        },
+        {
+          "name_key": "sit_up",
+          "duration": 100000,
+          "img_key": "male_sit_up"
+        },
+        {
+          "name_key": "hip_raise",
+          "duration": 100000,
+          "img_key": "male_hip_raise"
+        }
+      ]
+    },{
+      "name_key": "level",
+      "level": 27,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_27",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "v_crunches",
+          "duration": 110000,
+          "img_key": "male_v_crunches"
+        },
+        {
+          "name_key": "wall_crunch",
+          "duration": 10000,
+          "img_key": "male_wall_crunch"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 110000,
+          "img_key": "male_side_crunches"
+        },
+        {
+          "name_key": "the_bird_dog",
+          "duration": 110000,
+          "img_key": "male_the_bird_dog"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 95000,
+          "img_key": "male_leg_raise_circles"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 100000,
+          "img_key": "male_heel_touch_foot"
+        },
+        {
+          "name_key": "plank_with_leg_raise_l",
+          "duration": 55000,
+          "img_key": "male_plank_with_leg_raise_left"
+        },
+        {
+          "name_key": "plank_with_leg_raise_r",
+          "duration": 55000,
+          "img_key": "male_plank_with_leg_raise_right"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 28,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_28",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "full_plank",
+          "duration": 110000,
+          "img_key": "male_full_plank"
+        },
+        {
+          "name_key": "dead_bug",
+          "duration": 110000,
+          "img_key": "male_dead_bug"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_left",
+          "duration": 55000,
+          "img_key": "male_knee_to_elbow_crunches_left"
+        },
+        {
+          "name_key": "knee_to_elbow_crunches_right",
+          "duration": 55000,
+          "img_key": "male_knee_to_elbow_crunches_right"
+        },
+        {
+          "name_key": "wall_crunch",
+          "duration": 110000,
+          "img_key": "male_wall_crunch"
+        },
+        {
+          "name_key": "side_crunches",
+          "duration": 110000,
+          "img_key": "male_side_crunches"
+        },
+        {
+          "name_key": "hip_raise",
+          "duration": 110000,
+          "img_key": "male_hip_raise"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 110000,
+          "img_key": "male_flutter_ficks_abs"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 29,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_14",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "sit_up",
+          "duration": 120000,
+          "img_key": "male_sit_up"
+        },
+        {
+          "name_key": "wall_crunch",
+          "duration": 110000,
+          "img_key": "male_wall_crunch"
+        },
+        {
+          "name_key": "crisscross_abs",
+          "duration": 110000,
+          "img_key": "male_crisscross_abs"
+        },
+        {
+          "name_key": "v_crunches",
+          "duration": 110000,
+          "img_key": "male_v_crunches"
+        },
+        {
+          "name_key": "leg_raise_circles",
+          "duration": 100000,
+          "img_key": "male_leg_raise_circles"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 110000,
+          "img_key": "male_heel_touch_foot"
+        },
+        {
+          "name_key": "the_bird_dog",
+          "duration": 100000,
+          "img_key": "male_the_bird_dog"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 30,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_15",
+      "has_lock": true,
+      "exercises": [
+        {
+          "name_key": "plank_with_leg_raise_l",
+          "duration": 60000,
+          "img_key": "male_plank_with_leg_raise_left"
+        },
+        {
+          "name_key": "plank_with_leg_raise_r",
+          "duration": 60000,
+          "img_key": "male_plank_with_leg_raise_right"
+        },
+        {
+          "name_key": "dead_bug",
+          "duration": 120000,
+          "img_key": "male_dead_bug"
+        },
+        {
+          "name_key": "heel_touch_foot",
+          "duration": 120000,
+          "img_key": "male_heel_touch_foot"
+        },
+        {
+          "name_key": "v_sits",
+          "duration": 120000,
+          "img_key": "male_v_sits"
+        },
+        {
+          "name_key": "sitting_twists",
+          "duration": 120000,
+          "img_key": "male_sitting_twists"
+        },
+        {
+          "name_key": "sit_up",
+          "duration": 110000,
+          "img_key": "male_sit_up"
+        },
+        {
+          "name_key": "flutter_ficks_abs",
+          "duration": 110000,
+          "img_key": "male_flutter_ficks_abs"
+        },
+        {
+          "name_key": "full_plank",
+          "duration": 90000,
+          "img_key": "male_full_plank"
+        }
+      ]
+    }
+  ]
+}

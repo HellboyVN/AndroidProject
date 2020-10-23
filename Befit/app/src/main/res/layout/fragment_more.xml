@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView android:id="@+id/cardViewProfile"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_margin="20.0dip" android:visibility="visible">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/relativeLayout" android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView android:id="@+id/relativeLayoutImage"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_margin="10.0dip" app:cardCornerRadius="8.0dip">
+                    <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <ImageView android:id="@+id/imageViewUser" android:layout_width="75.0dip"
+                            android:layout_height="75.0dip" />
+                        <include layout="@layout/progress_bar" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <TextView android:id="@+id/textViewUserName" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:layout_toRightOf="@+id/relativeLayoutImage"
+                    android:paddingBottom="5.0dip" android:paddingLeft="25.0dip"
+                    android:paddingRight="5.0dip" android:paddingTop="15.0dip"
+                    android:textSize="16.0sp" />
+                <TextView android:id="@+id/textViewUserEmail" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:layout_below="@+id/textViewUserName"
+                    android:layout_toRightOf="@+id/relativeLayoutImage" android:drawableLeft="@drawable/email"
+                    android:drawablePadding="5.0dip" android:paddingLeft="5.0dip"
+                    android:paddingRight="5.0dip"
+                    android:textSize="16.0sp" />
+                <TextView android:id="@+id/textViewUserPhone" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:layout_below="@+id/textViewUserEmail"
+                    android:layout_toRightOf="@+id/relativeLayoutImage" android:drawableLeft="@drawable/phone"
+                    android:drawablePadding="5.0dip" android:drawableStart="@drawable/phone"
+                    android:paddingBottom="5.0dip" android:paddingLeft="5.0dip"
+                    android:paddingRight="5.0dip"
+                    android:paddingTop="5.0dip"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+            <Button android:id="@+id/buttonSignout" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_below="@+id/relativeLayout"
+                android:layout_centerHorizontal="true" android:layout_margin="10.0dip"
+                android:background="@drawable/rounded_button" android:text="Signout"
+                android:textColor="@color/colorAccent" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <LinearLayout android:id="@+id/linearLayoutAuth" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_below="@+id/cardViewProfile"
+        android:layout_toRightOf="@+id/cardViewProfile" android:orientation="vertical"
+        android:visibility="gone">
+        <com.google.android.gms.common.SignInButton android:id="@+id/sign_in_button"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_gravity="center" android:padding="5.0dip" />
+        <Button android:id="@+id/buttonLoginWithEmail" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center"
+            android:layout_margin="10.0dip" android:background="@color/white"
+            android:drawableLeft="@drawable/email" android:gravity="center"
+            android:padding="10.0dip" android:text="Login with email"
+            android:textAllCaps="false" android:textColor="@color/colorPrimary" />
+        <Button android:id="@+id/buttonLoginWithPhoneNumber" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center"
+            android:layout_margin="10.0dip" android:background="@color/white"
+            android:drawableLeft="@drawable/phone" android:gravity="center"
+            android:padding="10.0dip" android:text="Login with phone number"
+            android:textAllCaps="false" android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutAuth" android:orientation="vertical">
+        <Button android:id="@+id/buttonRemoveAds" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center"
+            android:layout_margin="10.0dip" android:background="@color/white"
+            android:drawableLeft="@drawable/ads" android:gravity="center"
+            android:padding="10.0dip" android:text="Remove ADS"
+            android:textAllCaps="false" android:textColor="@color/colorPrimary" />
+        <Button android:id="@+id/buttonPremium" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center"
+            android:layout_margin="10.0dip" android:background="@color/white"
+            android:drawableLeft="@drawable/premium" android:gravity="center"
+            android:padding="10.0dip" android:text="Get Premium"
+            android:textAllCaps="false" android:textColor="@color/black" />
+    </LinearLayout>
+    <ProgressBar android:id="@+id/progressBar1" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_above="@+id/cardViewFollow"
+        android:layout_centerHorizontal="true" android:layout_marginBottom="25.0dip"
+        android:visibility="gone" />
+    <android.support.v7.widget.CardView android:id="@+id/cardViewFollow"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" android:layout_margin="20.0dip">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/textViewFollowUs" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:gravity="center" android:padding="5.0dip"
+                android:text="Follow us" android:textSize="@dimen/utility_row_text_size"
+                android:textStyle="bold" />
+            <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_below="@+id/textViewFollowUs"
+                android:orientation="horizontal" android:padding="10.0dip">
+                <ImageView android:id="@+id/imageViewGooglePlus" android:layout_width="0.0dip"
+                    android:layout_height="wrap_content" android:layout_weight="1.0"
+                    app:srcCompat="@drawable/ic_google_plus" />
+                <ImageView android:id="@+id/imageViewFacebook" android:layout_width="0.0dip"
+                    android:layout_height="wrap_content" android:layout_weight="1.0"
+                    app:srcCompat="@drawable/ic_facebook" />
+                <ImageView android:id="@+id/imageViewTwitter" android:layout_width="0.0dip"
+                    android:layout_height="wrap_content" android:layout_weight="1.0"
+                    app:srcCompat="@drawable/ic_twitter" />
+                <ImageView android:id="@+id/imageViewLinkedIn" android:layout_width="0.0dip"
+                    android:layout_height="wrap_content" android:layout_weight="1.0"
+                    app:srcCompat="@drawable/ic_linkedin" />
+                <ImageView android:id="@+id/imageViewYoutube" android:layout_width="0.0dip"
+                    android:layout_height="wrap_content" android:layout_weight="1.0"
+                    app:srcCompat="@drawable/ic_youtube" />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

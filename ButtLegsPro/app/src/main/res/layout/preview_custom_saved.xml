@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:id="@+id/mCardItemLayout"
+    n1:layout_width="match_parent"
+    n1:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/mCardLayout"
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="center"
+        n1:layout_margin="@dimen/card_margin"
+        n2:cardBackgroundColor="#ffffffff"
+        n2:cardCornerRadius="@dimen/card_album_radius">
+
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            n1:layout_gravity="center"
+            n1:orientation="vertical">
+
+            <TextView
+                n1:id="@+id/cCardName"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:padding="10.0dip"
+                n1:text="@string/previous_workout"
+                n1:textColor="@color/album_title"
+                n1:textSize="18.0dip" />
+
+            <LinearLayout
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_marginBottom="5.0dip"
+                n1:layout_weight="2.0"
+                n1:orientation="horizontal">
+
+                <RelativeLayout
+                    n1:layout_width="0.0dip"
+                    n1:layout_height="wrap_content"
+                    n1:layout_weight="1.0">
+
+                    <LinearLayout
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:layout_centerInParent="true"
+                        n1:gravity="center"
+                        n1:orientation="horizontal">
+
+                        <android.support.v7.widget.AppCompatImageView
+                            n1:layout_width="wrap_content"
+                            n1:layout_height="wrap_content"
+                            n1:padding="2.0dip"
+                            n2:srcCompat="@drawable/ic_flag" />
+
+                        <TextView
+                            n1:id="@+id/exersiceCount"
+                            n1:layout_width="wrap_content"
+                            n1:layout_height="wrap_content"
+                            n1:layout_weight="1.0"
+                            n1:text="x2"
+                            n1:textSize="16.0dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    n1:layout_width="0.0dip"
+                    n1:layout_height="wrap_content"
+                    n1:layout_weight="1.0">
+
+                    <LinearLayout
+                        n1:layout_width="wrap_content"
+                        n1:layout_height="wrap_content"
+                        n1:layout_centerInParent="true"
+                        n1:gravity="center"
+                        n1:orientation="horizontal">
+
+                        <android.support.v7.widget.AppCompatImageView
+                            n1:layout_width="wrap_content"
+                            n1:layout_height="wrap_content"
+                            n1:padding="2.0dip"
+                            n2:srcCompat="@drawable/ic_timer" />
+
+                        <TextView
+                            n1:id="@+id/duration"
+                            n1:layout_width="wrap_content"
+                            n1:layout_height="wrap_content"
+                            n1:layout_centerInParent="true"
+                            n1:layout_weight="1.0"
+                            n1:gravity="center"
+                            n1:text="00:56m"
+                            n1:textSize="16.0dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:orientation="horizontal"
+                n1:weightSum="2.0">
+
+                <TextView
+                    n1:id="@+id/mCardBegin"
+                    n1:layout_width="0.0dip"
+                    n1:layout_height="wrap_content"
+                    n1:layout_gravity="bottom"
+                    n1:layout_weight="1.0"
+                    n1:gravity="center"
+                    n1:padding="10.0dip"
+                    n1:text="@string/preview"
+                    n1:textColor="#ffff9a3e"
+                    n1:textSize="19.0dip" />
+
+                <View
+                    n1:layout_width="1.0px"
+                    n1:layout_height="20.0dip"
+                    n1:layout_gravity="center"
+                    n1:background="@color/rim_color_gray" />
+
+                <TextView
+                    n1:id="@+id/mCardRestore"
+                    n1:layout_width="0.0dip"
+                    n1:layout_height="wrap_content"
+                    n1:layout_gravity="bottom"
+                    n1:layout_weight="1.0"
+                    n1:gravity="center"
+                    n1:padding="10.0dip"
+                    n1:text="@string/restore_workout"
+                    n1:textColor="#ffff9a3e"
+                    n1:textSize="19.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

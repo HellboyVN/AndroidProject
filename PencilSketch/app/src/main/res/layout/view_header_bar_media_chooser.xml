@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/postToActionBarFromMediaChooser"
+    android:layout_width="match_parent"
+    android:layout_height="48.0dip"
+    android:layout_alignParentTop="true"
+    >
+
+    <ImageView
+        android:id="@+id/backArrowImageViewFromMediaChooserHeaderView"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:background="@color/black"
+        android:src="@drawable/ic_navigation_left_from_media_chooser_header_bar" />
+    <com.MyTextView
+        android:id="@+id/tv_name_app"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="SKETCH PRO"
+        android:background="@drawable/roughpaper"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_toRightOf="@+id/backArrowImageViewFromMediaChooserHeaderView"/>
+
+</RelativeLayout>

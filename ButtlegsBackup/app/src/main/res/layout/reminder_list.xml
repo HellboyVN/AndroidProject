@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:id="@+id/timeList"
+    n1:layout_width="match_parent"
+    n1:layout_height="wrap_content"
+    n1:visibility="gone">
+
+    <android.support.v7.widget.CardView xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/timeCardLayout"
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="center"
+        n1:layout_margin="8.0dip"
+        n1:padding="10.0dip"
+        n2:cardBackgroundColor="@color/background"
+        n2:cardCornerRadius="0.0dip">
+
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:background="@color/background"
+            n1:orientation="vertical"
+            n1:padding="5.0dip">
+
+            <android.support.v7.widget.AppCompatImageView
+                n1:id="@+id/remove_reminder"
+                n1:layout_width="18.0dip"
+                n1:layout_height="18.0dip"
+                n1:layout_gravity="end"
+                n2:srcCompat="@drawable/ic_close" />
+
+            <RelativeLayout
+                n1:id="@+id/reminder_titel_layout"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:orientation="horizontal">
+
+                <TextView
+                    n1:id="@+id/reminder_question"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:layout_centerHorizontal="true"
+                    n1:gravity="center"
+                    n1:paddingBottom="5.0dip"
+                    n1:text="@string/reminder_card_title"
+                    n1:textAllCaps="false"
+                    n1:textColor="@color/on_color"
+                    n1:textSize="16.0dip"
+                    n1:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content">
+
+                <TextView
+                    n1:id="@+id/reminder_time"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:text="11:50"
+                    n1:textColor="@color/on_color"
+                    n1:textSize="30.0dip" />
+
+                <android.support.v7.widget.SwitchCompat
+                    n1:id="@+id/switchOn"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:layout_alignParentRight="true"
+                    n1:layout_centerVertical="true"
+                    n1:theme="@style/SCBSwitch"
+                    n2:showText="false" />
+            </RelativeLayout>
+
+            <View
+                n1:layout_width="match_parent"
+                n1:layout_height="1.0dip"
+                n1:layout_marginBottom="5.0dip"
+                n1:background="#ffebebeb" />
+
+            <hb.legsandbuttocksworkout.homeworkout.gym.buttlegs.buttlegspro.buttlegschallenge.views.SetTimeWeeksView
+                n1:id="@+id/setTimeView"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_marginTop="5.0dip"
+                n1:orientation="horizontal" />
+
+            <TextView
+                n1:id="@+id/reminder_ok"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="end"
+                n1:layout_marginTop="10.0dip"
+                n1:gravity="end"
+                n1:padding="10.0dip"
+                n1:text="@string/set_reminder"
+                n1:textAllCaps="false"
+                n1:textColor="#ff000000"
+                n1:textSize="15.0dip"
+                n1:visibility="visible" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_deep_teal_200"
+    android:focusable="true">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/include"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/toolbar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="5.0dip">
+
+                <TextView
+                    android:id="@+id/textViewGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1.0dip"
+                    android:text="Gender"
+                    android:textSize="20.0sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbc1"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:checked="true"
+                        android:text="Male" />
+
+                    <RadioButton
+                        android:id="@+id/rbc2"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="Female" />
+                </RadioGroup>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="7.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewAge"
+                        android:layout_width="100.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center_vertical"
+                        android:text="Age"
+                        android:textSize="20.0sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etc1"
+                        android:layout_width="100.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="90.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/rounded_layout"
+                        android:cursorVisible="true"
+                        android:digits="\ 0123456789"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="years"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberSigned"
+                        android:maxLength="3"
+                        android:padding="5.0dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="7.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewWeight"
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/textViewWeight"
+                        android:layout_weight="1.0"
+                        android:gravity="center_vertical"
+                        android:text="Weight"
+                        android:textSize="20.0sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etc2"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="90.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/rounded_layout"
+                        android:cursorVisible="true"
+                        android:digits="\ 0123456789"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="kg"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberSigned"
+                        android:maxLength="3"
+                        android:padding="5.0dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="7.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewHeight"
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center_vertical"
+                        android:text="Height"
+                        android:textSize="20.0sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etc3"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="90.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/rounded_layout"
+                        android:cursorVisible="true"
+                        android:digits="\ 0123456789"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="cm"
+                        android:imeOptions="actionDone"
+                        android:inputType="numberSigned"
+                        android:maxLength="3"
+                        android:padding="5.0dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:gravity="center_vertical"
+                        android:text="Activity"
+                        android:textSize="20.0sp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/caloriesspinner"
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.72"
+                        android:gravity="center_vertical" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/calorieTable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15.0dip"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:clickable="false"
+                        android:text="RESULTS:"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="17.0sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/ac11"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="Calories required per day to maintain your weight  "
+                            android:textSize="10.0dip" />
+
+                        <Button
+                            android:id="@+id/ac12"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text=" "
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/bc11"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="Calories required per day to lose 0.5 kg per week "
+                            android:textSize="10.0dip" />
+
+                        <Button
+                            android:id="@+id/bc12"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="Underweight"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/cc11"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="Calories required per day to lost 1 kg per week"
+                            android:textSize="10.0dip" />
+
+                        <Button
+                            android:id="@+id/cc12"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text=""
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/dc11"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="calories required per day to gain 0.5 kg per week"
+                            android:textSize="10.0dip" />
+
+                        <Button
+                            android:id="@+id/dc12"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="Overweight"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/ec11"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="calories required per day to gain 1 kg per week"
+                            android:textSize="10.0dip" />
+
+                        <Button
+                            android:id="@+id/ec12"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="OBESE CLASS"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonCalculateCaloriesIntake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20.0dip"
+                    android:background="@drawable/rounded_button"
+                    android:padding="10.0dip"
+                    android:text="Calculate"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/admob_banner_ad_layout" />
+</RelativeLayout>

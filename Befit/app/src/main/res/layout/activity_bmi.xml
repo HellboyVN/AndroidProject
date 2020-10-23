@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/FrameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adSmartBanner">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/toolbar" />
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:layout_centerHorizontal="true"
+                android:padding="60.0dip"
+                android:text="Body Mass Index"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25.0sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutValues"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewTitle"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:id="@+id/textViewSelectUnit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5.0dip"
+                    android:text="Select Unit"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18.0sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewResult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15.0dip"
+                    android:background="@drawable/rounded_layout"
+                    android:padding="20.0dip"
+                    android:textSize="18.0sp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutVal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupUnit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButtonMetric"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.0"
+                            android:checked="true"
+                            android:text="Metric" />
+
+                        <RadioButton
+                            android:id="@+id/radioButtonImperial"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.0"
+                            android:text="Imperial" />
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10.0dip"
+                        android:weightSum="10.0">
+
+                        <TextView
+                            android:id="@+id/textViewHeight"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3.0"
+                            android:padding="5.0dip"
+                            android:text="Height"
+                            android:textSize="16.0sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/editTextHeight"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            android:background="@drawable/rounded_layout"
+                            android:digits="\ 0123456789"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="cm"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:maxLength="3"
+                            android:maxLines="1"
+                            android:padding="5.0dip" />
+
+                        <EditText
+                            android:id="@+id/editTextHeightSecond"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20.0dip"
+                            android:layout_weight="2.0"
+                            android:background="@drawable/rounded_layout"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="inch"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:maxLength="3"
+                            android:maxLines="1"
+                            android:padding="5.0dip"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10.0dip"
+                        android:weightSum="10.0">
+
+                        <TextView
+                            android:id="@+id/textViewWeight"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3.0"
+                            android:padding="5.0dip"
+                            android:text="Weight"
+                            android:textSize="16.0sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/editTextWeight"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            android:background="@drawable/rounded_layout"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="kg"
+                            android:imeOptions="actionDone"
+                            android:inputType="numberDecimal"
+                            android:maxLength="3"
+                            android:maxLines="1"
+                            android:padding="5.0dip" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/buttonCalculate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25.0dip"
+                        android:background="@drawable/rounded_button"
+                        android:padding="10.0dip"
+                        android:text="Calculate"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16.0sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutBMITable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15.0dip"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/buttonHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:clickable="false"
+                        android:text="BMI Table"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="17.0sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/buttonCategory"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:background="@color/colorPrimary"
+                            android:clickable="false"
+                            android:text="BMI Range"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="17.0sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonRange"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:background="@color/colorPrimary"
+                            android:clickable="false"
+                            android:text="Category"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="17.0sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/buttonLessThan16"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="less than 16" />
+
+                        <Button
+                            android:id="@+id/buttonSevereUnderWeight"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="Severely Underweight" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/buttonRangeUnderWeight"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="from 16 to 18.5" />
+
+                        <Button
+                            android:id="@+id/buttonUnderWeight"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="Underweight" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/buttonRangeNormal"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="from 18.5 to 25" />
+
+                        <Button
+                            android:id="@+id/buttonNormal"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="Normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/buttonRangeOverWeight"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="from 25 to 30" />
+
+                        <Button
+                            android:id="@+id/button1OverWeight"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="Overweight" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/buttonRangeObese"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="from 30 above" />
+
+                        <Button
+                            android:id="@+id/buttonObese"
+                            android:layout_width="0.0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/bmi_button_background"
+                            android:clickable="false"
+                            android:text="OBESE CLASS" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15.0dip"
+                    android:background="@drawable/rounded_button"
+                    android:padding="10.0dip"
+                    android:text="Back"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16.0sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <include layout="@layout/admob_banner_ad_layout" />
+</RelativeLayout>

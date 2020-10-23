@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorAccent">#FFA000</color>
+    <color name="home_background">#eeeeee</color>
+    <color name="card_background">#ffffffff</color>
+    <color name="material_drawer_selected_text">#FF8F00</color>
+
+    <color name="teal_100">#b2dfdb</color>
+    <color name="teal_500">#009688</color>
+    <color name="white">#ffffffff</color>
+    <color name="color_button_done_selector">#802f4779</color>
+
+</resources>

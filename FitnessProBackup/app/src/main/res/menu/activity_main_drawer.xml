@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group>
+        <item n1:icon="@drawable/ic_menu_manage" n1:id="@+id/nav_manage" n1:title="@string/setting"
+          xmlns:n1="http://schemas.android.com/apk/res/android" />
+    </group>
+    <item n2:title="@string/communicate"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <menu>
+            <item n2:icon="@drawable/ic_menu_share" n2:id="@+id/nav_share" n2:title="@string/share" />
+            <item n2:icon="@drawable/ic_rate" n2:id="@+id/nav_rate" n2:title="@string/menu_rate" />
+            <item n2:icon="@drawable/ic_mood_black" n2:id="@+id/nav_translate" n2:title="@string/menu_help_to_translate" />
+        </menu>
+    </item>
+</menu>

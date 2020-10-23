@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "201569374549",
+    "firebase_url": "https://gifs-for-giphy.firebaseio.com",
+    "project_id": "gifs-for-giphy",
+    "storage_bucket": "gifs-for-giphy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201569374549:android:bd9f7f5163718758",
+        "android_client_info": {
+          "package_name": "hb.me.giphy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201569374549-8jk2e2o424o6ppnqvri2dfbmbp6kojp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMXKIE01RI-86zhKKSQfeFqSui1vpUYaI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

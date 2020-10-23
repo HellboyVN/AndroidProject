@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewPlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="10.0dip"
+        card_view:cardCornerRadius="5.0dip"
+        card_view:cardElevation="3.0dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="5.0dip"
+                android:gravity="center"
+                android:text="Plan Detail"
+                android:textSize="20.0sp"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutPlanName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:layout_marginTop="15.0dip"
+                android:theme="@style/TextLabel">
+
+                <EditText
+                    android:id="@+id/editTextName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Plan name"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:nextFocusForward="@+id/editTextDescription" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutPlanDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15.0dip"
+                android:theme="@style/TextLabel">
+
+                <EditText
+                    android:id="@+id/editTextDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Description (Optional)"
+                    android:imeOptions="actionDone"
+                    android:inputType="textCapSentences"
+                    android:maxLines="3" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonCreatePlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardViewPlan"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_margin="15.0dip"
+        android:background="@drawable/rounded_button"
+        android:padding="10.0dip"
+        android:text="Create plan"
+        android:textColor="@color/colorAccent"
+        android:textSize="16.0sp"
+        android:textStyle="bold" />
+</RelativeLayout>

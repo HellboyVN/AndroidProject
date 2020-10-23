@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="wrap_content"
+    n1:layout_gravity="center"
+    n1:background="#ffffffff"
+    n1:orientation="vertical"
+    n1:paddingLeft="10.0dip"
+    n1:paddingRight="10.0dip"
+    n1:paddingTop="10.0dip">
+
+    <LinearLayout
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="center"
+        n1:background="#ffffffff"
+        n1:gravity="center"
+        n1:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:id="@+id/dialogTitle"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:gravity="center"
+            n1:padding="2.0dip"
+            n1:text="@string/why_ad_title"
+            n1:textColor="#ff000000"
+            n1:textSize="18.0dip" />
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:id="@+id/descByRemoveAds"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="center"
+            n1:gravity="center"
+            n1:padding="10.0dip"
+            n1:text="@string/why_ad_title_1"
+            n1:textAllCaps="true"
+            n1:textColor="#ff000000"
+            n1:textSize="18.0sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:id="@+id/descYouHelpUs"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="center"
+            n1:gravity="center"
+            n1:padding="5.0dip"
+            n1:text="@string/why_ad_title_2"
+            n1:textAllCaps="true"
+            n1:textColor="#ff000000"
+            n1:textSize="18.0sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:id="@+id/descPresent"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="center"
+            n1:gravity="center"
+            n1:padding="2.0dip"
+            n1:text="@string/why_ad_title_3"
+            n1:textAllCaps="false"
+            n1:textColor="#ff000000"
+            n1:textSize="18.0sp" />
+
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            n1:layout_gravity="center"
+            n1:layout_marginBottom="5.0dip"
+            n1:layout_marginTop="15.0dip"
+            n1:background="#ffffffff"
+            n1:gravity="center"
+            n1:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatButton
+                n1:id="@+id/dUnlockNow"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_weight="1.0"
+                n1:background="@color/colorPrimary"
+                n1:gravity="center"
+                n1:text="@string/remove_and_help_now"
+                n1:textColor="#ffffffff" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

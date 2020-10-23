@@ -1,0 +1,582 @@
+{
+  "type": "male",
+  "data": [
+    {
+      "name_key": "level",
+      "level": 1,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_1_male",
+      "exercises": [
+        {
+          "name_key": "chest_6",
+          "duration": 15000,
+          "img_key": "chest_6"
+        },
+        {
+          "name_key": "chest_1",
+          "duration": 20000,
+          "img_key": "chest_1"
+        },
+        {
+          "name_key": "chest_2",
+          "duration": 30000,
+          "img_key": "chest_2"
+        },
+        {
+          "name_key": "chest_3",
+          "duration": 15000,
+          "img_key": "chest_3"
+        },
+        {
+          "name_key": "chest_4",
+          "duration": 15000,
+          "img_key": "chest_4"
+        },
+        {
+          "name_key": "chest_5",
+          "duration": 15000,
+          "img_key": "chest_5"
+        },
+        {
+          "name_key": "chest_7",
+          "duration": 15000,
+          "img_key": "chest_7"
+        },
+        {
+          "name_key": "chest_8",
+          "duration": 15000,
+          "img_key": "chest_8"
+        },
+        {
+          "name_key": "chest_9",
+          "duration": 15000,
+          "img_key": "chest_9"
+        },
+        {
+          "name_key": "chest_12",
+          "duration": 15000,
+          "img_key": "chest_12"
+        },
+        {
+          "name_key": "chest_13",
+          "duration": 15000,
+          "img_key": "chest_13"
+        },
+        {
+          "name_key": "chest_10",
+          "duration": 15000,
+          "img_key": "chest_10"
+        },
+        {
+          "name_key": "chest_11",
+          "duration": 15000,
+          "img_key": "chest_11"
+        },
+        {
+          "name_key": "chest_14",
+          "duration": 15000,
+          "img_key": "chest_14"
+        }
+
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 2,
+      "desc_key": "card_desc",
+      "has_lock": false,
+      "img_src": "ic_level_2_male",
+      "exercises": [
+        {
+          "name_key": "abs_1",
+          "duration": 30000,
+          "img_key": "abs_1"
+        },
+        {
+          "name_key": "abs_8",
+          "duration": 20000,
+          "img_key": "abs_8"
+        },
+        {
+          "name_key": "abs_9",
+          "duration": 20000,
+          "img_key": "abs_9"
+        },
+        {
+          "name_key": "abs_2",
+          "duration": 20000,
+          "img_key": "abs_2"
+        },
+        {
+          "name_key": "abs_3",
+          "duration": 40000,
+          "img_key": "abs_3"
+        },
+        {
+          "name_key": "abs_4",
+          "duration": 20000,
+          "img_key": "abs_4"
+        },
+        {
+          "name_key": "abs_5",
+          "duration": 30000,
+          "img_key": "abs_5"
+        },
+        {
+          "name_key": "abs_6",
+          "duration": 20000,
+          "img_key": "abs_6"
+        },
+        {
+          "name_key": "abs_7",
+          "duration": 20000,
+          "img_key": "abs_7"
+        },
+        {
+          "name_key": "abs_10",
+          "duration": 20000,
+          "img_key": "abs_10"
+        },
+        {
+          "name_key": "abs_13",
+          "duration": 20000,
+          "img_key": "abs_13"
+        },
+        {
+          "name_key": "abs_14",
+          "duration": 20000,
+          "img_key": "abs_14"
+        },
+        {
+          "name_key": "abs_11",
+          "duration": 20000,
+          "img_key": "abs_11"
+        },
+        {
+          "name_key": "abs_12",
+          "duration": 20000,
+          "img_key": "abs_12"
+        },
+        {
+          "name_key": "abs_15",
+          "duration": 20000,
+          "img_key": "abs_15"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 3,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_3_male",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "biceps_2",
+          "duration": 15000,
+          "img_key": "biceps_2"
+        },
+        {
+          "name_key": "biceps_3",
+          "duration": 40000,
+          "img_key": "biceps_3"
+        },
+        {
+          "name_key": "biceps_1",
+          "duration": 20000,
+          "img_key": "biceps_1"
+        },
+        {
+          "name_key": "biceps_4",
+          "duration": 20000,
+          "img_key": "biceps_4"
+        },
+        {
+          "name_key": "biceps_8",
+          "duration": 30000,
+          "img_key": "biceps_8"
+        },
+        {
+          "name_key": "biceps_9",
+          "duration": 30000,
+          "img_key": "biceps_9"
+        },
+        {
+          "name_key": "biceps_10",
+          "duration": 30000,
+          "img_key": "biceps_10"
+        },
+        {
+          "name_key": "biceps_5",
+          "duration": 65000,
+          "img_key": "biceps_5"
+        },
+        {
+          "name_key": "biceps_6",
+          "duration": 30000,
+          "img_key": "biceps_6"
+        },
+        {
+          "name_key": "biceps_7",
+          "duration": 25000,
+          "img_key": "biceps_7"
+        },
+        {
+          "name_key": "biceps_11",
+          "duration": 30000,
+          "img_key": "biceps_11"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 4,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_4_male",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "triceps_2",
+          "duration": 65000,
+          "img_key": "triceps_2"
+        },
+        {
+          "name_key": "triceps_3",
+          "duration": 30000,
+          "img_key": "triceps_3"
+        },
+        {
+          "name_key": "triceps_1",
+          "duration": 65000,
+          "img_key": "triceps_1"
+        },
+        {
+          "name_key": "triceps_4",
+          "duration": 30000,
+          "img_key": "triceps_4"
+        },
+        {
+          "name_key": "triceps_8",
+          "duration": 30000,
+          "img_key": "triceps_8"
+        },
+        {
+          "name_key": "triceps_9",
+          "duration": 30000,
+          "img_key": "triceps_9"
+        },
+        {
+          "name_key": "triceps_5",
+          "duration": 30000,
+          "img_key": "triceps_5"
+        },
+        {
+          "name_key": "triceps_6",
+          "duration": 30000,
+          "img_key": "triceps_6"
+        },
+        {
+          "name_key": "triceps_7",
+          "duration": 30000,
+          "img_key": "triceps_7"
+        },
+        {
+          "name_key": "triceps_10",
+          "duration": 30000,
+          "img_key": "triceps_10"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 5,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_5_male",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "forearms_2",
+          "duration": 70000,
+          "repetition": 1,
+          "img_key": "forearms_2"
+        },
+        {
+          "name_key": "forearms_4",
+          "duration": 25000,
+          "repetition": 2,
+          "img_key": "forearms_4"
+        },
+        {
+          "name_key": "forearms_1",
+          "duration": 30000,
+          "img_key": "forearms_1"
+        },
+        {
+          "name_key": "forearms_5",
+          "duration": 30000,
+          "img_key": "forearms_5"
+        },
+        {
+          "name_key": "forearms_3",
+          "duration": 35000,
+          "repetition": 2,
+          "img_key": "forearms_3"
+        },
+        {
+          "name_key": "forearms_6",
+          "duration": 35000,
+          "repetition": 2,
+          "img_key": "forearms_6"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 6,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_6_male",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "shoulder_2",
+          "duration": 35000,
+          "repetition": 2,
+          "img_key": "shoulder_2"
+        },
+        {
+          "name_key": "shoulder_1",
+          "duration": 30000,
+          "img_key": "shoulder_1"
+        },
+        {
+          "name_key": "shoulder_3",
+          "duration": 35000,
+          "img_key": "shoulder_3"
+        },
+        {
+          "name_key": "shoulder_4",
+          "duration": 70000,
+          "img_key": "shoulder_4"
+        },
+        {
+          "name_key": "shoulder_8",
+          "duration": 70000,
+          "img_key": "shoulder_8"
+        },
+        {
+          "name_key": "shoulder_9",
+          "duration": 70000,
+          "img_key": "shoulder_9"
+        },
+        {
+          "name_key": "shoulder_5",
+          "duration": 35000,
+          "img_key": "shoulder_5"
+        },
+        {
+          "name_key": "shoulder_6",
+          "duration": 70000,
+          "img_key": "shoulder_6"
+        },
+        {
+          "name_key": "shoulder_7",
+          "duration": 30000,
+          "img_key": "shoulder_7"
+        },
+        {
+          "name_key": "shoulder_10",
+          "duration": 70000,
+          "img_key": "shoulder_10"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 7,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_7_male",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "back_2",
+          "duration": 35000,
+          "repetition": 2,
+          "img_key": "back_2"
+        },
+        {
+          "name_key": "back_1",
+          "duration": 30000,
+          "img_key": "back_1"
+        },
+        {
+          "name_key": "back_5",
+          "duration": 35000,
+          "repetition": 2,
+          "img_key": "back_5"
+        },
+        {
+          "name_key": "back_6",
+          "duration": 40000,
+          "repetition": 2,
+          "img_key": "back_6"
+        },
+        {
+          "name_key": "back_3",
+          "duration": 90000,
+          "repetition": 2,
+          "img_key": "back_3"
+        },
+        {
+          "name_key": "back_4",
+          "duration": 30000,
+          "img_key": "back_4"
+        },
+        {
+          "name_key": "back_7",
+          "duration": 35000,
+          "repetition": 2,
+          "img_key": "back_7"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 8,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_8_male",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "legs_2",
+          "duration": 35000,
+          "repetition": 2,
+          "img_key": "legs_2"
+        },
+        {
+          "name_key": "legs_1",
+          "duration": 40000,
+          "repetition": 2,
+          "img_key": "legs_1"
+        },
+        {
+          "name_key": "legs_6",
+          "duration": 30000,
+          "img_key": "legs_6"
+        },
+        {
+          "name_key": "legs_7",
+          "duration": 45000,
+          "repetition": 2,
+          "img_key": "legs_7"
+        },
+        {
+          "name_key": "legs_3",
+          "duration": 40000,
+          "repetition": 2,
+          "img_key": "legs_3"
+        },
+        {
+          "name_key": "legs_4",
+          "duration": 45000,
+          "repetition": 2,
+          "img_key": "legs_4"
+        },
+        {
+          "name_key": "legs_5",
+          "duration": 45000,
+          "repetition": 2,
+          "img_key": "legs_5"
+        },
+        {
+          "name_key": "legs_8",
+          "duration": 30000,
+          "img_key": "legs_8"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 9,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_9_male",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "cardio_2",
+          "duration": 40000,
+          "repetition": 2,
+          "img_key": "cardio_2"
+        },
+        {
+          "name_key": "cardio_5",
+          "duration": 80000,
+          "img_key": "cardio_5"
+        },
+        {
+          "name_key": "cardio_1",
+          "duration": 40000,
+          "repetition": 2,
+          "img_key": "cardio_1"
+        },
+        {
+          "name_key": "cardio_6",
+          "duration": 65000,
+          "repetition": 2,
+          "img_key": "cardio_6"
+        },
+        {
+          "name_key": "cardio_3",
+          "duration": 40000,
+          "repetition": 2,
+          "img_key": "cardio_3"
+        },
+        {
+          "name_key": "cardio_4",
+          "duration": 140000,
+          "img_key": "cardio_4"
+        },
+        {
+          "name_key": "cardio_7",
+          "duration": 45000,
+          "repetition": 2,
+          "img_key": "cardio_7"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 10,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_10_male",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "calves_2",
+          "duration": 90000,
+          "img_key": "calves_2"
+        },
+        {
+          "name_key": "calves_3",
+          "duration": 65000,
+          "img_key": "calves_3"
+        },
+        {
+          "name_key": "calves_1",
+          "duration": 65000,
+          "img_key": "calves_1"
+        },
+        {
+          "name_key": "calves_4",
+          "duration": 45000,
+          "repetition": 2,
+          "img_key": "calves_4"
+        },
+        {
+          "name_key": "calves_5",
+          "duration": 100000,
+          "img_key": "calves_5"
+        }
+      ]
+    }
+  ]
+}

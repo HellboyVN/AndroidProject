@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="@dimen/grid_margin"
+    android:layout_marginLeft="@dimen/grid_margin"
+    android:layout_marginRight="@dimen/grid_margin"
+    android:layout_marginTop="@dimen/grid_margin"
+    android:background="@color/home_background">
+    <FrameLayout
+        android:id="@+id/category_act"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/home_background"
+        android:layout_above="@+id/ad_linear"
+        />
+    <LinearLayout
+        android:id="@+id/ad_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+    </LinearLayout>
+</RelativeLayout>

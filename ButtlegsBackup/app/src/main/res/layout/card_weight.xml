@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@+id/rCardItemLayout" n1:layout_width="match_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView n1:layout_gravity="center" n1:id="@+id/rCardLayout" n1:padding="20.0dip" n1:layout_width="match_parent" n1:layout_height="140.0dip" n1:layout_margin="@dimen/card_margin" n2:cardBackgroundColor="#ffffffff" n2:cardCornerRadius="@dimen/card_album_radius" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <FrameLayout n1:id="@+id/weightEnterLayout" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <android.support.v7.widget.AppCompatTextView n1:textSize="20.0dip" n1:gravity="bottom" n1:id="@+id/enterTitle" n1:padding="5.0dip" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/start_weight" />
+                <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                    <android.support.v7.widget.AppCompatTextView n1:textSize="30.0dip" n1:layout_gravity="center_horizontal" n1:id="@+id/enter" n1:padding="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/enter" />
+                    <View n1:background="@color/black" n1:layout_width="match_parent" n1:layout_height="2.0dip" n1:layout_marginLeft="30.0dip" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout n1:id="@+id/weightMetricLayout" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <android.support.v7.widget.AppCompatTextView n1:textSize="20.0dip" n1:gravity="bottom" n1:id="@+id/metricTitle" n1:padding="5.0dip" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/chose_metric" />
+                <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                        <android.support.v7.widget.AppCompatTextView n1:textSize="30.0dip" n1:gravity="center" n1:id="@+id/kg" n1:paddingRight="25.0dip" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/kg" n1:layout_weight="1.0" />
+                        <android.support.v7.widget.AppCompatTextView n1:textSize="30.0dip" n1:gravity="center" n1:id="@+id/lb" n1:paddingLeft="25.0dip" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/lb" n1:layout_weight="1.0" />
+                    </LinearLayout>
+                    <View n1:background="@color/black" n1:layout_width="match_parent" n1:layout_height="2.0dip" n1:layout_marginTop="7.0dip" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@+id/weightCounteLayout" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <LinearLayout n1:orientation="horizontal" n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <android.support.v7.widget.AppCompatTextView n1:textSize="23.0dip" n1:id="@+id/countTitle" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/today_weight" />
+                    <android.support.v7.widget.AppCompatTextView n1:textSize="20.0dip" n1:id="@+id/weight_calendar" n1:paddingLeft="10.0dip" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="10/10/2017" />
+                </LinearLayout>
+                <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                        <android.support.v7.widget.AppCompatEditText n1:textSize="30.0dip" n1:gravity="center" n1:id="@+id/weight_count" n1:paddingRight="25.0dip" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:hint="@string/weight" n1:layout_weight="1.0" n1:inputType="number" />
+                        <android.support.v7.widget.AppCompatTextView n1:textSize="20.0dip" n1:gravity="center_horizontal" n1:id="@+id/kg_or_lb" n1:paddingLeft="25.0dip" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="lb" n1:layout_weight="1.0" />
+                    </LinearLayout>
+                    <View n1:background="@color/black" n1:layout_width="match_parent" n1:layout_height="2.0dip" n1:layout_marginLeft="30.0dip" n1:layout_marginRight="30.0dip" />
+                </LinearLayout>
+                <android.support.v7.widget.AppCompatTextView n1:gravity="end" n1:id="@+id/weight_ok" n1:padding="10.0dip" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/ok" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="center" n1:orientation="vertical" n1:background="#ffffffff" n1:paddingLeft="10.0dip" n1:paddingTop="10.0dip" n1:paddingRight="10.0dip" n1:layout_width="match_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:background="#ffffffff" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatTextView n1:textSize="20.0dip" n1:textColor="#ff000000" n1:gravity="center_horizontal" n1:id="@+id/dialogTitle" n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/menu_help_to_perfect_the_app" />
+        <android.support.v7.widget.AppCompatTextView n1:textSize="18.0sp" n1:textColor="#ff000000" n1:layout_gravity="center" n1:id="@+id/dialogDesc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/menu_remove_ads" n1:textAllCaps="true" />
+        <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:background="#ffffffff" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="15.0dip" n1:layout_marginBottom="5.0dip">
+            <android.support.v7.widget.AppCompatButton n1:textColor="#ffffffff" n1:gravity="center" n1:id="@+id/dUnlockNow" n1:background="@color/colorPrimary" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/unlock_now" n1:layout_weight="1.0" />
+            <android.support.v7.widget.AppCompatButton n1:textColor="@color/colorPrimary" n1:gravity="center" n1:id="@+id/dShowVideo" n1:background="@drawable/ripple_transparent" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/unlock_current" n1:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

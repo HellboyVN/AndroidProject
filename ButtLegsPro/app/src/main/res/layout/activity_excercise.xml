@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:background="@color/white"
+    n1:keepScreenOn="true"
+    n1:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar xmlns:n2="http://schemas.android.com/apk/res-auto"
+            n1:id="@+id/toolbarExersice"
+            n1:layout_width="match_parent"
+            n1:layout_height="?actionBarSize"
+            n1:background="#ffffffff"
+            n2:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <TextView
+                n1:id="@+id/toolbarExersiceText"
+                n1:layout_width="match_parent"
+                n1:layout_height="?actionBarSize"
+                n1:gravity="center_vertical"
+                n1:padding="2.0dip"
+                n1:text="Workout Name"
+                n1:textAllCaps="true"
+                n1:textColor="@color/colorPrimary"
+                n1:textSize="18.0dip" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:id="@+id/exersiceRound"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_marginTop="10.0dip"
+            n1:gravity="center"
+            n1:padding="10.0dip"
+            n1:text="ROUND 1/4"
+            n1:textAllCaps="true"
+            n1:textColor="#ff575757"
+            n1:textSize="20.0dip" />
+
+        <hb.me.homeworkout.gym.buttlegs.buttlegspro.exersices.NonSwipeableViewPager
+            n1:id="@+id/pager"
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            n1:layout_below="@+id/exersiceRepeatition" />
+
+        <hb.me.homeworkout.gym.buttlegs.buttlegspro.exersices.StepperIndicator
+            n1:id="@+id/stepper_indicator"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_below="@+id/exersiceRound"
+            n1:layout_marginBottom="10.0dip"
+            n1:layout_marginLeft="15.0dip"
+            n1:layout_marginRight="15.0dip"
+            n1:layout_marginTop="10.0dip" />
+
+        <android.support.v7.widget.AppCompatTextView
+            n1:id="@+id/exersiceRepeatition"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_below="@+id/stepper_indicator"
+            n1:gravity="center"
+            n1:padding="10.0dip"
+            n1:paddingBottom="5.0dip"
+            n1:paddingLeft="10.0dip"
+            n1:paddingRight="10.0dip"
+            n1:paddingTop="10.0dip"
+            n1:text="REPEARITION 1/3"
+            n1:textAllCaps="true"
+            n1:textColor="#ff575757"
+            n1:textSize="20.0dip"
+            n1:visibility="invisible" />
+
+        <LinearLayout
+            n1:id="@+id/treadmill_layout"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_below="@+id/stepper_indicator"
+            n1:layout_centerHorizontal="true"
+            n1:layout_gravity="left"
+            n1:layout_marginTop="10.0dip"
+            n1:gravity="right"
+            n1:orientation="horizontal"
+            n1:padding="5.0dip">
+
+            <android.support.v7.widget.AppCompatImageView xmlns:n3="http://schemas.android.com/apk/res-auto"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="center"
+                n1:drawablePadding="5.0dip"
+                n3:srcCompat="@drawable/ic_treadmill" />
+
+            <android.support.v7.widget.AppCompatTextView
+                n1:id="@+id/tmSpeed"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:gravity="right"
+                n1:padding="3.0dip"
+                n1:text="Speed 1"
+                n1:textColor="#ff575757"
+                n1:textSize="16.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

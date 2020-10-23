@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.workout.workout">
+
+
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.workout.workout.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.workout.workout.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_APP_BADGE" />
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+
+    <application
+        android:name="com.workout.workout.application.WorkoutApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.workout.workout.activity.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.workout.workout.activity.NewsListActivity"
+            android:label="@string/title_activity_News"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.workout.workout.activity.PremiumVersion"
+            android:label="@string/title_activity_Premium" />
+        <activity
+            android:name="com.workout.workout.activity.WorkoutTrackerStart"
+            android:label="@string/title_tracker_start" />
+        <activity
+            android:name="com.workout.workout.activity.TrackerStatsActivity"
+            android:label="@string/title_tracker_stats"
+            android:theme="@style/NoTitleDialog" />
+        <activity android:name="com.workout.workout.activity.TrainingDetailActivity" />
+        <activity android:name="com.workout.workout.activity.WorkoutDetailActivity" />
+        <activity android:name="com.workout.workout.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.workout.workout.service.FirebaseDBUpdateService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name="com.workout.workout.activity.PlanDetailActivity" />
+        <activity android:name="com.workout.workout.activity.PlanWorkoutListActivity" />
+        <activity android:name="com.workout.workout.activity.MyPlanListActivity" />
+        <activity
+            android:name="com.workout.workout.activity.CreateWorkoutPlanActivity"
+            android:theme="@style/NoTitleDialog"
+            android:windowSoftInputMode="stateVisible|stateAlwaysVisible" />
+        <activity
+            android:name="com.workout.workout.activity.AddWorkoutToPlanActivity"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.workout.workout.activity.BMIActivity"
+            android:windowSoftInputMode="stateVisible|stateAlwaysVisible" />
+        <activity
+            android:name="com.workout.workout.activity.CalorieActivity"
+            android:windowSoftInputMode="stateVisible|stateAlwaysVisible" />
+        <activity
+            android:name="com.workout.workout.activity.ProteinActivity"
+            android:windowSoftInputMode="stateVisible|stateAlwaysVisible" />
+        <activity
+            android:name="com.workout.workout.activity.FatCalculator"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity android:name="com.workout.workout.activity.NotificationActivity">
+            <intent-filter>
+                <action android:name="OPEN_NOTIFICATION_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.workout.workout.activity.LoginActivity"
+            android:theme="@style/NoTitleDialog"
+            android:windowSoftInputMode="stateVisible|stateAlwaysVisible" />
+        <activity
+            android:name="com.workout.workout.activity.MoreActivity"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.workout.workout.activity.PhoneAuthenticationActivity"
+            android:theme="@style/NoTitleDialog"
+            android:windowSoftInputMode="stateVisible|stateAlwaysVisible" />
+        <activity
+            android:name="com.workout.workout.activity.PlanDescriptionActivity"
+            android:theme="@style/NoTitleDialog" />
+
+        <service android:name="com.workout.workout.service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.workout.workout.service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="e906c6e1ecfaf276b174c4209f4bece2680bc83c" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.workout.workout.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/paths" />
+        </provider>
+
+        <activity
+            android:name="com.android.billingclient.util.ProxyBillingActivity"
+             />
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+             />
+
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            />
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.workout.workout" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.workout.workout.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.workout.workout.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+    </application>
+</manifest>

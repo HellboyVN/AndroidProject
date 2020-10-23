@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="20.0dip"
+        android:paddingTop="20.0dip"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:maxLength="13"
+            android:maxLines="1" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInputLayoutName"
+        android:orientation="horizontal"
+        android:padding="20.0dip"
+        android:visibility="visible">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/countryCodePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:theme="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/editTextPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone number"
+                android:inputType="phone"
+                android:maxLength="13"
+                android:maxLines="1" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSignInPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:layout_below="@+id/linearLayoutPhoneNumber"
+        android:layout_gravity="center"
+        android:layout_margin="20.0dip"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:padding="10.0dip"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20.0dip"
+        android:theme="@style/TextLabel"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/editTextCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the code"
+            android:inputType="phone"
+            android:maxLength="6"
+            android:maxLines="1" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonVerifyCode"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:layout_below="@+id/textInputLayoutCode"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:padding="10.0dip"
+        android:text="Verify code"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonVerifyCode"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:gravity="center"
+        android:text="Please wait while the authorization is in progress for"
+        android:textSize="@dimen/text_size_default"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textViewMessageNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="5.0dip"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_title"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textViewEditPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:gravity="center"
+        android:text="EDIT PHONE NUMBER"
+        android:textSize="@dimen/text_size_title"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonResendCode"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:layout_below="@+id/textViewEditPhoneNumber"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:padding="10.0dip"
+        android:text="Resend code"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewMessageNumber"
+        android:layout_centerInParent="true"
+        android:layout_margin="10.0dip" />
+</RelativeLayout>

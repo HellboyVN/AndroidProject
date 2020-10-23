@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#ff6cc049</color>
+    <color name="accentColor">#ffb71c1c</color>
+    <color name="background">#fff76d3c</color>
+    <color name="border">#ffc5c5c5</color>
+    <color name="brand">#ffffdd00</color>
+    <color name="listbackground">#ffffffff</color>
+    <color name="play_background">#ffeeeeee</color>
+    <color name="pressed_spotlightactionbar">#ffffdd00</color>
+    <color name="primaryColor">#6884c8</color>
+    <color name="primaryColorDark">#3b5998</color>
+    <color name="primarytext">#ff231f20</color>
+    <color name="secondarytext">#ff999999</color>
+    <color name="trackbackground">#fcffffff</color>
+    <color name="winBackground">#ff98cb4a</color>
+    <color name="colorText">#fefefe</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#131728</color>
+</resources>

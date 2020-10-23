@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="@style/ThemeOverlay.AppCompat.Light" />
+    <style name="ToolbarTheme">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+    <style name="RatingBar" parent="@style/Theme.AppCompat">
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/gray_text</item>
+    </style>
+
+    <style name="SCBSwitch" parent="@style/Theme.AppCompat.Light">
+        <item name="android:colorForeground">@color/switch_foreground</item>
+        <item name="colorControlActivated">@color/mdtp_accent_color_dark</item>
+        <item name="colorSwitchThumbNormal">@color/on_colar</item>
+    </style>
+    <style name="OverlayPrimaryColorFemale">
+        <item name="colorPrimary">@color/colorPrimaryFemale</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkFemale</item>
+    </style>
+    <style name="OverlayPrimaryColorMale">
+        <item name="colorPrimary">@color/colorPrimaryMale</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMale</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Tooltip" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Tooltip" parent="@style/Base.TextAppearance.AppCompat.Tooltip" />
+    <style name="OverlayPrimaryColorDefault">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+</resources>

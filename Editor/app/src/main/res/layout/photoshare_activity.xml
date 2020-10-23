@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/second_RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff15161a">
+
+    <LinearLayout
+        android:id="@+id/top_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/effect_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:paddingBottom="8.0dip"
+            android:paddingTop="8.0dip"
+            android:src="@drawable/pic_colorpicker" />
+
+        <ImageButton
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:paddingBottom="8.0dip"
+            android:paddingTop="8.0dip"
+            android:src="@drawable/pic_reset"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/done_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:paddingBottom="8.0dip"
+            android:paddingTop="8.0dip"
+            android:src="@drawable/pic_apply"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top_color_button"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:layout_below="@+id/top_buttons"
+        android:background="@drawable/pic_topbutton_effectsbg"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <ImageButton
+            android:id="@+id/red_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:padding="8.0dip"
+            android:src="#ffff0000" />
+
+        <ImageButton
+            android:id="@+id/blue_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:padding="8.0dip"
+            android:src="#ff00008e" />
+
+        <ImageButton
+            android:id="@+id/green_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:padding="8.0dip"
+            android:src="#ff2fff00" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/finalimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_layout"
+        android:layout_below="@+id/top_color_button"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name" />
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:paddingBottom="8.0dip"
+            android:paddingTop="8.0dip"
+            android:src="@drawable/share_save" />
+
+        <ImageButton
+            android:id="@+id/fb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:paddingBottom="8.0dip"
+            android:paddingTop="8.0dip"
+            android:src="@drawable/share_fb" />
+
+        <ImageButton
+            android:id="@+id/insta"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:paddingBottom="8.0dip"
+            android:paddingTop="8.0dip"
+            android:src="@drawable/share_insta"
+             />
+
+        <ImageButton
+            android:id="@+id/share_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:paddingBottom="8.0dip"
+            android:paddingTop="8.0dip"
+            android:src="@drawable/share_share" />
+    </LinearLayout>
+</RelativeLayout>

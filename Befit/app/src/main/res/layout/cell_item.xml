@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:addStatesFromChildren="true"
+    android:foreground="?selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="10.0dip">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_shadow">
+
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewPlan"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/plan_item_height" />
+
+            <ImageView
+                android:id="@+id/imageViewLock"
+                android:layout_width="@dimen/plan_lock_image_size"
+                android:layout_height="@dimen/plan_lock_image_size"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6.0dip"
+                android:layout_marginTop="6.0dip"
+                android:src="@drawable/lock" />
+
+            <ImageView
+                android:id="@+id/imageViewfree"
+                android:layout_width="@dimen/plan_free_imageview_size"
+                android:layout_height="@dimen/plan_free_imageview_size"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6.0dip"
+                android:layout_marginTop="6.0dip"
+                android:src="@drawable/free" />
+
+            <ImageView
+                android:id="@+id/imageViewDescription"
+                android:layout_width="@dimen/plan_description_image_size"
+                android:layout_height="@dimen/plan_description_image_size"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/description" />
+
+            <include layout="@layout/progress_bar" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="3.0dip"
+            android:textColor="@color/colorAccent"
+            android:textSize="14.0sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

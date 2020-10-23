@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:id="@+id/drawer_layout"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:fitsSystemWindows="true">
+
+    <include
+        layout="@layout/app_bar_new_main"
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/nav_view"
+        n1:layout_width="wrap_content"
+        n1:layout_height="match_parent"
+        n1:layout_gravity="start"
+        n1:fitsSystemWindows="true"
+        n2:menu="@menu/activity_main_drawer">
+
+        <include layout="@layout/go_pro" />
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

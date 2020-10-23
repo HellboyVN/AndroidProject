@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:background="#ffdedede"
+    n1:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        n1:id="@+id/customToolbarAppbar"
+        n1:layout_width="match_parent"
+        n1:layout_height="150.0dip"
+        n1:fitsSystemWindows="true"
+        n1:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout xmlns:n2="http://schemas.android.com/apk/res-auto"
+            n1:id="@+id/customToolbarCollapsing"
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            n1:fitsSystemWindows="true"
+            n2:contentScrim="?colorPrimary"
+            n2:expandedTitleMarginEnd="64.0dip"
+            n2:expandedTitleMarginStart="48.0dip"
+            n2:expandedTitleTextAppearance="@android:color/transparent"
+            n2:layout_scrollFlags="exitUntilCollapsed|scroll">
+
+            <android.support.v7.widget.Toolbar
+                n1:id="@+id/customToolbar"
+                n1:layout_width="match_parent"
+                n1:layout_height="?actionBarSize"
+                n2:layout_collapseMode="pin"
+                n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_custom" />
+
+    <FrameLayout
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="bottom">
+
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:orientation="vertical">
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                n1:id="@+id/adView"
+                n1:layout_width="wrap_content"
+                n1:layout_height="wrap_content"
+                n1:layout_gravity="center"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-8468661407843417/3161161250"></com.google.android.gms.ads.AdView>
+
+            <LinearLayout
+                n1:id="@+id/beginCustomWorkout"
+                n1:layout_width="match_parent"
+                n1:layout_height="50.0dip"
+                n1:layout_gravity="bottom"
+                n1:background="@drawable/ripple_color_accent"
+                n1:clickable="true"
+                n1:orientation="horizontal"
+                n1:padding="15.0dip"
+                n1:weightSum="2.0">
+
+                <android.support.v7.widget.AppCompatTextView
+                    n1:id="@+id/beginCustomWorkoutButton"
+                    n1:layout_width="0.0dip"
+                    n1:layout_height="match_parent"
+                    n1:layout_weight="1.0"
+                    n1:background="@android:color/transparent"
+                    n1:focusable="false"
+                    n1:focusableInTouchMode="false"
+                    n1:gravity="center"
+                    n1:text="@string/begin_workout"
+                    n1:textAllCaps="true"
+                    n1:textColor="@color/white"
+                    n1:textSize="16.0dip" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    n1:id="@+id/totalTime"
+                    n1:layout_width="0.0dip"
+                    n1:layout_height="match_parent"
+                    n1:layout_weight="1.0"
+                    n1:clickable="false"
+                    n1:focusable="false"
+                    n1:focusableInTouchMode="false"
+                    n1:gravity="center"
+                    n1:text="00:00"
+                    n1:textColor="@color/white"
+                    n1:textSize="16.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            n1:id="@+id/customWaitScreen"
+            n1:layout_width="match_parent"
+            n1:layout_height="50.0dip"
+            n1:background="#ccffffff"
+            n1:visibility="gone">
+
+            <ProgressBar
+                n1:layout_width="30.0dip"
+                n1:layout_height="30.0dip"
+                n1:layout_gravity="center" />
+        </FrameLayout>
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

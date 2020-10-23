@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    ads:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:id="@+id/relativeContent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10.0dip">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/imageCardView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="300.0dip"
+                        ads:cardCornerRadius="4.0dip"
+                        ads:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <ProgressBar
+                                android:id="@+id/mProgressBar"
+                                style="@style/Widget.AppCompat.ProgressBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:theme="@style/CircularProgress" />
+
+                            <ImageView
+                                android:id="@+id/playIcon"
+                                android:layout_width="50.0dip"
+                                android:layout_height="50.0dip"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/ic_play_circle_filled_black_24dp" />
+
+                            <ImageView
+                                android:id="@+id/imageDownloadedID"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageCardView"
+                        android:layout_marginTop="5.0dip"
+                        ads:cardElevation="3.0dip"
+                        ads:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <io.gloxey.cfv.CFTextView
+                                android:id="@+id/captionText"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="5.0dip"
+                                android:padding="5.0dip"
+                                android:text=""
+                                android:textColor="#ff212121"
+                                ads:font_name="@string/sintony" />
+
+                            <io.gloxey.cfv.CFButton
+                                android:id="@+id/repostButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35.0dip"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@+id/captionText"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="5.0dip"
+                                android:layout_marginRight="5.0dip"
+                                android:background="@drawable/drawable_selector"
+                                android:padding="5.0dip"
+                                android:text="@string/reposttext"
+                                android:textColor="@android:color/white"
+                                android:textSize="13.0sp"
+                                android:textStyle="bold"
+                                ads:font_name="@string/sintony" />
+
+                            <io.gloxey.cfv.CFButton
+                                android:id="@+id/copyTextButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35.0dip"
+                                android:layout_below="@+id/captionText"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="5.0dip"
+                                android:layout_marginRight="5.0dip"
+                                android:layout_toLeftOf="@+id/repostButton"
+                                android:background="@drawable/drawable_selector"
+                                android:padding="5.0dip"
+                                android:text="@string/copytext"
+                                android:textColor="@android:color/white"
+                                android:textSize="13.0sp"
+                                android:textStyle="bold"
+                                ads:font_name="@string/sintony" />
+
+                            <io.gloxey.cfv.CFButton
+                                android:id="@+id/copyHashtag"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35.0dip"
+                                android:layout_below="@+id/captionText"
+                                android:layout_marginBottom="5.0dip"
+                                android:layout_marginRight="5.0dip"
+                                android:layout_toLeftOf="@+id/copyTextButton"
+                                android:background="@drawable/drawable_selector"
+                                android:padding="5.0dip"
+                                android:text="@string/copyHashtag"
+                                android:textColor="@android:color/white"
+                                android:textSize="13.0sp"
+                                android:textStyle="bold"
+                                ads:font_name="@string/sintony" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <com.google.android.gms.ads.NativeExpressAdView
+                        android:id="@+id/nativeAD"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/cardView"
+                        android:layout_centerHorizontal="true"
+                        android:visibility="gone"
+                        ads:adSize="320x300"
+                        ads:adUnitId="@string/native_ad" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

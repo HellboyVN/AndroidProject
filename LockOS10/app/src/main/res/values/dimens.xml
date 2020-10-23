@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">10.0dip</dimen>
+    <dimen name="activity_vertical_margin">10.0dip</dimen>
+    <dimen name="enter_number_size">20.0sp</dimen>
+    <dimen name="margin_btn_keyboard">10.0dip</dimen>
+    <dimen name="number_size">30.0sp</dimen>
+    <dimen name="padding_menu_item">10.0dip</dimen>
+    <dimen name="size_circle_btn">70.0dip</dimen>
+    <dimen name="size_circle_small">10.0dip</dimen>
+    <dimen name="text_number_size">10.0sp</dimen>
+</resources>

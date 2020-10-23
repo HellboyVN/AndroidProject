@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/toolbar" />
+    <RelativeLayout android:id="@+id/relativeLayoutWorkoutExercise" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/toolbar">
+        <TextView android:textSize="@dimen/text_size_title" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center" android:id="@+id/textViewFirstExercise" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FIRST EXERCISE" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_below="@+id/textViewFirstExercise" android:layout_centerVertical="true" card_view:cardCornerRadius="8.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="10.0">
+                <android.support.v7.widget.CardView android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_weight="3.0" card_view:cardCornerRadius="8.0dip">
+                    <ImageView android:id="@+id/imageViewWorkoutExercise" android:layout_width="match_parent" android:layout_height="100.0dip" />
+                    <include android:id="@+id/progressBarWorkoutExerciseImage" layout="@layout/progress_bar" />
+                </android.support.v7.widget.CardView>
+                <RelativeLayout android:id="@+id/relativeLayoutText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="7.0">
+                    <TextView android:textSize="17.0sp" android:textStyle="bold" android:id="@+id/textViewWorkoutExerciseName" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                    <TextView android:textSize="15.0sp" android:id="@+id/textViewWorkoutExerciseSetsAndReps" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_below="@+id/textViewWorkoutExerciseName" android:layout_alignLeft="@+id/textViewWorkoutExerciseName" />
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/timerMainLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/floatingButtonPlayPause" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="10.0">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0">
+                <TextView android:textSize="15.0sp" android:textColor="@android:color/holo_red_dark" android:gravity="center" android:layout_gravity="center" android:id="@+id/textViewSet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="Set: 3/5" />
+                <TextView android:textSize="15.0sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/textViewRep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="Reps:15" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.0">
+                <android.support.v7.widget.CardView android:id="@+id/cardViewGetReady" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_centerVertical="true" card_view:cardCornerRadius="8.0dip">
+                    <TextView android:textSize="@dimen/text_size_title" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@+id/textViewGetReady" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Get Ready" />
+                </android.support.v7.widget.CardView>
+                <com.github.lzyzsd.circleprogress.DonutProgress android:id="@+id/donutProgressTimer" android:layout_width="wrap_content" android:layout_height="wrap_content" card_view:donut_max="20" card_view:donut_text_color="@color/black" card_view:donut_suffix_text="s" card_view:donut_circle_starting_degree="270" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0">
+                <TextView android:textSize="15.0sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/textViewLoad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="Load: Bodyweight" />
+                <TextView android:textSize="15.0sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/textViewSpeed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="Speed: 70%" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@+id/cardViewVideo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/workout_video_height" android:layout_below="@+id/toolbar" android:layout_alignParentLeft="true" card_view:cardCornerRadius="8.0dip" card_view:cardUseCompatPadding="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/linearLayoutOptions">
+                <VideoView android:layout_gravity="center" android:id="@+id/videoView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                <include android:id="@+id/progressBarVideo" layout="@layout/progress_bar" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayoutOptions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:baselineAligned="false" android:layout_alignParentBottom="true">
+                <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="16.0sp" android:textColor="@android:color/holo_red_dark" android:gravity="center" android:layout_gravity="center" android:id="@+id/textViewExerciseNumber" android:paddingBottom="3.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="5/7" android:layout_weight="0.1" />
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@+id/textViewExerciseName" android:paddingBottom="3.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Dumbbell Concentration Curl" android:layout_weight="0.9" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.design.widget.FloatingActionButton android:id="@+id/floatingButtonPlayPause" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" android:src="@drawable/tracker_play" android:layout_above="@+id/adSmartBanner" android:layout_centerHorizontal="true" card_view:elevation="4.0dip" card_view:backgroundTint="@color/colorPrimary" />
+    <android.support.design.widget.FloatingActionButton android:id="@+id/floatingNextButton" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" android:src="@drawable/tracker_next" android:layout_above="@+id/adSmartBanner" android:layout_alignParentRight="true" card_view:elevation="4.0dip" card_view:backgroundTint="@color/colorPrimary" />
+    <include android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/admob_banner_ad_layout" />
+</RelativeLayout>

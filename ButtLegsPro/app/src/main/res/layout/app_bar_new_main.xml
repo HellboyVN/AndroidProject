@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:background="#ffdedede"
+    n1:fitsSystemWindows="true"
+    n1:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/toolbar"
+        n1:layout_width="match_parent"
+        n1:layout_height="?actionBarSize"
+        n1:background="@color/colorPrimary"
+        n1:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        n2:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        n2:titleTextColor="#ffffffff" />
+    <RelativeLayout
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent">
+
+        <FrameLayout
+            n1:id="@+id/mainContainer"
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            n1:layout_above="@+id/adViewContainer"
+            />
+        <RelativeLayout
+            n1:id="@+id/adViewContainer"
+            n1:layout_above="@+id/bottom_navigation"
+            n1:layout_centerHorizontal="true"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:visibility="visible"
+            />
+        <android.support.design.widget.BottomNavigationView xmlns:n3="http://schemas.android.com/apk/res-auto"
+            n1:id="@+id/bottom_navigation"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_alignParentBottom="true"
+            n1:layout_gravity="bottom"
+            n1:background="@color/colorPrimary"
+            n3:itemBackground="@color/colorPrimary"
+            n3:itemIconTint="@drawable/bottom_bar_selector"
+            n3:itemTextColor="@drawable/bottom_bar_selector"
+            n3:layout_scrollFlags="enterAlways|scroll|snap"
+            n3:menu="@menu/botton_navigation_bar" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_search" android:id="@+id/action_search" android:title="Search workout" app:showAsAction="always" app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item android:icon="@drawable/bell" android:id="@+id/Notificationbadge" android:title="Notifications" app:showAsAction="always" app:actionLayout="@layout/push_notification_news_count" />
+</menu>

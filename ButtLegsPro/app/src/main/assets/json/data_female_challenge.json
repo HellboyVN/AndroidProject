@@ -1,0 +1,1717 @@
+{
+  "type": "male",
+  "data": [
+    {
+      "name_key": "level",
+      "level": 1,
+      "has_lock": false,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_1",
+      "exercises": [
+        {
+          "name_key": "donkey_kick",
+          "duration": 30000,
+          "repetition": 1,
+          "img_key": "female_donkey_kick"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 20000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 20000,
+          "img_key": "female_bridge_leg_raise_right"
+        },
+        {
+          "name_key": "forward_lunge",
+          "duration": 35000,
+          "img_key": "female_forward_lunge"
+        },
+
+        {
+          "name_key": "side_lunge",
+          "duration": 30000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 30000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 30000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "wall_push_up",
+          "duration": 40000,
+          "img_key": "female_wall_push_up"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 2,
+      "desc_key": "card_desc",
+      "has_lock": false,
+      "img_src": "ic_level_2",
+      "exercises": [
+
+        {
+          "name_key": "high_knees",
+          "duration": 30000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "wall_sit",
+          "duration": 40000,
+          "img_key": "female_wall_sit"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 45000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "walking_jumps",
+          "duration": 40000,
+          "img_key": "female_walking_jumps"
+        },
+        {
+          "name_key": "step_ups",
+          "duration": 45000,
+          "img_key": "female_step_ups"
+        },
+        {
+          "name_key": "forward_lunge",
+          "duration": 45000,
+          "img_key": "female_forward_lunge"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 45000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "jumping_squats",
+          "duration": 45000,
+          "img_key": "female_jumping_squats"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 3,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_3",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "legs_lift",
+          "duration": 45000,
+          "img_key": "female_legs_lift"
+        },
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "bridges",
+          "duration": 60000,
+          "img_key": "female_bridges"
+        },
+        {
+          "name_key": "plank_left",
+          "duration": 30000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 30000,
+          "img_key": "female_plank_right"
+        },
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 45000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 60000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "tiptoe_squat",
+          "duration": 60000,
+          "img_key": "female_tiptoe_squats"
+        },
+        {
+          "name_key": "wall_push_up",
+          "duration": 45000,
+          "img_key": "female_wall_push_up"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 4,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_4",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 20000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 20000,
+          "img_key": "female_bridge_leg_raise_right"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 45000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 45000,
+          "img_key": "female_bridge_leg_raise_right"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 60000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "donkey_kick",
+          "duration": 45000,
+          "img_key": "female_donkey_kick"
+        },
+        {
+          "name_key": "jumping_squats",
+          "duration": 50000,
+          "img_key": "female_jumping_squats"
+        },
+        {
+          "name_key": "forward_lunge",
+          "duration": 60000,
+          "img_key": "female_forward_lunge"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 50000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "walking_jumps",
+          "duration": 60000,
+          "img_key": "female_walking_jumps"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 5,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_5",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "tiptoe_squat",
+          "duration": 50000,
+          "img_key": "female_tiptoe_squats"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 60000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "donkey_kick",
+          "duration": 60000,
+          "img_key": "female_donkey_kick"
+        },
+        {
+          "name_key": "step_ups",
+          "duration": 50000,
+          "img_key": "female_step_ups"
+        },
+        {
+          "name_key": "bridges",
+          "duration": 40000,
+          "img_key": "female_bridges"
+        },
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 15000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 15000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "wall_push_up",
+          "duration": 50000,
+          "img_key": "female_wall_push_up"
+        },
+        {
+          "name_key": "wall_sit",
+          "duration": 40000,
+          "img_key": "female_wall_sit"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 6,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_6",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 25000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 25000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 60000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 30000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 30000,
+          "img_key": "female_bridge_leg_raise_right"
+        },
+        {
+          "name_key": "forward_lunge",
+          "duration": 45000,
+          "img_key": "female_forward_lunge"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 50000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 60000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 60000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "jumping_squats",
+          "duration": 40000,
+          "img_key": "female_jumping_squats"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 7,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_7",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "high_knees",
+          "duration": 40000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 50000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 40000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "plank_left",
+          "duration": 30000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 30000,
+          "img_key": "female_plank_right"
+        },
+        {
+          "name_key": "donkey_kick",
+          "duration": 50000,
+          "img_key": "female_donkey_kick"
+        },
+        {
+          "name_key": "tiptoe_squat",
+          "duration": 600000,
+          "img_key": "female_tiptoe_squats"
+        },
+        {
+          "name_key": "walking_jumps",
+          "duration": 45000,
+          "img_key": "female_walking_jumps"
+        },
+        {
+          "name_key": "forward_lunge",
+          "duration": 60000,
+          "img_key": "female_forward_lunge"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 8,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_8",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "legs_lift",
+          "duration": 40000,
+          "img_key": "female_legs_lift"
+        },
+        {
+          "name_key": "donkey_kick",
+          "duration": 40000,
+          "img_key": "female_donkey_kick"
+        },
+        {
+          "name_key": "bridges",
+          "duration": 60000,
+          "img_key": "female_bridges"
+        },
+        {
+          "name_key": "jumping_squats",
+          "duration": 40000,
+          "img_key": "female_jumping_squats"
+        },
+        {
+          "name_key": "wall_push_up",
+          "duration": 60000,
+          "img_key": "female_wall_push_up"
+        },
+        {
+          "name_key": "step_ups",
+          "duration": 60000,
+          "img_key": "female_step_ups"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 25000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 25000,
+          "img_key": "female_bridge_leg_raise_right"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 60000,
+          "img_key": "female_high_knees"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 9,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_9",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 20000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 20000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "plank_left",
+          "duration": 20000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 20000,
+          "img_key": "female_plank_right"
+        },
+        {
+          "name_key": "walking_jumps",
+          "duration": 60000,
+          "img_key": "female_walking_jumps"
+        },
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 50000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "squat",
+          "duration": 30000,
+          "img_key": "female_squat"
+        },
+        {
+          "name_key": "tiptoe_squat",
+          "duration": 60000,
+          "img_key": "female_tiptoe_squats"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 60000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 50000,
+          "img_key": "female_jumping_jacks"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 10,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_10",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "jumping_jacks",
+          "duration": 50000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "donkey_kick",
+          "duration": 60000,
+          "img_key": "female_donkey_kick"
+        },
+        {
+          "name_key": "step_ups",
+          "duration": 50000,
+          "img_key": "female_step_ups"
+        },
+        {
+          "name_key": "tiptoe_squat",
+          "duration": 50000,
+          "img_key": "female_tiptoe_squats"
+        },
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "legs_lift",
+          "duration": 30000,
+          "img_key": "female_legs_lift"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 60000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "wall_sit",
+          "duration": 60000,
+          "img_key": "female_wall_sit"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 11,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_11",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "bridges",
+          "duration": 60000,
+          "img_key": "female_bridges"
+        },
+        {
+          "name_key": "tiptoe_squat",
+          "duration": 60000,
+          "img_key": "female_tiptoe_squats"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 60000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 60000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "jumping_squats",
+          "duration": 50000,
+          "img_key": "female_jumping_squats"
+        },
+        {
+          "name_key": "walking_jumps",
+          "duration": 60000,
+          "img_key": "female_walking_jumps"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 35000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 35000,
+          "img_key": "female_bridge_leg_raise_right"
+        },
+        {
+          "name_key": "wall_push_up",
+          "duration": 70000,
+          "img_key": "female_wall_push_up"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 12,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_12",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "step_ups",
+          "duration": 65000,
+          "img_key": "female_step_ups"
+        },
+        {
+          "name_key": "plank_left",
+          "duration": 30000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 30000,
+          "img_key": "female_plank_right"
+        },
+        {
+          "name_key": "forward_lunge",
+          "duration": 65000,
+          "img_key": "female_forward_lunge"
+        },
+        {
+          "name_key": "donkey_kick",
+          "duration": 65000,
+          "img_key": "female_donkey_kick"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 60000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 65000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "wall_sit",
+          "duration": 60000,
+          "img_key": "female_wall_sit"
+        },
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 13,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_13",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "legs_lift",
+          "duration": 70000,
+          "img_key": "female_legs_lift"
+        },
+        {
+          "name_key": "bridges",
+          "duration": 60000,
+          "img_key": "female_bridges"
+        },
+        {
+          "name_key": "wall_push_up",
+          "duration": 70000,
+          "img_key": "female_wall_push_up"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 30000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 30000,
+          "img_key": "female_bridge_leg_raise_right"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 65000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 60000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 70000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "jumping_squats",
+          "duration": 70000,
+          "img_key": "female_jumping_squats"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 14,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_14",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "tiptoe_squat",
+          "duration": 60000,
+          "img_key": "female_tiptoe_squats"
+        },
+        {
+          "name_key": "forward_lunge",
+          "duration": 60000,
+          "img_key": "female_forward_lunge"
+        },
+        {
+          "name_key": "donkey_kick",
+          "duration": 65000,
+          "img_key": "female_donkey_kick"
+        },
+        {
+          "name_key": "plank_left",
+          "duration": 30000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 30000,
+          "img_key": "female_plank_right"
+        },
+        {
+          "name_key": "walking_jumps",
+          "duration": 70000,
+          "img_key": "female_walking_jumps"
+        },
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 70000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 70000,
+          "img_key": "female_side_lunge"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 15,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_15",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "forward_lunge",
+          "duration": 65000,
+          "img_key": "female_forward_lunge"
+        },
+        {
+          "name_key": "bridges",
+          "duration": 50000,
+          "img_key": "female_bridges"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 70000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "step_ups",
+          "duration": 60000,
+          "img_key": "female_step_ups"
+        },
+        {
+          "name_key": "legs_lift",
+          "duration": 50000,
+          "img_key": "female_legs_lift"
+        },
+        {
+          "name_key": "tiptoe_squat",
+          "duration": 60000,
+          "img_key": "female_tiptoe_squats"
+        },
+        {
+          "name_key": "wall_sit",
+          "duration": 70000,
+          "img_key": "female_wall_sit"
+        },
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        }
+
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 16,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_16",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "plank_left",
+          "duration": 30000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 30000,
+          "img_key": "female_plank_right"
+        },
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 60000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "wall_push_up",
+          "duration": 70000,
+          "img_key": "female_wall_push_up"
+        },
+        {
+          "name_key": "jumping_squats",
+          "duration": 60000,
+          "img_key": "female_jumping_squats"
+        },
+        {
+          "name_key": "step_ups",
+          "duration": 60000,
+          "img_key": "female_step_ups"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 40000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 40000,
+          "img_key": "female_bridge_leg_raise_right"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 70000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 60000,
+          "img_key": "female_high_knees"
+        }
+
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 17,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_17",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "tiptoe_squat",
+          "duration": 65000,
+          "img_key": "female_tiptoe_squats"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 75000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "bridges",
+          "duration": 60000,
+          "img_key": "female_bridges"
+        },
+        {
+          "name_key": "forward_lunge",
+          "duration": 50000,
+          "img_key": "female_forward_lunge"
+        },
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 65000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "plank_left",
+          "duration": 30000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 30000,
+          "img_key": "female_plank_right"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 25000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 25000,
+          "img_key": "female_bridge_leg_raise_right"
+        }
+      ]
+    },
+
+    {
+      "name_key": "level",
+      "level": 18,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_18",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 65000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "plank_left",
+          "duration": 30000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 30000,
+          "img_key": "female_plank_right"
+        },
+        {
+          "name_key": "squat_narrow_legs",
+          "duration": 60000,
+          "img_key": "female_squat_narrow_legs"
+        },
+        {
+          "name_key": "donkey_kick",
+          "duration": 60000,
+          "img_key": "female_donkey_kick"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 65000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "wall_sit",
+          "duration": 65000,
+          "img_key": "female_wall_sit"
+        },
+
+        {
+          "name_key": "wall_push_up",
+          "duration": 65000,
+          "img_key": "female_wall_push_up"
+        },
+        {
+          "name_key": "jumping_squats",
+          "duration": 80000,
+          "img_key": "female_jumping_squats"
+        }
+      ]
+    }
+  ,
+    {
+      "name_key": "level",
+      "level": 19,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_19",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "jumping_jacks",
+          "duration": 70000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "walking_jumps",
+          "duration": 70000,
+          "img_key": "female_walking_jumps"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 35000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 35000,
+          "img_key": "female_bridge_leg_raise_right"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 60000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 70000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "plank_left",
+          "duration": 35000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 35000,
+          "img_key": "female_plank_right"
+        },
+        {
+          "name_key": "donkey_kick",
+          "duration": 70000,
+          "img_key": "female_donkey_kick"
+        },
+        {
+          "name_key": "step_ups",
+          "duration": 70000,
+          "img_key": "female_step_ups"
+        }
+      ]
+    }
+  ,
+    {
+      "name_key": "level",
+      "level": 20,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_20",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "side_lunge",
+          "duration": 70000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "legs_lift",
+          "duration": 75000,
+          "img_key": "female_legs_lift"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 80000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 75000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "wall_sit",
+          "duration": 70000,
+          "img_key": "female_wall_sit"
+        },
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 30000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "forward_lunge",
+          "duration": 70000,
+          "img_key": "female_forward_lunge"
+        },
+        {
+          "name_key": "wall_push_up",
+          "duration": 80000,
+          "img_key": "female_wall_push_up"
+        }
+      ]
+    },
+    {
+      "name_key": "level",
+      "level": 21,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_21",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "bridges",
+          "duration": 80000,
+          "img_key": "female_bridges"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 90000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 80000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 40000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 40000,
+          "img_key": "female_bridge_leg_raise_right"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 85000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "plank_left",
+          "duration": 40000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "jumping_squats",
+          "duration": 90000,
+          "img_key": "female_jumping_squats"
+        },
+        {
+          "name_key": "walking_jumps",
+          "duration": 80000,
+          "img_key": "female_walking_jumps"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 40000,
+          "img_key": "female_plank_right"
+        }
+      ]
+    }  ,
+    {
+      "name_key": "level",
+      "level": 22,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_22",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "bridges",
+          "duration": 85000,
+          "img_key": "female_bridges"
+        },
+        {
+          "name_key": "step_ups",
+          "duration": 85000,
+          "img_key": "female_step_ups"
+        },
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 40000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 40000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "wall_push_up",
+          "duration": 85000,
+          "img_key": "female_wall_push_up"
+        },
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 85000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "tiptoe_squat",
+          "duration": 85000,
+          "img_key": "female_tiptoe_squats"
+        },
+        {
+          "name_key": "plank_left",
+          "duration": 40000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 40000,
+          "img_key": "female_plank_right"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 85000,
+          "img_key": "female_jumping_jacks"
+        }
+      ]
+    }  ,
+    {
+      "name_key": "level",
+      "level": 23,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_23",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "legs_lift",
+          "duration": 90000,
+          "img_key": "female_legs_lift"
+        },
+        {
+          "name_key": "bridges",
+          "duration": 90000,
+          "img_key": "female_bridges"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 45000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 45000,
+          "img_key": "female_bridge_leg_raise_right"
+        },
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 45000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 45000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "step_ups",
+          "duration": 90000,
+          "img_key": "female_step_ups"
+        },
+        {
+          "name_key": "forward_lunge",
+          "duration": 90000,
+          "img_key": "female_forward_lunge"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 90000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "wall_sit",
+          "duration": 80000,
+          "img_key": "female_wall_sit"
+        }
+      ]
+    }  ,
+    {
+      "name_key": "level",
+      "level": 24,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_24",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "high_knees",
+          "duration": 95000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "donkey_kick",
+          "duration": 90000,
+          "img_key": "female_donkey_kick"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 90000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 95000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "wall_push_up",
+          "duration": 90000,
+          "img_key": "female_wall_push_up"
+        },
+        {
+          "name_key": "squat_narrow_legs",
+          "duration": 95000,
+          "img_key": "female_squat_narrow_legs"
+        },
+        {
+          "name_key": "tiptoe_squat",
+          "duration": 100000,
+          "img_key": "female_tiptoe_squats"
+        },
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 45000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 45000,
+          "img_key": "female_straight_legs_high_right"
+        }
+      ]
+    }  ,
+    {
+      "name_key": "level",
+      "level": 25,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_25",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "bridges",
+          "duration": 95000,
+          "img_key": "female_bridges"
+        },
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 95000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "legs_lift",
+          "duration": 95000,
+          "img_key": "female_legs_lift"
+        },
+        {
+          "name_key": "jumping_squats",
+          "duration": 95000,
+          "img_key": "female_jumping_squats"
+        },
+        {
+          "name_key": "forward_lunge",
+          "duration": 95000,
+          "img_key": "female_forward_lunge"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 95000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 45000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 45000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "wall_sit",
+          "duration": 95000,
+          "img_key": "female_wall_sit"
+        }
+      ]
+    }
+  ,
+    {
+      "name_key": "level",
+      "level": 26,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_26",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "legs_lift",
+          "duration": 95000,
+          "img_key": "female_legs_lift"
+        },
+        {
+          "name_key": "plank_left",
+          "duration": 45000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 45000,
+          "img_key": "female_plank_right"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 95000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 95000,
+          "img_key": "female_jumping_jacks"
+        },
+
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 50000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 50000,
+          "img_key": "female_bridge_leg_raise_right"
+        },
+        {
+          "name_key": "walking_jumps",
+          "duration": 95000,
+          "img_key": "female_walking_jumps"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 95000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "step_ups",
+          "duration": 100000,
+          "img_key": "female_step_ups"
+        }
+      ]
+    }
+  ,
+    {
+      "name_key": "level",
+      "level": 27,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_27",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "legs_lift",
+          "duration": 100000,
+          "img_key": "female_legs_lift"
+        },
+        {
+          "name_key": "bridges",
+          "duration": 100000,
+          "img_key": "female_bridges"
+        },
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 50000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 50000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 90000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "wall_push_up",
+          "duration": 100000,
+          "img_key": "female_wall_push_up"
+        },
+        {
+          "name_key": "tiptoe_squat",
+          "duration": 90000,
+          "img_key": "female_tiptoe_squats"
+        },
+        {
+          "name_key": "wall_sit",
+          "duration": 100000,
+          "img_key": "female_wall_sit"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 90000,
+          "img_key": "female_jumping_jacks"
+        }
+      ]
+    }
+  ,
+    {
+      "name_key": "level",
+      "level": 28,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_28",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "jumping_squats",
+          "duration": 100000,
+          "img_key": "female_jumping_squats"
+        },
+        {
+          "name_key": "forward_lunge",
+          "duration": 110000,
+          "img_key": "female_forward_lunge"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 100000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "step_ups",
+          "duration": 100000,
+          "img_key": "female_step_ups"
+        },
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 110000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "donkey_kick",
+          "duration": 100000,
+          "img_key": "female_donkey_kick"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 110000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "walking_jumps",
+          "duration": 100000,
+          "img_key": "female_walking_jumps"
+        }
+      ]
+    }
+  ,
+    {
+      "name_key": "level",
+      "level": 29,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_29",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "legs_lift",
+          "duration": 110000,
+          "img_key": "female_legs_lift"
+        },
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 120000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "bridges",
+          "duration": 100000,
+          "img_key": "female_bridges"
+        },
+        {
+          "name_key": "jumping_jacks",
+          "duration": 100000,
+          "img_key": "female_jumping_jacks"
+        },
+        {
+          "name_key": "wall_push_up",
+          "duration": 120000,
+          "img_key": "female_wall_push_up"
+        },
+        {
+          "name_key": "straight_legs_high_left",
+          "duration": 55000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "straight_legs_high_right",
+          "duration": 55000,
+          "img_key": "female_straight_legs_high_right"
+        },
+        {
+          "name_key": "plank_left",
+          "duration": 55000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 55000,
+          "img_key": "female_plank_right"
+        },
+        {
+          "name_key": "tiptoe_squat",
+          "duration": 120000,
+          "img_key": "female_tiptoe_squats"
+        },
+        {
+          "name_key": "wall_sit",
+          "duration": 100000,
+          "img_key": "female_wall_sit"
+        }
+      ]
+    }
+  ,
+    {
+      "name_key": "level",
+      "level": 30,
+      "desc_key": "card_desc",
+      "img_src": "ic_level_30",
+      "has_lock": false,
+      "exercises": [
+        {
+          "name_key": "bridge_with_leg_raise_left",
+          "duration": 60000,
+          "img_key": "female_bridge_leg_raise_left"
+        },
+        {
+          "name_key": "bridge_with_leg_raise_right",
+          "duration": 60000,
+          "img_key": "female_bridge_leg_raise_right"
+        },
+        {
+          "name_key": "plank_left",
+          "duration": 60000,
+          "img_key": "female_plank_left"
+        },
+        {
+          "name_key": "plank_right",
+          "duration": 60000,
+          "img_key": "female_plank_right"
+        },
+        {
+          "name_key": "walking_jumps",
+          "duration": 120000,
+          "img_key": "female_walking_jumps"
+        },
+
+        {
+          "name_key": "stand_up_crunches",
+          "duration": 120000,
+          "img_key": "female_stand_up_crunches"
+        },
+        {
+          "name_key": "forward_lunge",
+          "duration": 120000,
+          "img_key": "female_forward_lunge"
+        },
+        {
+          "name_key": "side_lunge",
+          "duration": 120000,
+          "img_key": "female_side_lunge"
+        },
+        {
+          "name_key": "high_knees",
+          "duration": 120000,
+          "img_key": "female_high_knees"
+        },
+        {
+          "name_key": "donkey_kick",
+          "duration": 120000,
+          "img_key": "female_donkey_kick"
+        },
+        {
+          "name_key": "wall_push_up",
+          "duration": 100000,
+          "img_key": "female_wall_push_up"
+        }
+
+      ]
+    }
+  ]
+}

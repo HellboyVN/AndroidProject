@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:clickable="true" android:layout_width="72.0sp" android:layout_height="wrap_content" style="@android:style/Widget.ActionButton"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@+id/hotlist_bell" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:src="@drawable/bell" android:contentDescription="Notification" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/hotlist_hot" android:background="@drawable/rounded_square" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:minWidth="17.0sp" android:text="@null" android:layout_alignTop="@+id/hotlist_bell" android:layout_alignRight="@+id/hotlist_bell"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</RelativeLayout>

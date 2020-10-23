@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings">
+        <ListPreference
+            android:defaultValue="low"
+            android:entries="@array/resolution_option"
+            android:entryValues="@array/resolution_values"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:key="resolution_pref"
+            android:summary="@string/resolution_pref_summery"
+            android:title="@string/resolution_pref_title" />
+    </PreferenceCategory>
+    <Preference
+        android:defaultValue="/sdcard/"
+        android:key="folder_chooser"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/folder_chooser_title" />
+
+    <Preference
+        android:key="clear_cache"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/clear_cache" />
+    <PreferenceCategory android:title="Fast Charging">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_setttings_battery2"
+            android:key="IsCharging"
+            android:summary="Enable smart and fast charging"
+            android:title="Smart Lock" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@+id/mCardItemLayout" n1:layout_width="match_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView n1:layout_gravity="center" n1:id="@+id/mCardLayout" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/card_margin" n2:cardBackgroundColor="#ffffffff" n2:cardCornerRadius="@dimen/card_album_radius" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="vertical" n1:padding="10.0dip" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <TextView n1:textSize="18.0dip" n1:textStyle="bold" n1:id="@+id/labelWeight" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Weight" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+                <android.support.v7.widget.AppCompatImageView n1:id="@+id/btnAddWeight" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n2:srcCompat="@drawable/ic_add_black" />
+            </RelativeLayout>
+            <com.github.mikephil.charting.charts.LineChart n1:id="@+id/lineChart" n1:layout_width="match_parent" n1:layout_height="300.0dip" />
+            <LinearLayout n1:orientation="vertical" n1:id="@+id/layoutCurrent" n1:padding="10.0dip" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <android.support.v7.widget.AppCompatTextView n1:textSize="18.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/label_current" n1:layout_centerVertical="true" />
+                    <android.support.v7.widget.AppCompatTextView n1:textSize="18.0dip" n1:id="@+id/currentWeight" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

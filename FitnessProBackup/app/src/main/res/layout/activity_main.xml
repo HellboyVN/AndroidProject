@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:id="@+id/drawer_layout"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:fitsSystemWindows="true">
+
+    <include
+        n1:id="@+id/mainlayout"
+        layout="@layout/app_bar_main"
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:layout_above="@+id/adViewMain"/>
+    <com.google.android.gms.ads.AdView xmlns:n3="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/adViewMain"
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content"
+        n1:layout_centerHorizontal="true"
+        n1:layout_alignParentBottom="true"
+        n1:background="@color/colorAccent"
+        n3:adSize="SMART_BANNER"
+        n3:adUnitId="ca-app-pub-8468661407843417/4336962075" />
+</RelativeLayout>

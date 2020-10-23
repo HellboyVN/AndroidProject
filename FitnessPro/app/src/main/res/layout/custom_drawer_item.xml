@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@+id/headerLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="20.0sp" android:id="@+id/drawerTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:background="#ffdadadc" android:layout_width="match_parent" android:layout_height="2.0dip" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/itemLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_alignParentLeft="true">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="55.0dip">
+            <ImageView android:id="@+id/drawer_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" />
+            <TextView android:textSize="17.0sp" android:id="@+id/drawer_itemName" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" />
+        </LinearLayout>
+        <View android:background="#ffdadadc" android:layout_width="match_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="1.0dip" />
+    </LinearLayout>
+</RelativeLayout>

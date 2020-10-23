@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="12.0dip"
+    android:background="@drawable/picmaker_eff_border"
+    android:orientation="vertical">
+
+    <com.MyTextView
+        android:id="@+id/pic_reset_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="10.0dip"
+        android:text="Exit !"
+        android:textColor="#ff00ff"
+        android:textSize="@dimen/picmaker_exit_txt_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="#ff00bfff" />
+
+    <com.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="Do you really want to exit Editor ?. All progress will be lost."
+        android:textSize="20.0dip" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/stroke_gallery" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/exit_dialog_height"
+        android:orientation="horizontal"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip">
+
+        <com.MyTextView
+            android:id="@+id/pic_dialog_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingBottom="15.0dip"
+            android:paddingTop="12.0dip"
+            android:text="No"
+            android:textColor="@color/black"
+            android:textSize="@dimen/picmaker_btntxt_size" />
+
+        <View
+            android:layout_width="1.0dip"
+            android:layout_height="match_parent"
+            android:background="@color/stroke_gallery" />
+
+        <com.MyTextView
+            android:id="@+id/pic_dialog_no"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingBottom="15.0dip"
+            android:paddingTop="12.0dip"
+            android:text="Yes"
+            android:textColor="@color/black"
+            android:textSize="@dimen/picmaker_btntxt_size" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "544910424349",
+    "firebase_url": "https://wifi-blow-prank.firebaseio.com",
+    "project_id": "wifi-blow-prank",
+    "storage_bucket": "wifi-blow-prank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544910424349:android:283e8d18d5f24824",
+        "android_client_info": {
+          "package_name": "hellboy.bka.tlvan.blowwifiprank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544910424349-6pv6fgd67pkl13dl4hg83tvnfm4ok4h7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV_JNrn1gOhOKO4nSlqKMCP-TSpiGUoG4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

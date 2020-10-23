@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:background="#e6ffffff" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <android.support.v7.widget.AppCompatTextView n1:textSize="40.0sp" n1:textColor="#ff50658b" n1:layout_gravity="center" n1:id="@+id/pauseTitle" n1:padding="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="10.0dip" n1:text="@string/paused" n1:layout_centerInParent="true" n1:textAllCaps="true" />
+        <ToggleButton n1:id="@+id/soundToggle" n1:background="@drawable/sound_selector" n1:padding="10.0dip" n1:layout_width="30.0dip" n1:layout_height="30.0dip" n1:textOn="" n1:textOff="" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center" n1:layout_gravity="bottom|center" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <android.support.design.widget.FloatingActionButton n1:id="@+id/pauseFabRestart" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:backgroundTint="@color/colorAccent" n2:fabSize="mini" n2:srcCompat="@drawable/ic_restart" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatImageView n1:id="@+id/pauseFabPrevious" n1:layout_width="30.0dip" n1:layout_height="30.0dip" n1:layout_margin="@dimen/fab_margin" n3:srcCompat="@drawable/ic_skip_previous" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <android.support.design.widget.FloatingActionButton n1:id="@+id/pauseFabPlay" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="@dimen/fab_margin" n4:backgroundTint="#ffeb1438" n4:fabSize="normal" n4:srcCompat="@android:drawable/ic_media_play" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <android.support.v7.widget.AppCompatImageView n1:id="@+id/pauseFabNext" n1:layout_width="30.0dip" n1:layout_height="30.0dip" n1:layout_margin="@dimen/fab_margin" n5:srcCompat="@drawable/ic_skip_next" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

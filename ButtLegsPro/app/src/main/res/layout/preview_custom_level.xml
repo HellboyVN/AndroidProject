@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:id="@+id/mCardItemLayout"
+    n1:layout_width="match_parent"
+    n1:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/mCardLayout"
+        n1:layout_width="match_parent"
+        n1:layout_height="100.0dip"
+        n1:layout_gravity="center"
+        n1:layout_margin="@dimen/card_margin"
+        n2:cardBackgroundColor="#ffffffff"
+        n2:cardCornerRadius="@dimen/card_album_radius"
+        n2:elevation="3.0dip">
+
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            n1:layout_gravity="center"
+            n1:orientation="vertical">
+
+            <LinearLayout
+                n1:layout_width="match_parent"
+                n1:layout_height="match_parent"
+                n1:layout_gravity="center"
+                n1:orientation="horizontal">
+
+                <LinearLayout
+                    n1:layout_width="0.0dip"
+                    n1:layout_height="wrap_content"
+                    n1:layout_gravity="center_vertical"
+                    n1:layout_weight="1.0"
+                    n1:gravity="center"
+                    n1:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        n1:id="@+id/cCardImage"
+                        n1:layout_width="match_parent"
+                        n1:layout_height="wrap_content"
+                        n1:layout_gravity="center"
+                        n1:clickable="true"
+                        n1:scaleType="centerInside" />
+                </LinearLayout>
+
+                <LinearLayout
+                    n1:layout_width="0.0dip"
+                    n1:layout_height="match_parent"
+                    n1:layout_gravity="center"
+                    n1:layout_weight="1.0"
+                    n1:gravity="center"
+                    n1:orientation="vertical">
+
+                    <TextView
+                        n1:id="@+id/cCardTitele"
+                        n1:layout_width="match_parent"
+                        n1:layout_height="wrap_content"
+                        n1:layout_gravity="top"
+                        n1:gravity="center"
+                        n1:padding="2.0dip"
+                        n1:text="ful plunk"
+                        n1:textSize="16.0sp" />
+
+                    <include layout="@layout/custom_plusmin_buttons" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

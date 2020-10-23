@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.RecyclerView android:id="@+id/recyclerView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_above="@+id/adSmartBanner" app:layoutManager="LinearLayoutManager" />
+    <TextView android:id="@+id/textViewEmpty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No workout added" android:layout_centerInParent="true" />
+    <include layout="@layout/admob_banner_ad_layout" />
+</RelativeLayout>

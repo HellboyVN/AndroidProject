@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/native_ad_admob_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/linear_no_gif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/native_ad_admob_1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/grid_margin"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_marginRight="@dimen/grid_margin"
+        android:layout_marginTop="@dimen/grid_margin"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/image_wall"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:contentDescription="@string/no_fav_text"
+            android:src="@drawable/ic_empty" />
+        <!--android:src="@drawable/fav_wall" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_fav_text"
+            android:textColor="@color/md_black_1000" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/grid_favorite"
+        android:layout_marginBottom="@dimen/grid_margin"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_marginRight="@dimen/grid_margin"
+        android:layout_marginTop="@dimen/grid_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/native_ad_admob_1"
+        android:background="@color/home_background"
+        android:columnWidth="90.0dip"
+        android:horizontalSpacing="2.0dip"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2.0dip" />
+</RelativeLayout>

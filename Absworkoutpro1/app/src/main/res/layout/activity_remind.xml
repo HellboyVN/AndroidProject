@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar n1:id="@+id/toolbarReminder" n1:background="?colorPrimary" n1:layout_width="match_parent" n1:layout_height="?actionBarSize" n2:popupTheme="@style/AppTheme.PopupOverlay" n2:theme="@style/ToolbarTheme">
+        <android.support.v7.widget.AppCompatTextView n1:textSize="20.0dip" n1:textColor="@android:color/white" n1:id="@+id/settingToolbarText" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/reminders" n1:textAllCaps="false" />
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <Button n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Riminder" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" n1:onClick="rimind" />
+    </RelativeLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <fragment n1:name="hb.abs.absworkout.bellyfatworkout.waistworkout.abdominalworkout.absworkoutpro.reminder.ReminderFragment" n1:id="@+id/rimind_fragment" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

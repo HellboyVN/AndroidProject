@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:background="#ffdedede"
+    n1:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        n1:id="@+id/previewToolbarAppbar"
+        n1:layout_width="match_parent"
+        n1:layout_height="150.0dip"
+        n1:fitsSystemWindows="true"
+        n1:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout xmlns:n2="http://schemas.android.com/apk/res-auto"
+            n1:id="@+id/previewToolbarCollapsing"
+            n1:layout_width="match_parent"
+            n1:layout_height="match_parent"
+            n1:fitsSystemWindows="true"
+            n2:contentScrim="?colorPrimary"
+            n2:expandedTitleMarginEnd="64.0dip"
+            n2:expandedTitleMarginStart="48.0dip"
+            n2:expandedTitleTextAppearance="@android:color/transparent"
+            n2:layout_scrollFlags="exitUntilCollapsed|scroll">
+
+            <android.support.v7.widget.Toolbar
+                n1:id="@+id/previewToolbar"
+                n1:layout_width="match_parent"
+                n1:layout_height="?actionBarSize"
+                n2:layout_collapseMode="pin"
+                n2:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                <android.support.v7.widget.AppCompatImageView
+                    n1:id="@+id/level_prev_redo"
+                    n1:layout_width="wrap_content"
+                    n1:layout_height="wrap_content"
+                    n1:layout_gravity="end"
+                    n1:layout_marginRight="15.0dip"
+                    n2:srcCompat="@drawable/ic_edit" />
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_preview" />
+
+    <LinearLayout
+        n1:layout_width="match_parent"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="bottom"
+        n1:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatButton
+            n1:id="@+id/beginWorkout"
+            n1:layout_width="match_parent"
+            n1:layout_height="50.0dip"
+            n1:layout_gravity="bottom"
+            n1:background="@drawable/ripple_color_accent"
+            n1:text="@string/begin_workout"
+            n1:textColor="@color/white" />
+
+        <com.google.android.gms.ads.AdView xmlns:n3="http://schemas.android.com/apk/res-auto"
+            n1:id="@+id/adView"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_centerHorizontal="true"
+            n1:layout_alignParentBottom="true"
+            n1:background="@color/colorAccent"
+            n3:adSize="SMART_BANNER"
+            n3:adUnitId="ca-app-pub-8468661407843417/2079678443" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

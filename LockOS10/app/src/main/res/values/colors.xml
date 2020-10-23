@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#ffeeeeee</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="actionbar">#ffeeeeee</color>
+    <color name="background_color_black_blur">#33000000</color>
+    <color name="background_menu">#fffafafa</color>
+    <color name="black">#ff000000</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
+    <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
+    <color name="item_menu_press">#ffeeeeee</color>
+
+    <color name="slidetounlock">#bb000000</color>
+    <color name="text_menu">#ff000000</color>
+    <color name="text_menu_descriiption">#ffaaaaaa</color>
+    <color name="white">#ffffffff</color>
+    <color name="white200">#50eeeeee</color>
+    <color name="white500">#00eeeeee</color>
+    <color name="text_color">#ff242424</color>
+    <color name="text_color_value">#ff242424</color>
+    <color name="text_selector">#ff242424</color>
+    <color name="background_fragment">#fffafafa</color>
+    <color name="ios_subtitle_bg">#303e66a8</color>
+    <color name="bg_white">#20e62117</color>
+    <color name="color_text_title">#ff499ed7</color>
+    <color name="transparent">#00000000</color>
+    <color name="textBlack">#ff000000</color>
+    <color name="textColorPrimary">#606ea51d</color>
+    <color name="text_disable">#ffdcdbdb</color>
+    <color name="text_normal">#ff212121</color>
+    <color name="text_press">#ff5ac8fb</color>
+    <color name="text_setting">#ff6e6d73</color>
+</resources>

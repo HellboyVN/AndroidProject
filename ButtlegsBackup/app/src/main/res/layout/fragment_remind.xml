@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:background="@color/mdtp_accent_color"
+    n1:orientation="vertical">
+
+    <LinearLayout
+        n1:id="@+id/emptyLayout"
+        n1:layout_width="match_parent"
+        n1:layout_height="match_parent"
+        n1:gravity="center"
+        n1:layout_marginTop="20dp"
+        n1:orientation="vertical"
+        >
+
+        <RadioGroup
+            n1:id="@+id/radiogroup"
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="center"
+            n1:gravity="center"
+            n1:orientation="horizontal">
+            <RadioButton
+                n1:id="@+id/btn_male"
+                n1:layout_width="wrap_content"
+                n1:layout_height="match_parent"
+                n1:checked="true"
+                n1:text="KG"
+                n1:layout_gravity="center"
+                n1:layout_marginRight="20dp"/>
+            <RadioButton
+                n1:id="@+id/btn_female"
+                n1:layout_width="wrap_content"
+                n1:layout_height="match_parent"
+                n1:layout_gravity="center"
+                n1:text="LBS"/>
+
+        </RadioGroup>
+
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:orientation="horizontal"
+            n1:layout_marginBottom="10dp">
+
+            <TextView
+                n1:id="@+id/text_weight"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_weight="3"
+                n1:text="Weight (kg)"
+                n1:textColor="@color/album_title" />
+
+            <EditText
+                n1:id="@+id/ed_weight"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_weight="1"
+                n1:hint="your weight" />
+        </LinearLayout>
+
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:orientation="horizontal"
+            n1:layout_marginBottom="5dp">
+
+            <TextView
+                n1:id="@+id/text_height"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_weight="3"
+                n1:text="Height (cm)"
+                n1:textColor="@color/album_title" />
+
+            <EditText
+                n1:id="@+id/ed_height"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_weight="1"
+                n1:hint="your height" />
+        </LinearLayout>
+        <LinearLayout
+            n1:layout_width="match_parent"
+            n1:layout_height="wrap_content"
+            n1:orientation="horizontal"
+            n1:layout_marginBottom="10dp">
+            <TextView
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:text="BMI INDEX"
+                n1:gravity="center"
+                n1:textColor="@color/album_title"
+                n1:layout_weight="2"/>
+            <SeekBar
+                n1:id="@+id/seekbar_bmi"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:max="40"
+                n1:layout_weight="1"/>
+            <TextView
+                n1:id="@+id/result_bmi"
+                n1:layout_width="match_parent"
+                n1:layout_height="wrap_content"
+                n1:layout_weight="2"
+                n1:hint="result"/>
+        </LinearLayout>
+        <ImageButton
+            n1:id="@+id/btn_caculate"
+            n1:layout_width="60dp"
+            n1:layout_height="60dp"
+            n1:background="@drawable/bmi_button"
+            n1:layout_marginBottom="10dp"
+            n1:layout_gravity="center"/>
+        <ImageView
+            n1:id="@+id/img_bodyIndex"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:scaleType="fitXY"
+            n1:background="@drawable/bmi_index"
+            n1:visibility="visible"/>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:id="@+id/floatingActionButton"
+        n1:layout_width="wrap_content"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="end|bottom|center"
+        n1:layout_margin="15.0dip"
+        n1:visibility="gone"
+        n2:fabSize="normal"
+        n2:srcCompat="@drawable/add" />
+
+    <hb.legsandbuttocksworkout.homeworkout.gym.buttlegs.buttlegspro.buttlegschallenge.reminder.adapter.RecyclerViewEmptySupport
+    n1:id="@+id/scrollable"
+    n1:layout_width="match_parent"
+    n1:layout_height="match_parent"
+    n1:paddingBottom="1.0dip"
+    n1:paddingLeft="5.0dip"
+    n1:paddingRight="5.0dip"
+    n1:scrollbars="none" />
+</FrameLayout>

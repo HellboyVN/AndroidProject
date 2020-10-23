@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/layout_root2" android:padding="10.0dip" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textStyle="italic" android:id="@+id/txt_dia1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="Welcome to the exercise zone.\nSelect a body part from the menu at the right and\n select the exercise from the left\n." />
+    <CheckBox android:id="@+id/skip1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Don't show me again" />
+</LinearLayout>

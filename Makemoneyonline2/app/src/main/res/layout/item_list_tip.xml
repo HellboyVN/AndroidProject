@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@color/icons2"
+            android:padding="6dp">
+
+
+            <RelativeLayout
+                android:id="@+id/thumb_layout"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp">
+
+
+                <ImageView
+                    android:id="@+id/image_thumb"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/descript_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@+id/thumb_layout"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-medium"
+                    android:maxLength="64"
+                    android:maxLines="1"
+                    android:text="Entertainment"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/text_size" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.7">
+
+                    <ImageView
+                        android:id="@+id/image_favico"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_items_2" />
+
+                    <TextView
+                        android:id="@+id/count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/image_favico"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:paddingLeft="4dp"
+                        android:text="60 items" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.7">
+
+                    <ImageView
+                        android:id="@+id/image_clock"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="2dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_clock_2" />
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/image_clock"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="4dp"
+                        android:text="16-May-2017 | 10:00 PM"
+                        android:textColor="@color/primary_text" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="90%"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

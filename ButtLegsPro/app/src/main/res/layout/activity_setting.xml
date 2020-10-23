@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.AppBarLayout n1:theme="@style/AppTheme.AppBarOverlay" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar n1:id="@+id/toolbar" n1:background="?colorPrimary" n1:layout_width="match_parent" n1:layout_height="?actionBarSize" n2:popupTheme="@style/AppTheme.PopupOverlay" n2:theme="@style/ToolbarTheme" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <android.support.v7.widget.AppCompatTextView n1:textSize="20.0sp" n1:textColor="@android:color/white" n1:id="@+id/settingToolbarText" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/settings" n1:textAllCaps="true" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_setting" />
+</android.support.design.widget.CoordinatorLayout>
